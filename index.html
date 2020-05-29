@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19</title>
+    <link rel="icon" href="images/fa-head-side-mask.png">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+
+    <script src="https://kit.fontawesome.com/bb32733e6d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="awesomeMarkers/leaflet.awesome-markers.css">
+
+    <script src="awesomeMarkers/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div id="mapid"></div>
+        <!--<div><i class="fas fa-cogs"></i></div>-->
+        <div id="setting">
+            <div id="tempral">
+                <b>Tempral Features:</b>
+                <ul class="setting-list">
+                    <li><input type="checkbox"> Total Number of Cases</li>
+                    <li><input type="checkbox"> Total Number of Death</li>
+                    <li><input type="checkbox"> Total Number of Recovery</li>
+                </ul>
+            </div>
+            <div id="non-tempral">
+                <b>Non-tempral Features:</b>
+                <ul class="setting-list">
+                    <li><input type="checkbox"> Population</li>
+                    <li><input type="checkbox"> Geographical Area Size</li>
+                    <li><input type="checkbox"> Population Density</li>
+                    <li><input type="checkbox"> Number of Hospital Beds</li>
+                    <li><input type="checkbox"> Average Income</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    var mymap = L.map('mapid').setView([51.505, -0.09], 3);
+
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoiaGFzdGktc2hyZiIsImEiOiJja2FoY2JrZzkwaWxtMzJwano0cmE4YTliIn0.BeZpF5IqCiCb8iPU2cIkVQ'
+    }).addTo(mymap);
+
+    var greenMarker = L.AwesomeMarkers.icon({
+        icon: 'fa-cogs',
+        markerColor: 'green'
+    });
+
+    var marker1 = L.marker([51.5, -0.09], {icon: greenMarker}).addTo(mymap);
+
+
+
+
+    var redMarker = L.AwesomeMarkers.icon({
+        icon: 'fa-cogs',
+        markerColor: 'red'
+    });
+
+    var testMarker = L.marker([51.941196,4.512291], {icon: redMarker}).addTo(mymap);
+
+    var marker2 = L.marker([41.9, -87.7], {icon: redMarker}).addTo(mymap);
+    marker2.bindPopup("<div><b>Chicago</b>, 23 Aug</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    var marker3 = L.marker([59.5, 40], {icon: redMarker}).addTo(mymap);
+    marker3.bindPopup("<div><b>Saint Petersburg</b>, 13 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    var marker4 = L.marker([33.5, -7], {icon: redMarker}).addTo(mymap);
+    marker4.bindPopup("<div><b>Casablanca</b>, 10 Jan</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    var marker5 = L.marker([32.5, 62], {icon: redMarker}).addTo(mymap);
+    marker5.bindPopup("<div><b>Herat</b>, 03 Dec</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    testMarker.bindPopup("<div><b>Birmingham</b>, 12 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    marker1.bindPopup("<div><b>London</b>, 23 Jun</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    L.easyButton('fa-cogs', function(btn, map){
+        if($("#setting").css("display") == "none")
+            $("#setting").css("display", "block");
+        else
+            $("#setting").css("display", "none");
+
+    }).addTo(mymap);
+
+</script>
+
+</html>
+
