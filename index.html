@@ -9,6 +9,7 @@
     <script src="scripts/main.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--<script src="leaflet-ajax/dist/leaflet.ajax.min.js"></script>-->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -24,6 +25,23 @@
     <script src="awesomeMarkers/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
     <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+
+
+    <!--from Jakob's Github-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/c3.min.js"></script>
+    <!--<script src="js/leaflet.js"></script>-->
+    <script src="js/leaflet.markercluster.js"></script>
+    <script src="js/leaflet-polygon.fillPattern.js"></script>
+    <script src="js/topojson.v1.min.js"></script>
+    <script src="js/chroma.min.js"></script>
+    <!--<script src="js/jquery-3.3.1.min.js"></script>-->
+    <script type="text/javascript" src="js/jquery.sparkline.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap4-toggle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+
 
 </head>
 <body>
@@ -54,16 +72,72 @@
 </body>
 
 <script>
-    var mymap = L.map('mapid').setView([51.505, -0.09], 3);
 
-    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
-        id: 'mapbox/streets-v11',
-        tileSize: 512,
-        zoomOffset: -1,
-        accessToken: 'pk.eyJ1IjoiaGFzdGktc2hyZiIsImEiOiJja2FoY2JrZzkwaWxtMzJwano0cmE4YTliIn0.BeZpF5IqCiCb8iPU2cIkVQ'
+    $(window).ready(function() {
+        $('.loader').fadeOut("slow");
+    });
+
+
+    var d3locale = d3.formatDefaultLocale({
+        "thousands": ",",
+        "grouping": [3],
+    });
+
+    L.TopoJSON = L.GeoJSON.extend({
+        addData: function(jsonData) {
+            if (jsonData.type === 'Topology') {
+                for (key in jsonData.objects) {
+                    geojson = topojson.feature(jsonData, jsonData.objects[key]);
+                    L.GeoJSON.prototype.addData.call(this, geojson);
+                }
+            } else {
+                L.GeoJSON.prototype.addData.call(this, jsonData);
+            }
+        }
+    });
+
+    var worldBounds = L.latLngBounds(
+        L.latLng(-60, -100), //Southwest
+        L.latLng(80, 15) //Northeast
+    );
+
+
+    var mymap = L.map('mapid', {
+        center: [38, -120],
+        zoomControl: false,
+        zoom: 4,
+        maxZoom: 10,
+        minZoom: 2,
+        worldCopyJump: true
+    }).fitBounds(worldBounds);
+    // .fitWorld()
+    new L.Control.Zoom({
+        position: 'topright'
     }).addTo(mymap);
+
+    var gray = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png');
+    // var dark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png').addTo(mymap);
+    var voyager =
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png').addTo(mymap);
+    var satellite =
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+
+    var baseLayers = {
+        'CARTO Light': gray,
+        // 'Dark': dark,
+        'CARTO Voyager': voyager,
+        'ESRI Satellite': satellite
+    }
+
+
+    // L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    //     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    //     maxZoom: 18,
+    //     id: 'mapbox/streets-v11',
+    //     tileSize: 512,
+    //     zoomOffset: -1,
+    //     accessToken: 'pk.eyJ1IjoiaGFzdGktc2hyZiIsImEiOiJja2FoY2JrZzkwaWxtMzJwano0cmE4YTliIn0.BeZpF5IqCiCb8iPU2cIkVQ'
+    // }).addTo(mymap);
 
     var greenMarker = L.AwesomeMarkers.icon({
         icon: 'fa-cogs',
@@ -105,6 +179,97 @@
             $("#setting").css("display", "none");
 
     }).addTo(mymap);
+
+    // var geojsonLayer = new L.GeoJSON.AJAX("cities.geojson");
+    // geojsonLayer.addTo(mymap);
+    //
+    // var district_boundary = new L.geoJson();
+    // district_boundary.addTo(mymap);
+    //
+    // $.ajax({
+    //     dataType: "json",
+    //     url: "cities.geojson",
+    //     AccessControlAllowOrigin: "*",
+    //     success: function(data) {
+    //         $(data.features).each(function(key, data) {
+    //             district_boundary.addData(data);
+    //         });
+    //     }
+    // });
+
+    var grayscale = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png').addTo(mymap);
+    var streets = L.tileLayer('http://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}@2x.png');
+    var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}@2x');
+
+    var baseLayers = {
+        // 'Dark': dark,
+        'Grayscale': grayscale,
+        'Streets': streets,
+        'Satellite': satellite
+    }
+
+
+    var Group = L.layerGroup().addTo(mymap);
+
+
+    Promise.all([
+        d3.csv('assets/virus.csv'), //datasets[0]
+        d3.json("assets/all-topo-15.json"), //datasets[1]
+    ]).then(function(datasets) {
+
+        function style(feature) {
+
+            return {
+                //fill: setFill(feature.properties.enname),
+                fillColor: '#120456',
+                fillOpacity: 0.4,
+                weight: 0.5,
+                opacity: 1,
+                color: '#b4b4b4',
+                dashArray: '2'
+            };
+
+        }
+
+        var areas = new L.TopoJSON(datasets[1], {
+            style: style,
+            onEachFeature: onEachFeature
+        }).addTo(mymap);
+
+        // 3.2.3 reset the hightlighted feature when the mouse is out of its region.
+        function resetHighlight(e) {
+            areas.resetStyle(e.target);
+
+        }
+
+        // 3.3 add these event the layer obejct.
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: highlightFeature,
+                // click: zoomToFeature,
+                mouseout: resetHighlight
+            });
+        }
+
+        function highlightFeature(e) {
+            // e indicates the current event
+            var layer = e.target; //the target capture the object which the event associates with
+            layer.setStyle({
+                weight: 2,
+                opacity: 0.8,
+                color: '#e3e3e3',
+                fillColor: '#00ffd9',
+                fillOpacity: 0.1
+            });
+            // bring the layer to the front.
+            layer.bringToFront();
+            // if (e.target.feature.properties.enname == "us" || e.target.feature.properties.enname == "canada") {
+            //     layer.bringToBack();
+            // }
+        }
+    });
+
+
 
 </script>
 
