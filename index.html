@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
     <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css"
+
 
     <!--from Jakob's Github-->
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -103,17 +106,17 @@
 
 
     var mymap = L.map('mapid', {
-        center: [38, -120],
+        center: [44.63, 28.77],
         zoomControl: false,
-        zoom: 4,
+        zoom: 2,
         maxZoom: 10,
         minZoom: 2,
         worldCopyJump: true
-    }).fitBounds(worldBounds);
+    });//.fitBounds(worldBounds);
     // .fitWorld()
-    new L.Control.Zoom({
-        position: 'topright'
-    }).addTo(mymap);
+    // new L.Control.Zoom({
+    //     position: 'topright'
+    // }).addTo(mymap);
 
     var gray = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png');
     // var dark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png').addTo(mymap);
@@ -129,7 +132,50 @@
         'ESRI Satellite': satellite
     }
 
+    mymap.on('load', function() {
+// Add a source for the state polygons.
+        mymap.addSource('states', {
+            'type': 'geojson',
+            'data':
+                'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp.geojson'
+        });
 
+// Add a layer showing the state polygons.
+        mymap.addLayer({
+            'id': 'states-layer',
+            'type': 'fill',
+            'source': 'states',
+            'paint': {
+                'fill-color': 'rgba(200, 100, 240, 0.4)',
+                'fill-outline-color': 'rgba(200, 100, 240, 1)'
+            }
+        });
+    });
+
+    mymap.on('click', function(e) {
+
+        var coord = e.latlng;
+        var lat = coord.lat;
+        var lng = coord.lng;
+        console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
+
+        if (marker1 != undefined) {
+            mymap.removeLayer(marker1);
+        }
+
+        var greenMarker = L.AwesomeMarkers.icon({
+            icon: 'fa-cogs',
+            markerColor: 'green'
+        });
+
+        marker1 = L.marker([lat, lng], {icon: greenMarker}).addTo(mymap);
+
+
+        // new mapboxgl.Popup()
+        //     .setLngLat(e.lngLat)
+        //     .setHTML(e.features[0].properties.name)
+        //     .addTo(mymap);
+    });
     // L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     //     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     //     maxZoom: 18,
@@ -154,23 +200,55 @@
         markerColor: 'red'
     });
 
-    var testMarker = L.marker([51.941196,4.512291], {icon: redMarker}).addTo(mymap);
 
-    var marker2 = L.marker([41.9, -87.7], {icon: redMarker}).addTo(mymap);
-    marker2.bindPopup("<div><b>Chicago</b>, 23 Aug</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: "test.csv",
+            dataType: "text",
+            success: function(data) {processData(data);}
+        });
 
-    var marker3 = L.marker([59.5, 40], {icon: redMarker}).addTo(mymap);
-    marker3.bindPopup("<div><b>Saint Petersburg</b>, 13 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    });
 
-    var marker4 = L.marker([33.5, -7], {icon: redMarker}).addTo(mymap);
-    marker4.bindPopup("<div><b>Casablanca</b>, 10 Jan</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    var markers = [];
 
-    var marker5 = L.marker([32.5, 62], {icon: redMarker}).addTo(mymap);
-    marker5.bindPopup("<div><b>Herat</b>, 03 Dec</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    function processData(allText) {
+        var allTextLines = allText.split(/\r\n|\n/);
+        var headers = allTextLines[0].split(',');
+        var lines = [];
 
-    testMarker.bindPopup("<div><b>Birmingham</b>, 12 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+        for (var i=1; i<allTextLines.length; i++) {
+            var data = allTextLines[i].split(',');
+            if (data.length == headers.length) {
 
-    marker1.bindPopup("<div><b>London</b>, 23 Jun</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+                var markerTemp = L.marker([data[0],data[1]], {icon: redMarker}).addTo(mymap);
+                // markers.push(markerTemp);
+                // console.log(markers);
+
+            }
+        }
+        // alert(lines);
+    }
+    // console.log("last" + markers);
+    //var testMarker = L.marker([51.941196,4.512291], {icon: redMarker}).addTo(mymap);
+
+    // var marker2 = L.marker([41.9, -87.7], {icon: redMarker}).addTo(mymap);
+    // markers[1].bindPopup("<div><b>Chicago</b>, 23 Aug</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    //
+    // var marker3 = L.marker([59.5, 40], {icon: redMarker}).addTo(mymap);
+    // markers[2].bindPopup("<div><b>Saint Petersburg</b>, 13 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    //
+    // var marker4 = L.marker([33.5, -7], {icon: redMarker}).addTo(mymap);
+    // markers[3].bindPopup("<div><b>Casablanca</b>, 10 Jan</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+    //
+    // var marker5 = L.marker([32.5, 62], {icon: redMarker}).addTo(mymap);
+    // markers[4].bindPopup("<div><b>Herat</b>, 03 Dec</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    // markers[0].bindPopup("<div><b>Birmingham</b>, 12 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+
+    // marker1.bindPopup("<div><b>London</b>, 23 Jun</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
 
     L.easyButton('fa-cogs', function(btn, map){
         if($("#setting").css("display") == "none")
@@ -207,6 +285,35 @@
         'Streets': streets,
         'Satellite': satellite
     }
+
+    // mymap.on('click', function(e){
+        // var coord = e.latlng;
+        // var lat = coord.lat;
+        // var lng = coord.lng;
+        // console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
+        //
+        // if (marker1 != undefined) {
+        //     mymap.removeLayer(marker1);
+        // };
+        //
+        // var greenMarker = L.AwesomeMarkers.icon({
+        //     icon: 'fa-cogs',
+        //     markerColor: 'green'
+        // });
+        //
+        // marker1 = L.marker([lat, lng], {icon: greenMarker}).addTo(mymap);
+        //
+        // $.ajax({ url:'http://maps.googleapis.com/maps/api/geocode/json?latlng='+e.latlng.lat+','+e.latlng.lng+'&sensor=true',
+        //     success: function(data){
+        //         //var state = data.results[0].address_components[5].long_name;
+        //         //var country = data.results[0].address_components[6].long_name;
+        //         //$('.leaflet-popup-content').text(country);
+        //         console.log(data.results[0]);
+        //     }
+        // });
+        //popup.setLatLng(e.latlng).setContent('').openOn(mymap);
+
+    // });
 
 
     var Group = L.layerGroup().addTo(mymap);
@@ -246,7 +353,7 @@
         function onEachFeature(feature, layer) {
             layer.on({
                 mouseover: highlightFeature,
-                // click: zoomToFeature,
+                click: openDetail,
                 mouseout: resetHighlight
             });
         }
@@ -267,6 +374,12 @@
             //     layer.bringToBack();
             // }
         }
+
+        function openDetail(e) {
+            console.log("name: " + e.target.feature.properties.name);
+        }
+
+
     });
 
 
