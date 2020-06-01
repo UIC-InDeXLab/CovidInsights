@@ -1,0 +1,3140 @@
+28/04/2020 15:08:39,USA,United States,country,938590,48310
+28/04/2020 15:08:39,USA-53,Washington,state,13484,743
+28/04/2020 15:08:39,USA-53061,Snohomish,county,2297,103,Washington
+28/04/2020 15:08:39,USA-17,Illinois,state,41777,1884
+28/04/2020 15:08:39,USA-17031,Cook,county,29058,1267,Illinois
+28/04/2020 15:08:39,USA-06,California,state,42347,1677
+28/04/2020 15:08:39,USA-06059,Orange,county,1969,38,California
+28/04/2020 15:08:39,USA-04,Arizona,state,6280,275
+28/04/2020 15:08:39,USA-04013,Maricopa,county,3234,121,Arizona
+28/04/2020 15:08:39,USA-06037,Los Angeles,county,19107,895,California
+28/04/2020 15:08:39,USA-06085,Santa Clara,county,2040,100,California
+28/04/2020 15:08:39,USA-25,Massachusetts,state,53348,2730
+28/04/2020 15:08:39,USA-25025,Suffolk,county,11218,391,Massachusetts
+28/04/2020 15:08:39,USA-06075,San Francisco,county,1357,22,California
+28/04/2020 15:08:39,USA-55,Wisconsin,state,5687,266
+28/04/2020 15:08:39,USA-55025,Dane,county,401,21,Wisconsin
+28/04/2020 15:08:39,USA-06073,San Diego,county,2943,111,California
+28/04/2020 15:08:39,USA-48,Texas,state,24494,662
+28/04/2020 15:08:39,USA-48029,Bexar,county,1243,43,Texas
+28/04/2020 15:08:39,USA-31,Nebraska,state,2902,53
+28/04/2020 15:08:39,USA-31055,Douglas,county,396,14,Nebraska
+28/04/2020 15:08:39,USA-06023,Humboldt,county,53,0,California
+28/04/2020 15:08:39,USA-06067,Sacramento,county,1025,41,California
+28/04/2020 15:08:39,USA-06095,Solano,county,204,4,California
+28/04/2020 15:08:39,USA-53063,Spokane,county,345,19,Washington
+28/04/2020 15:08:39,USA-49,Utah,state,3950,41
+28/04/2020 15:08:39,USA-49035,Salt Lake,county,2051,25,Utah
+28/04/2020 15:08:39,USA-06041,Marin,county,223,12,California
+28/04/2020 15:08:39,USA-06055,Napa,county,61,2,California
+28/04/2020 15:08:39,USA-06097,Sonoma,county,218,2,California
+28/04/2020 15:08:39,USA-41,Oregon,state,2253,87
+28/04/2020 15:08:39,USA-41067,Washington,county,459,10,Oregon
+28/04/2020 15:08:39,USA-53033,King,county,5813,401,Washington
+28/04/2020 15:08:39,USA-06001,Alameda,county,1458,52,California
+28/04/2020 15:08:39,USA-12,Florida,state,30831,1054
+28/04/2020 15:08:39,USA-12057,Hillsborough,county,1041,21,Florida
+28/04/2020 15:08:39,USA-12081,Manatee,county,497,42,Florida
+28/04/2020 15:08:39,USA-36,New York,state,282174,16599
+28/04/2020 15:08:39,USA-36998,New York City,county,155124,11419,New York
+28/04/2020 15:08:39,USA-44,Rhode Island,state,7129,215
+28/04/2020 15:08:39,USA-44999,Unknown,county,1198,96,Rhode Island
+28/04/2020 15:08:39,USA-06061,Placer,county,139,8,California
+28/04/2020 15:08:39,USA-06081,San Mateo,county,1019,41,California
+28/04/2020 15:08:39,USA-13,Georgia,state,22225,897
+28/04/2020 15:08:39,USA-13121,Fulton,county,2543,91,Georgia
+28/04/2020 15:08:39,USA-25021,Norfolk,county,5172,400,Massachusetts
+28/04/2020 15:08:39,USA-33,New Hampshire,state,1793,60
+28/04/2020 15:08:39,USA-33009,Grafton,county,47,0,New Hampshire
+28/04/2020 15:08:39,USA-53071,Walla Walla,county,57,0,Washington
+28/04/2020 15:08:39,USA-06013,Contra Costa,county,805,25,California
+28/04/2020 15:08:39,USA-37,North Carolina,state,8623,300
+28/04/2020 15:08:39,USA-37183,Wake,county,645,13,North Carolina
+28/04/2020 15:08:39,USA-34,New Jersey,state,105523,5863
+28/04/2020 15:08:39,USA-34003,Bergen,county,14738,954,New Jersey
+28/04/2020 15:08:39,USA-36119,Westchester,county,27230,1022,New York
+28/04/2020 15:08:39,USA-48157,Fort Bend,county,919,21,Texas
+28/04/2020 15:08:39,USA-53007,Chelan,county,93,6,Washington
+28/04/2020 15:08:39,USA-08,Colorado,state,12968,670
+28/04/2020 15:08:39,USA-08035,Douglas,county,425,19,Colorado
+28/04/2020 15:08:39,USA-08059,Jefferson,county,1236,61,Colorado
+28/04/2020 15:08:39,USA-12113,Santa Rosa,county,147,6,Florida
+28/04/2020 15:08:39,USA-24,Maryland,state,17766,797
+28/04/2020 15:08:39,USA-24031,Montgomery,county,3483,152,Maryland
+28/04/2020 15:08:39,USA-25017,Middlesex,county,12253,629,Massachusetts
+28/04/2020 15:08:39,USA-32,Nevada,state,4539,206
+28/04/2020 15:08:39,USA-32003,Clark,county,3570,174,Nevada
+28/04/2020 15:08:39,USA-32031,Washoe,county,791,27,Nevada
+28/04/2020 15:08:39,USA-36059,Nassau,county,33798,1917,New York
+28/04/2020 15:08:39,USA-47,Tennessee,state,8977,187
+28/04/2020 15:08:39,USA-47187,Williamson,county,381,7,Tennessee
+28/04/2020 15:08:39,USA-48201,Harris,county,5628,89,Texas
+28/04/2020 15:08:39,USA-04021,Pinal,county,332,9,Arizona
+28/04/2020 15:08:39,USA-06113,Yolo,county,158,13,California
+28/04/2020 15:08:39,USA-08031,Denver,county,2487,132,Colorado
+28/04/2020 15:08:39,USA-08037,Eagle,county,512,7,Colorado
+28/04/2020 15:08:39,USA-08041,El Paso,county,862,66,Colorado
+28/04/2020 15:08:39,USA-12011,Broward,county,4659,162,Florida
+28/04/2020 15:08:39,USA-12071,Lee,county,943,36,Florida
+28/04/2020 15:08:39,USA-13233,Polk,county,45,0,Georgia
+28/04/2020 15:08:39,USA-15,Hawaii,state,597,14
+28/04/2020 15:08:39,USA-15003,Honolulu,county,395,9,Hawaii
+28/04/2020 15:08:39,USA-18,Indiana,state,14395,785
+28/04/2020 15:08:39,USA-18097,Marion,county,4727,255,Indiana
+28/04/2020 15:08:39,USA-21,Kentucky,state,3905,208
+28/04/2020 15:08:39,USA-21067,Fayette,county,235,8,Kentucky
+28/04/2020 15:08:39,USA-27,Minnesota,state,3446,244
+28/04/2020 15:08:39,USA-27123,Ramsey,county,261,20,Minnesota
+28/04/2020 15:08:39,USA-34007,Camden,county,2870,118,New Jersey
+28/04/2020 15:08:39,USA-36087,Rockland,county,11091,340,New York
+28/04/2020 15:08:39,USA-37037,Chatham,county,211,6,North Carolina
+28/04/2020 15:08:39,USA-40,Oklahoma,state,3193,194
+28/04/2020 15:08:39,USA-40143,Tulsa,county,479,27,Oklahoma
+28/04/2020 15:08:39,USA-42,Pennsylvania,state,41626,1842
+28/04/2020 15:08:39,USA-42045,Delaware,county,3213,142,Pennsylvania
+28/04/2020 15:08:39,USA-42127,Wayne,county,92,3,Pennsylvania
+28/04/2020 15:08:39,USA-45,South Carolina,state,5253,166
+28/04/2020 15:08:39,USA-45019,Charleston,county,424,6,South Carolina
+28/04/2020 15:08:39,USA-45055,Kershaw,county,215,10,South Carolina
+28/04/2020 15:08:39,USA-49011,Davis,county,268,2,Utah
+28/04/2020 15:08:39,USA-49053,Washington,county,58,0,Utah
+28/04/2020 15:08:39,USA-53011,Clark,county,327,19,Washington
+28/04/2020 15:08:39,USA-53031,Jefferson,county,28,0,Washington
+28/04/2020 15:08:39,USA-53053,Pierce,county,1313,47,Washington
+28/04/2020 15:08:39,USA-06019,Fresno,county,458,7,California
+28/04/2020 15:08:39,USA-06039,Madera,county,40,2,California
+28/04/2020 15:08:39,USA-06065,Riverside,county,3409,117,California
+28/04/2020 15:08:39,USA-06087,Santa Cruz,county,115,2,California
+28/04/2020 15:08:39,USA-11,Washington D.C.,state,3699,165
+28/04/2020 15:08:39,USA-11001,Washington,county,3699,165,Washington, D.C.
+28/04/2020 15:08:39,USA-12015,Charlotte,county,202,14,Florida
+28/04/2020 15:08:39,USA-12091,Okaloosa,county,148,3,Florida
+28/04/2020 15:08:39,USA-12127,Volusia,county,432,15,Florida
+28/04/2020 15:08:39,USA-13067,Cobb,county,1395,74,Georgia
+28/04/2020 15:08:39,USA-13135,Gwinnett,county,1460,46,Georgia
+28/04/2020 15:08:39,USA-20,Kansas,state,3081,119
+28/04/2020 15:08:39,USA-20091,Johnson,county,424,38,Kansas
+28/04/2020 15:08:39,USA-25003,Berkshire,county,425,31,Massachusetts
+28/04/2020 15:08:39,USA-29,Missouri,state,6826,280
+28/04/2020 15:08:39,USA-29189,St. Louis County,county,2718,127,Missouri
+28/04/2020 15:08:39,USA-33015,Rockingham,county,593,15,New Hampshire
+28/04/2020 15:08:39,USA-36091,Saratoga,county,320,3,New York
+28/04/2020 15:08:39,USA-41029,Jackson,county,49,0,Oregon
+28/04/2020 15:08:39,USA-41035,Klamath,county,36,0,Oregon
+28/04/2020 15:08:39,USA-42091,Montgomery,county,3627,214,Pennsylvania
+28/04/2020 15:08:39,USA-50,Vermont,state,843,46
+28/04/2020 15:08:39,USA-50003,Bennington,county,39,1,Vermont
+28/04/2020 15:08:39,USA-51,Virginia,state,12366,436
+28/04/2020 15:08:39,USA-51059,Fairfax,county,2745,90,Virginia
+28/04/2020 15:08:39,USA-53037,Kittitas,county,14,0,Washington
+28/04/2020 15:08:39,USA-09,Connecticut,state,24582,1862
+28/04/2020 15:08:39,USA-09001,Fairfield,county,10373,689,Connecticut
+28/04/2020 15:08:39,USA-13057,Cherokee,county,368,10,Georgia
+28/04/2020 15:08:39,USA-18063,Hendricks,county,611,26,Indiana
+28/04/2020 15:08:39,USA-19,Iowa,state,5109,112
+28/04/2020 15:08:39,USA-19103,Johnson,county,426,4,Iowa
+28/04/2020 15:08:39,USA-21097,Harrison,county,18,0,Kentucky
+28/04/2020 15:08:39,USA-21111,Jefferson,county,1121,81,Kentucky
+28/04/2020 15:08:39,USA-24025,Harford,county,302,4,Maryland
+28/04/2020 15:08:39,USA-25027,Worcester,county,4460,183,Massachusetts
+28/04/2020 15:08:39,USA-27019,Carver,county,16,0,Minnesota
+28/04/2020 15:08:39,USA-34031,Passaic,county,10738,416,New Jersey
+28/04/2020 15:08:39,USA-36103,Suffolk,county,31368,1085,New York
+28/04/2020 15:08:39,USA-36111,Ulster,county,1166,3,New York
+28/04/2020 15:08:39,USA-41019,Douglas,county,23,0,Oregon
+28/04/2020 15:08:39,USA-41047,Marion,county,432,14,Oregon
+28/04/2020 15:08:39,USA-45083,Spartanburg,county,243,8,South Carolina
+28/04/2020 15:08:39,USA-47037,Davidson,county,2213,22,Tennessee
+28/04/2020 15:08:39,USA-47157,Shelby,county,2086,44,Tennessee
+28/04/2020 15:08:39,USA-53035,Kitsap,county,146,2,Washington
+28/04/2020 15:08:39,USA-04019,Pima,county,1090,76,Arizona
+28/04/2020 15:08:39,USA-06089,Shasta,county,30,4,California
+28/04/2020 15:08:39,USA-08005,Arapahoe,county,2083,127,Colorado
+28/04/2020 15:08:39,USA-08069,Larimer,county,303,18,Colorado
+28/04/2020 15:08:39,USA-13089,DeKalb,county,1788,36,Georgia
+28/04/2020 15:08:39,USA-13113,Fayette,county,161,8,Georgia
+28/04/2020 15:08:39,USA-13115,Floyd,county,133,10,Georgia
+28/04/2020 15:08:39,USA-18113,Noble,county,51,5,Indiana
+28/04/2020 15:08:39,USA-19155,Pottawattamie,county,20,1,Iowa
+28/04/2020 15:08:39,USA-22,Louisiana,state,26512,1644
+28/04/2020 15:08:39,USA-22051,Jefferson,county,6007,325,Louisiana
+28/04/2020 15:08:39,USA-24033,Prince Georges,county,4795,162,Maryland
+28/04/2020 15:08:39,USA-34017,Hudson,county,13367,655,New Jersey
+28/04/2020 15:08:39,USA-34025,Monmouth,county,5521,287,New Jersey
+28/04/2020 15:08:39,USA-34039,Union,county,11523,563,New Jersey
+28/04/2020 15:08:39,USA-39,Ohio,state,15587,711
+28/04/2020 15:08:39,USA-39035,Cuyahoga,county,1867,91,Ohio
+28/04/2020 15:08:39,USA-42089,Monroe,county,1054,46,Pennsylvania
+28/04/2020 15:08:39,USA-48085,Collin,county,654,16,Texas
+28/04/2020 15:08:39,USA-51810,Virginia Beach,county,335,10,Virginia
+28/04/2020 15:08:39,USA-55093,Pierce,county,8,0,Wisconsin
+28/04/2020 15:08:39,USA-06077,San Joaquin,county,507,25,California
+28/04/2020 15:08:39,USA-06111,Ventura,county,476,16,California
+28/04/2020 15:08:39,USA-08051,Gunnison,county,151,4,Colorado
+28/04/2020 15:08:39,USA-12001,Alachua,county,245,1,Florida
+28/04/2020 15:08:39,USA-12021,Collier,county,535,15,Florida
+28/04/2020 15:08:39,USA-12089,Nassau,county,50,0,Florida
+28/04/2020 15:08:39,USA-12101,Pasco,county,233,4,Florida
+28/04/2020 15:08:39,USA-12103,Pinellas,county,677,24,Florida
+28/04/2020 15:08:39,USA-13049,Charlton,county,7,0,Georgia
+28/04/2020 15:08:39,USA-17089,Kane,county,1049,39,Illinois
+28/04/2020 15:08:39,USA-17111,McHenry,county,502,28,Illinois
+28/04/2020 15:08:39,USA-18001,Adams,county,7,1,Indiana
+28/04/2020 15:08:39,USA-18011,Boone,county,182,19,Indiana
+28/04/2020 15:08:39,USA-22071,Orleans,county,6297,399,Louisiana
+28/04/2020 15:08:39,USA-25009,Essex,county,7212,336,Massachusetts
+28/04/2020 15:08:39,USA-26,Michigan,state,37184,3273
+28/04/2020 15:08:39,USA-26125,Oakland,county,6881,612,Michigan
+28/04/2020 15:08:39,USA-26163,Wayne,county,15548,1560,Michigan
+28/04/2020 15:08:39,USA-27003,Anoka,county,150,3,Minnesota
+28/04/2020 15:08:39,USA-34005,Burlington,county,2153,88,New Jersey
+28/04/2020 15:08:39,USA-41051,Multnomah,county,623,35,Oregon
+28/04/2020 15:08:39,USA-42101,Philadelphia,county,12329,466,Pennsylvania
+28/04/2020 15:08:39,USA-46,South Dakota,state,2147,10
+28/04/2020 15:08:39,USA-46005,Beadle,county,21,2,South Dakota
+28/04/2020 15:08:39,USA-46023,Charles Mix,county,4,0,South Dakota
+28/04/2020 15:08:39,USA-46035,Davison,county,5,1,South Dakota
+28/04/2020 15:08:39,USA-46099,Minnehaha,county,1796,5,South Dakota
+28/04/2020 15:08:39,USA-47163,Sullivan,county,48,1,Tennessee
+28/04/2020 15:08:39,USA-48113,Dallas,county,2909,81,Texas
+28/04/2020 15:08:39,USA-48339,Montgomery,county,496,9,Texas
+28/04/2020 15:08:39,USA-48439,Tarrant,county,1836,52,Texas
+28/04/2020 15:08:39,USA-49057,Weber,county,133,2,Utah
+28/04/2020 15:08:39,USA-51107,Loudoun,county,564,11,Virginia
+28/04/2020 15:08:39,USA-53057,Skagit,county,287,10,Washington
+28/04/2020 15:08:39,USA-53073,Whatcom,county,284,27,Washington
+28/04/2020 15:08:39,USA-05,Arkansas,state,2909,48
+28/04/2020 15:08:39,USA-05069,Jefferson,county,149,7,Arkansas
+28/04/2020 15:08:39,USA-06099,Stanislaus,county,286,5,California
+28/04/2020 15:08:39,USA-08097,Pitkin,county,59,2,Colorado
+28/04/2020 15:08:39,USA-10,Delaware,state,3576,112
+28/04/2020 15:08:39,USA-10003,New Castle,county,1504,52,Delaware
+28/04/2020 15:08:39,USA-12086,Miami-Dade,county,11004,295,Florida
+28/04/2020 15:08:39,USA-12109,St. Johns,county,203,4,Florida
+28/04/2020 15:08:39,USA-13015,Bartow,county,283,28,Georgia
+28/04/2020 15:08:39,USA-13177,Lee,county,299,18,Georgia
+28/04/2020 15:08:39,USA-13185,Lowndes,county,131,4,Georgia
+28/04/2020 15:08:39,USA-17097,Lake,county,2879,115,Illinois
+28/04/2020 15:08:39,USA-18067,Howard,county,83,5,Indiana
+28/04/2020 15:08:39,USA-18081,Johnson,county,530,50,Indiana
+28/04/2020 15:08:39,USA-18141,St. Joseph,county,553,11,Indiana
+28/04/2020 15:08:39,USA-22017,Caddo,county,1432,92,Louisiana
+28/04/2020 15:08:39,USA-24005,Baltimore,county,2387,72,Maryland
+28/04/2020 15:08:39,USA-27109,Olmsted,county,238,6,Minnesota
+28/04/2020 15:08:39,USA-28,Mississippi,state,5718,221
+28/04/2020 15:08:39,USA-28035,Forrest,county,181,7,Mississippi
+28/04/2020 15:08:39,USA-34023,Middlesex,county,10075,431,New Jersey
+28/04/2020 15:08:39,USA-35,New Mexico,state,2662,93
+28/04/2020 15:08:39,USA-35001,Bernalillo,county,670,33,New Mexico
+28/04/2020 15:08:39,USA-35049,Santa Fe,county,96,0,New Mexico
+28/04/2020 15:08:39,USA-35053,Socorro,county,40,1,New Mexico
+28/04/2020 15:08:39,USA-36055,Monroe,county,1285,82,New York
+28/04/2020 15:08:39,USA-38,North Dakota,state,803,16
+28/04/2020 15:08:39,USA-38101,Ward,county,21,1,North Dakota
+28/04/2020 15:08:39,USA-39151,Stark,county,303,34,Ohio
+28/04/2020 15:08:39,USA-41017,Deschutes,county,71,0,Oregon
+28/04/2020 15:08:39,USA-41043,Linn,county,71,7,Oregon
+28/04/2020 15:08:39,USA-41053,Polk,county,37,1,Oregon
+28/04/2020 15:08:39,USA-41059,Umatilla,county,35,0,Oregon
+28/04/2020 15:08:39,USA-42017,Bucks,county,2469,139,Pennsylvania
+28/04/2020 15:08:39,USA-45057,Lancaster,county,85,3,South Carolina
+28/04/2020 15:08:39,USA-46009,Bon Homme,county,4,0,South Dakota
+28/04/2020 15:08:39,USA-48183,Gregg,county,58,0,Texas
+28/04/2020 15:08:39,USA-50007,Chittenden,county,405,30,Vermont
+28/04/2020 15:08:39,USA-51013,Arlington,county,764,29,Virginia
+28/04/2020 15:08:39,USA-53029,Island,county,168,9,Washington
+28/04/2020 15:08:39,USA-53067,Thurston,county,101,1,Washington
+28/04/2020 15:08:39,USA-55039,Fond du Lac,county,67,3,Wisconsin
+28/04/2020 15:08:39,USA-55133,Waukesha,county,299,14,Wisconsin
+28/04/2020 15:08:39,USA-56,Wyoming,state,362,7
+28/04/2020 15:08:39,USA-56033,Sheridan,county,12,0,Wyoming
+28/04/2020 15:08:39,USA-02,Alaska,state,337,7
+28/04/2020 15:08:39,USA-02020,Anchorage Municipality,county,168,4,Alaska
+28/04/2020 15:08:39,USA-05119,Pulaski,county,471,14,Arkansas
+28/04/2020 15:08:39,USA-06107,Tulare,county,491,32,California
+28/04/2020 15:08:39,USA-08001,Adams,county,1302,57,Colorado
+28/04/2020 15:08:39,USA-09005,Litchfield,county,834,73,Connecticut
+28/04/2020 15:08:39,USA-12019,Clay,county,267,14,Florida
+28/04/2020 15:08:39,USA-12031,Duval,county,965,18,Florida
+28/04/2020 15:08:39,USA-12099,Palm Beach,county,2612,155,Florida
+28/04/2020 15:08:39,USA-12115,Sarasota,county,318,32,Florida
+28/04/2020 15:08:39,USA-12117,Seminole,county,351,8,Florida
+28/04/2020 15:08:39,USA-19027,Carroll,county,1,0,Iowa
+28/04/2020 15:08:39,USA-20209,Wyandotte,county,555,50,Kansas
+28/04/2020 15:08:39,USA-21173,Montgomery,county,10,0,Kentucky
+28/04/2020 15:08:39,USA-23,Maine,state,990,50
+28/04/2020 15:08:39,USA-23001,Androscoggin,county,41,2,Maine
+28/04/2020 15:08:39,USA-26065,Ingham,county,395,9,Michigan
+28/04/2020 15:08:39,USA-26081,Kent,county,929,32,Michigan
+28/04/2020 15:08:39,USA-26117,Montcalm,county,29,1,Michigan
+28/04/2020 15:08:39,USA-26147,St. Clair,county,297,18,Michigan
+28/04/2020 15:08:39,USA-26161,Washtenaw,county,1002,50,Michigan
+28/04/2020 15:08:39,USA-27037,Dakota,county,138,6,Minnesota
+28/04/2020 15:08:39,USA-27053,Hennepin,county,1287,155,Minnesota
+28/04/2020 15:08:39,USA-27145,Stearns,county,38,0,Minnesota
+28/04/2020 15:08:39,USA-29077,Greene,county,83,8,Missouri
+28/04/2020 15:08:39,USA-31025,Cass,county,4,0,Nebraska
+28/04/2020 15:08:39,USA-32510,Carson City,county,34,1,Nevada
+28/04/2020 15:08:39,USA-34013,Essex,county,12520,1019,New Jersey
+28/04/2020 15:08:39,USA-34027,Morris,county,4821,347,New Jersey
+28/04/2020 15:08:39,USA-34999,Unknown,county,557,0,New Jersey
+28/04/2020 15:08:39,USA-36001,Albany,county,899,43,New York
+28/04/2020 15:08:39,USA-36025,Delaware,county,58,0,New York
+28/04/2020 15:08:39,USA-36027,Dutchess,county,2660,65,New York
+28/04/2020 15:08:39,USA-36043,Herkimer,county,56,1,New York
+28/04/2020 15:08:39,USA-36071,Orange,county,7988,200,New York
+28/04/2020 15:08:39,USA-37025,Cabarrus,county,247,8,North Carolina
+28/04/2020 15:08:39,USA-37067,Forsyth,county,149,5,North Carolina
+28/04/2020 15:08:39,USA-37101,Johnston,county,127,10,North Carolina
+28/04/2020 15:08:39,USA-37119,Mecklenburg,county,1450,41,North Carolina
+28/04/2020 15:08:39,USA-37133,Onslow,county,44,1,North Carolina
+28/04/2020 15:08:39,USA-39155,Trumbull,county,287,23,Ohio
+28/04/2020 15:08:39,USA-41005,Clackamas,county,201,6,Oregon
+28/04/2020 15:08:39,USA-42095,Northampton,county,1780,49,Pennsylvania
+28/04/2020 15:08:39,USA-42103,Pike,county,347,12,Pennsylvania
+28/04/2020 15:08:39,USA-47093,Knox,county,210,4,Tennessee
+28/04/2020 15:08:39,USA-51510,Alexandria,county,575,18,Virginia
+28/04/2020 15:08:39,USA-51085,Hanover,county,103,7,Virginia
+28/04/2020 15:08:39,USA-51095,James City,county,151,12,Virginia
+28/04/2020 15:08:39,USA-51147,Prince Edward,county,37,2,Virginia
+28/04/2020 15:08:39,USA-51153,Prince William,county,1184,19,Virginia
+28/04/2020 15:08:39,USA-53013,Columbia,county,1,0,Washington
+28/04/2020 15:08:39,USA-53027,Grays Harbor,county,12,0,Washington
+28/04/2020 15:08:39,USA-53077,Yakima,county,1066,44,Washington
+28/04/2020 15:08:39,USA-01,Alabama,state,6213,213
+28/04/2020 15:08:39,USA-01051,Elmore,county,77,1,Alabama
+28/04/2020 15:08:39,USA-01073,Jefferson,county,828,33,Alabama
+28/04/2020 15:08:39,USA-01083,Limestone,county,41,0,Alabama
+28/04/2020 15:08:39,USA-01101,Montgomery,county,284,4,Alabama
+28/04/2020 15:08:39,USA-01125,Tuscaloosa,county,185,0,Alabama
+28/04/2020 15:08:39,USA-06069,San Benito,county,47,2,California
+28/04/2020 15:08:39,USA-08019,Clear Creek,county,13,1,Colorado
+28/04/2020 15:08:39,USA-08101,Pueblo,county,121,9,Colorado
+28/04/2020 15:08:39,USA-08107,Routt,county,52,4,Colorado
+28/04/2020 15:08:39,USA-08117,Summit,county,97,1,Colorado
+28/04/2020 15:08:39,USA-08123,Weld,county,1430,78,Colorado
+28/04/2020 15:08:39,USA-12095,Orange,county,1303,29,Florida
+28/04/2020 15:08:39,USA-12097,Osceola,county,463,7,Florida
+28/04/2020 15:08:39,USA-13129,Gordon,county,81,10,Georgia
+28/04/2020 15:08:39,USA-13151,Henry,county,436,10,Georgia
+28/04/2020 15:08:39,USA-16,Idaho,state,1760,56
+28/04/2020 15:08:39,USA-16001,Ada,county,615,15,Idaho
+28/04/2020 15:08:39,USA-19085,Harrison,county,15,0,Iowa
+28/04/2020 15:08:39,USA-20015,Butler,county,13,0,Kansas
+28/04/2020 15:08:39,USA-22089,St. Charles,county,540,35,Louisiana
+28/04/2020 15:08:39,USA-22103,St. Tammany,county,1138,93,Louisiana
+28/04/2020 15:08:39,USA-22109,Terrebonne,county,366,26,Louisiana
+28/04/2020 15:08:39,USA-23005,Cumberland,county,434,24,Maine
+28/04/2020 15:08:39,USA-24003,Anne Arundel,county,1430,62,Maryland
+28/04/2020 15:08:39,USA-24017,Charles,county,483,34,Maryland
+28/04/2020 15:08:39,USA-26017,Bay,county,114,2,Michigan
+28/04/2020 15:08:39,USA-26029,Charlevoix,county,13,1,Michigan
+28/04/2020 15:08:39,USA-26089,Leelanau,county,9,0,Michigan
+28/04/2020 15:08:39,USA-26099,Macomb,county,5139,517,Michigan
+28/04/2020 15:08:39,USA-27171,Wright,county,33,1,Minnesota
+28/04/2020 15:08:39,USA-28029,Copiah,county,68,1,Mississippi
+28/04/2020 15:08:39,USA-28083,Leflore,county,131,15,Mississippi
+28/04/2020 15:08:39,USA-28109,Pearl River,county,148,14,Mississippi
+28/04/2020 15:08:39,USA-29083,Henry,county,6,1,Missouri
+28/04/2020 15:08:39,USA-30,Montana,state,445,14
+28/04/2020 15:08:39,USA-30031,Gallatin,county,146,0,Montana
+28/04/2020 15:08:39,USA-30049,Lewis and Clark,county,16,0,Montana
+28/04/2020 15:08:39,USA-30093,Silver Bow,county,11,0,Montana
+28/04/2020 15:08:39,USA-30111,Yellowstone,county,77,1,Montana
+28/04/2020 15:08:39,USA-34029,Ocean,county,5811,317,New Jersey
+28/04/2020 15:08:39,USA-36093,Schenectady,county,431,21,New York
+28/04/2020 15:08:39,USA-37191,Wayne,county,618,8,North Carolina
+28/04/2020 15:08:39,USA-40109,Oklahoma,county,694,29,Oklahoma
+28/04/2020 15:08:39,USA-42029,Chester,county,1174,82,Pennsylvania
+28/04/2020 15:08:39,USA-42041,Cumberland,county,250,8,Pennsylvania
+28/04/2020 15:08:39,USA-42125,Washington,county,99,2,Pennsylvania
+28/04/2020 15:08:39,USA-72,Puerto Rico,territory,1307,52
+28/04/2020 15:08:39,USA-72999,Puerto Rico,county,1230,51
+28/04/2020 15:08:39,USA-46087,McCook,county,4,1,South Dakota
+28/04/2020 15:08:39,USA-47065,Hamilton,county,140,14,Tennessee
+28/04/2020 15:08:39,USA-47089,Jefferson,county,17,0,Tennessee
+28/04/2020 15:08:39,USA-47149,Rutherford,county,387,8,Tennessee
+28/04/2020 15:08:39,USA-48027,Bell,county,165,3,Texas
+28/04/2020 15:08:39,USA-48141,El Paso,county,780,12,Texas
+28/04/2020 15:08:39,USA-48167,Galveston,county,539,22,Texas
+28/04/2020 15:08:39,USA-48423,Smith,county,134,3,Texas
+28/04/2020 15:08:39,USA-48453,Travis,county,1396,36,Texas
+28/04/2020 15:08:39,USA-51660,Harrisonburg,county,370,9,Virginia
+28/04/2020 15:08:39,USA-53025,Grant,county,156,2,Washington
+28/04/2020 15:08:39,USA-55079,Milwaukee,county,2525,157,Wisconsin
+28/04/2020 15:08:39,USA-55101,Racine,county,255,10,Wisconsin
+28/04/2020 15:08:39,USA-55117,Sheboygan,county,44,2,Wisconsin
+28/04/2020 15:08:39,USA-56013,Fremont,county,76,4,Wyoming
+28/04/2020 15:08:39,USA-01003,Baldwin,county,154,3,Alabama
+28/04/2020 15:08:39,USA-04009,Graham,county,6,0,Arizona
+28/04/2020 15:08:39,USA-06079,San Luis Obispo,county,165,1,California
+28/04/2020 15:08:39,USA-08013,Boulder,county,497,29,Colorado
+28/04/2020 15:08:39,USA-08077,Mesa,county,38,0,Colorado
+28/04/2020 15:08:39,USA-09003,Hartford,county,4761,553,Connecticut
+28/04/2020 15:08:39,USA-09009,New Haven,county,6509,416,Connecticut
+28/04/2020 15:08:39,USA-13077,Coweta,county,187,4,Georgia
+28/04/2020 15:08:39,USA-15007,Kauai,county,21,0,Hawaii
+28/04/2020 15:08:39,USA-16013,Blaine,county,481,5,Idaho
+28/04/2020 15:08:39,USA-16081,Teton,county,7,0,Idaho
+28/04/2020 15:08:39,USA-17035,Cumberland,county,3,0,Illinois
+28/04/2020 15:08:39,USA-17043,DuPage,county,2311,127,Illinois
+28/04/2020 15:08:39,USA-17167,Sangamon,county,95,6,Illinois
+28/04/2020 15:08:39,USA-17163,St. Clair,county,363,24,Illinois
+28/04/2020 15:08:39,USA-17203,Woodford,county,11,1,Illinois
+28/04/2020 15:08:39,USA-18091,LaPorte,county,156,5,Indiana
+28/04/2020 15:08:39,USA-18179,Wells,county,5,0,Indiana
+28/04/2020 15:08:39,USA-19049,Dallas,county,131,0,Iowa
+28/04/2020 15:08:39,USA-20059,Franklin,county,12,0,Kansas
+28/04/2020 15:08:39,USA-21017,Bourbon,county,8,1,Kentucky
+28/04/2020 15:08:39,USA-21179,Nelson,county,17,0,Kentucky
+28/04/2020 15:08:39,USA-22015,Bossier,county,265,12,Louisiana
+28/04/2020 15:08:39,USA-22057,Lafourche,county,610,39,Louisiana
+28/04/2020 15:08:39,USA-22095,St. John the Baptist,county,747,64,Louisiana
+28/04/2020 15:08:39,USA-24013,Carroll,county,384,47,Maryland
+28/04/2020 15:08:39,USA-25001,Barnstable,county,756,37,Massachusetts
+28/04/2020 15:08:39,USA-25005,Bristol,county,2829,130,Massachusetts
+28/04/2020 15:08:39,USA-26115,Monroe,county,267,11,Michigan
+28/04/2020 15:08:39,USA-27129,Renville,county,3,0,Minnesota
+28/04/2020 15:08:39,USA-30063,Missoula,county,39,1,Montana
+28/04/2020 15:08:39,USA-34021,Mercer,county,3245,183,New Jersey
+28/04/2020 15:08:39,USA-35043,Sandoval,county,365,10,New Mexico
+28/04/2020 15:08:39,USA-36007,Broome,county,251,13,New York
+28/04/2020 15:08:39,USA-36107,Tioga,county,71,3,New York
+28/04/2020 15:08:39,USA-36109,Tompkins,county,126,2,New York
+28/04/2020 15:08:39,USA-37019,Brunswick,county,39,3,North Carolina
+28/04/2020 15:08:39,USA-37049,Craven,county,39,4,North Carolina
+28/04/2020 15:08:39,USA-37085,Harnett,county,119,5,North Carolina
+28/04/2020 15:08:39,USA-39013,Belmont,county,101,6,Ohio
+28/04/2020 15:08:39,USA-39017,Butler,county,216,4,Ohio
+28/04/2020 15:08:39,USA-39049,Franklin,county,1839,50,Ohio
+28/04/2020 15:08:39,USA-39093,Lorain,county,374,19,Ohio
+28/04/2020 15:08:39,USA-39153,Summit,county,475,35,Ohio
+28/04/2020 15:08:39,USA-39157,Tuscarawas,county,48,0,Ohio
+28/04/2020 15:08:39,USA-40065,Jackson,county,14,0,Oklahoma
+28/04/2020 15:08:39,USA-42003,Allegheny,county,1198,73,Pennsylvania
+28/04/2020 15:08:39,USA-45013,Beaufort,county,253,10,South Carolina
+28/04/2020 15:08:39,USA-45063,Lexington,county,317,12,South Carolina
+28/04/2020 15:08:39,USA-47013,Campbell,county,13,1,Tennessee
+28/04/2020 15:08:39,USA-48039,Brazoria,county,445,3,Texas
+28/04/2020 15:08:39,USA-48209,Hays,county,149,1,Texas
+28/04/2020 15:08:39,USA-49043,Summit,county,355,0,Utah
+28/04/2020 15:08:39,USA-50023,Washington,county,33,1,Vermont
+28/04/2020 15:08:39,USA-50027,Windsor,county,39,2,Vermont
+28/04/2020 15:08:39,USA-78,U.S. Virgin Islands,territory,55,3
+28/04/2020 15:08:39,USA-78999,Virgin Islands,county,55,3
+28/04/2020 15:08:39,USA-51041,Chesterfield,county,440,18,Virginia
+28/04/2020 15:08:39,USA-51177,Spotsylvania,county,101,3,Virginia
+28/04/2020 15:08:39,USA-53039,Klickitat,county,16,3,Washington
+28/04/2020 15:08:39,USA-55139,Winnebago,county,48,1,Wisconsin
+28/04/2020 15:08:39,USA-01081,Lee,county,358,23,Alabama
+28/04/2020 15:08:39,USA-01117,Shelby,county,298,8,Alabama
+28/04/2020 15:08:39,USA-05051,Garland,county,111,0,Arkansas
+28/04/2020 15:08:39,USA-05125,Saline,county,54,1,Arkansas
+28/04/2020 15:08:39,USA-06071,San Bernardino,county,1489,67,California
+28/04/2020 15:08:39,USA-06083,Santa Barbara,county,466,6,California
+28/04/2020 15:08:39,USA-08045,Garfield,county,83,2,Colorado
+28/04/2020 15:08:39,USA-12003,Baker,county,20,3,Florida
+28/04/2020 15:08:39,USA-12017,Citrus,county,95,9,Florida
+28/04/2020 15:08:39,USA-13059,Clarke,county,127,13,Georgia
+28/04/2020 15:08:39,USA-13063,Clayton,county,642,21,Georgia
+28/04/2020 15:08:39,USA-13095,Dougherty,county,1470,108,Georgia
+28/04/2020 15:08:39,USA-13217,Newton,county,166,6,Georgia
+28/04/2020 15:08:39,USA-66,Guam,territory,993,6
+28/04/2020 15:08:39,USA-66999,Guam,county,993,6
+28/04/2020 15:08:39,USA-15009,Maui,county,112,5,Hawaii
+28/04/2020 15:08:39,USA-17027,Clinton,county,82,1,Illinois
+28/04/2020 15:08:39,USA-17195,Whiteside,county,59,5,Illinois
+28/04/2020 15:08:39,USA-17201,Winnebago,county,302,14,Illinois
+28/04/2020 15:08:39,USA-18057,Hamilton,county,699,50,Indiana
+28/04/2020 15:08:39,USA-19005,Allamakee,county,56,3,Iowa
+28/04/2020 15:08:39,USA-19153,Polk,county,660,24,Iowa
+28/04/2020 15:08:39,USA-21049,Clark,county,19,0,Kentucky
+28/04/2020 15:08:39,USA-22087,St. Bernard,county,443,15,Louisiana
+28/04/2020 15:08:39,USA-23015,Lincoln,county,12,0,Maine
+28/04/2020 15:08:39,USA-24510,Baltimore City,county,1791,72,Maryland
+28/04/2020 15:08:39,USA-24027,Howard,county,686,15,Maryland
+28/04/2020 15:08:39,USA-25013,Hampden,county,3229,315,Massachusetts
+28/04/2020 15:08:39,USA-25023,Plymouth,county,4380,212,Massachusetts
+28/04/2020 15:08:39,USA-26139,Ottawa,county,173,8,Michigan
+28/04/2020 15:08:39,USA-27161,Waseca,county,3,0,Minnesota
+28/04/2020 15:08:39,USA-27163,Washington,county,112,7,Minnesota
+28/04/2020 15:08:39,USA-28049,Hinds,county,412,7,Mississippi
+28/04/2020 15:08:39,USA-33011,Hillsborough,county,780,31,New Hampshire
+28/04/2020 15:08:39,USA-36029,Erie,county,2773,199,New York
+28/04/2020 15:08:39,USA-36039,Greene,county,107,0,New York
+28/04/2020 15:08:39,USA-36057,Montgomery,county,46,1,New York
+28/04/2020 15:08:39,USA-36079,Putnam,county,885,42,New York
+28/04/2020 15:08:39,USA-37189,Watauga,county,8,0,North Carolina
+28/04/2020 15:08:39,USA-37195,Wilson,county,148,6,North Carolina
+28/04/2020 15:08:39,USA-39095,Lucas,county,1033,59,Ohio
+28/04/2020 15:08:39,USA-39103,Medina,county,153,13,Ohio
+28/04/2020 15:08:39,USA-40027,Cleveland,county,400,27,Oklahoma
+28/04/2020 15:08:39,USA-40071,Kay,county,47,6,Oklahoma
+28/04/2020 15:08:39,USA-40119,Payne,county,43,1,Oklahoma
+28/04/2020 15:08:39,USA-41071,Yamhill,county,35,6,Oregon
+28/04/2020 15:08:39,USA-42077,Lehigh,county,2551,50,Pennsylvania
+28/04/2020 15:08:39,USA-42079,Luzerne,county,1962,66,Pennsylvania
+28/04/2020 15:08:39,USA-45007,Anderson,county,138,6,South Carolina
+28/04/2020 15:08:39,USA-45045,Greenville,county,564,16,South Carolina
+28/04/2020 15:08:39,USA-45051,Horry,county,201,12,South Carolina
+28/04/2020 15:08:39,USA-48121,Denton,county,702,20,Texas
+28/04/2020 15:08:39,USA-49049,Utah,county,725,7,Utah
+28/04/2020 15:08:39,USA-53041,Lewis,county,29,3,Washington
+28/04/2020 15:08:39,USA-53043,Lincoln,county,2,0,Washington
+28/04/2020 15:08:39,USA-02090,Fairbanks North Star Borough,county,79,2,Alaska
+28/04/2020 15:08:39,USA-05023,Cleburne,county,72,4,Arkansas
+28/04/2020 15:08:39,USA-05025,Cleveland,county,9,0,Arkansas
+28/04/2020 15:08:39,USA-05041,Desha,county,16,0,Arkansas
+28/04/2020 15:08:39,USA-05079,Lincoln,county,721,0,Arkansas
+28/04/2020 15:08:39,USA-06057,Nevada,county,37,1,California
+28/04/2020 15:08:39,USA-12033,Escambia,county,442,11,Florida
+28/04/2020 15:08:39,USA-12069,Lake,county,221,10,Florida
+28/04/2020 15:08:39,USA-13117,Forsyth,county,249,8,Georgia
+28/04/2020 15:08:39,USA-13139,Hall,county,1032,9,Georgia
+28/04/2020 15:08:39,USA-13223,Paulding,county,159,7,Georgia
+28/04/2020 15:08:39,USA-13285,Troup,county,122,4,Georgia
+28/04/2020 15:08:39,USA-17143,Peoria,county,60,2,Illinois
+28/04/2020 15:08:39,USA-17197,Will,county,2060,131,Illinois
+28/04/2020 15:08:39,USA-18005,Bartholomew,county,198,10,Indiana
+28/04/2020 15:08:39,USA-18043,Floyd,county,163,11,Indiana
+28/04/2020 15:08:39,USA-22005,Ascension,county,557,35,Louisiana
+28/04/2020 15:08:39,USA-23999,Unknown,county,2,0,Maine
+28/04/2020 15:08:39,USA-24021,Frederick,county,814,39,Maryland
+28/04/2020 15:08:39,USA-24041,Talbot,county,28,1,Maryland
+28/04/2020 15:08:39,USA-25999,Unknown,county,753,13,Massachusetts
+28/04/2020 15:08:39,USA-27009,Benton,county,4,0,Minnesota
+28/04/2020 15:08:39,USA-27013,Blue Earth,county,27,0,Minnesota
+28/04/2020 15:08:39,USA-28045,Hancock,county,59,5,Mississippi
+28/04/2020 15:08:39,USA-28095,Monroe,county,123,9,Mississippi
+28/04/2020 15:08:39,USA-29037,Cass,county,58,6,Missouri
+28/04/2020 15:08:39,USA-33003,Carroll,county,30,0,New Hampshire
+28/04/2020 15:08:39,USA-34019,Hunterdon,county,505,23,New Jersey
+28/04/2020 15:08:39,USA-34035,Somerset,county,3030,219,New Jersey
+28/04/2020 15:08:39,USA-36003,Allegany,county,35,0,New York
+28/04/2020 15:08:39,USA-36067,Onondaga,county,664,30,New York
+28/04/2020 15:08:39,USA-36069,Ontario,county,82,3,New York
+28/04/2020 15:08:39,USA-37063,Durham,county,517,9,North Carolina
+28/04/2020 15:08:39,USA-39055,Geauga,county,128,14,Ohio
+28/04/2020 15:08:39,USA-40017,Canadian,county,90,3,Oklahoma
+28/04/2020 15:08:39,USA-41003,Benton,county,28,5,Oregon
+28/04/2020 15:08:39,USA-45039,Fairfield,county,29,2,South Carolina
+28/04/2020 15:08:39,USA-47155,Sevier,county,42,1,Tennessee
+28/04/2020 15:08:39,USA-48037,Bowie,county,93,7,Texas
+28/04/2020 15:08:39,USA-48321,Matagorda,county,61,3,Texas
+28/04/2020 15:08:39,USA-49045,Tooele,county,52,0,Utah
+28/04/2020 15:08:39,USA-49051,Wasatch,county,132,1,Utah
+28/04/2020 15:08:39,USA-50017,Orange,county,6,0,Vermont
+28/04/2020 15:08:39,USA-51179,Stafford,county,198,2,Virginia
+28/04/2020 15:08:39,USA-51199,York,county,44,1,Virginia
+28/04/2020 15:08:39,USA-55087,Outagamie,county,43,2,Wisconsin
+28/04/2020 15:08:39,USA-55141,Wood,county,2,0,Wisconsin
+28/04/2020 15:08:39,USA-01089,Madison,county,210,4,Alabama
+28/04/2020 15:08:39,USA-01115,St. Clair,county,63,0,Alabama
+28/04/2020 15:08:39,USA-02130,Ketchikan Gateway Borough,county,16,0,Alaska
+28/04/2020 15:08:39,USA-04017,Navajo,county,612,18,Arizona
+28/04/2020 15:08:39,USA-06029,Kern,county,764,4,California
+28/04/2020 15:08:39,USA-06053,Monterey,county,176,4,California
+28/04/2020 15:08:39,USA-10005,Sussex,county,1490,42,Delaware
+28/04/2020 15:08:39,USA-12009,Brevard,county,250,8,Florida
+28/04/2020 15:08:39,USA-12105,Polk,county,400,18,Florida
+28/04/2020 15:08:39,USA-13245,Richmond,county,355,14,Georgia
+28/04/2020 15:08:39,USA-13313,Whitfield,county,63,4,Georgia
+28/04/2020 15:08:39,USA-15001,Hawaii,county,69,0,Hawaii
+28/04/2020 15:08:39,USA-16065,Madison,county,5,0,Idaho
+28/04/2020 15:08:39,USA-18047,Franklin,county,94,7,Indiana
+28/04/2020 15:08:39,USA-18089,Lake,county,1515,67,Indiana
+28/04/2020 15:08:39,USA-19001,Adair,county,1,0,Iowa
+28/04/2020 15:08:39,USA-19013,Black Hawk,county,692,8,Iowa
+28/04/2020 15:08:39,USA-20045,Douglas,county,48,0,Kansas
+28/04/2020 15:08:39,USA-20057,Ford,county,420,0,Kansas
+28/04/2020 15:08:39,USA-21143,Lyon,county,14,3,Kentucky
+28/04/2020 15:08:39,USA-22033,East Baton Rouge,county,1720,114,Louisiana
+28/04/2020 15:08:39,USA-22117,Washington,county,241,14,Louisiana
+28/04/2020 15:08:39,USA-23011,Kennebec,county,101,5,Maine
+28/04/2020 15:08:39,USA-23017,Oxford,county,15,0,Maine
+28/04/2020 15:08:39,USA-23031,York,county,194,7,Maine
+28/04/2020 15:08:39,USA-26075,Jackson,county,323,16,Michigan
+28/04/2020 15:08:39,USA-26137,Otsego,county,84,7,Michigan
+28/04/2020 15:08:39,USA-27091,Martin,county,42,4,Minnesota
+28/04/2020 15:08:39,USA-27103,Nicollet,county,9,2,Minnesota
+28/04/2020 15:08:39,USA-28047,Harrison,county,158,6,Mississippi
+28/04/2020 15:08:39,USA-28059,Jackson,county,237,6,Mississippi
+28/04/2020 15:08:39,USA-29019,Boone,county,98,1,Missouri
+28/04/2020 15:08:39,USA-29051,Cole,county,50,1,Missouri
+28/04/2020 15:08:39,USA-29095,Jackson,county,303,12,Missouri
+28/04/2020 15:08:39,USA-31107,Knox,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-31153,Sarpy,county,77,0,Nebraska
+28/04/2020 15:08:39,USA-34015,Gloucester,county,949,30,New Jersey
+28/04/2020 15:08:39,USA-34041,Warren,county,750,63,New Jersey
+28/04/2020 15:08:39,USA-35055,Taos,county,17,0,New Mexico
+28/04/2020 15:08:39,USA-36019,Clinton,county,54,4,New York
+28/04/2020 15:08:39,USA-36083,Rensselaer,county,221,12,New York
+28/04/2020 15:08:39,USA-36105,Sullivan,county,689,9,New York
+28/04/2020 15:08:39,USA-36121,Wyoming,county,57,3,New York
+28/04/2020 15:08:39,USA-37097,Iredell,county,97,3,North Carolina
+28/04/2020 15:08:39,USA-37163,Sampson,county,36,0,North Carolina
+28/04/2020 15:08:39,USA-38015,Burleigh,county,74,0,North Dakota
+28/04/2020 15:08:39,USA-38017,Cass,county,357,9,North Dakota
+28/04/2020 15:08:39,USA-39031,Coshocton,county,16,0,Ohio
+28/04/2020 15:08:39,USA-39037,Darke,county,75,12,Ohio
+28/04/2020 15:08:39,USA-39085,Lake,county,157,7,Ohio
+28/04/2020 15:08:39,USA-39099,Mahoning,county,721,66,Ohio
+28/04/2020 15:08:39,USA-40117,Pawnee,county,28,2,Oklahoma
+28/04/2020 15:08:39,USA-41039,Lane,county,50,2,Oregon
+28/04/2020 15:08:39,USA-42007,Beaver,county,359,46,Pennsylvania
+28/04/2020 15:08:39,USA-45017,Calhoun,county,6,1,South Carolina
+28/04/2020 15:08:39,USA-45079,Richland,county,787,18,South Carolina
+28/04/2020 15:08:39,USA-45091,York,county,177,3,South Carolina
+28/04/2020 15:08:39,USA-48041,Brazos,county,181,16,Texas
+28/04/2020 15:08:39,USA-48139,Ellis,county,127,5,Texas
+28/04/2020 15:08:39,USA-48303,Lubbock,county,497,40,Texas
+28/04/2020 15:08:39,USA-51540,Charlottesville,county,48,2,Virginia
+28/04/2020 15:08:39,USA-51075,Goochland,county,69,3,Virginia
+28/04/2020 15:08:39,USA-51087,Henrico,county,764,89,Virginia
+28/04/2020 15:08:39,USA-51830,Williamsburg,county,15,1,Virginia
+28/04/2020 15:08:39,USA-53021,Franklin,county,250,5,Washington
+28/04/2020 15:08:39,USA-53045,Mason,county,22,0,Washington
+28/04/2020 15:08:39,USA-54,West Virginia,state,1025,33
+28/04/2020 15:08:39,USA-54037,Jefferson,county,71,0,West Virginia
+28/04/2020 15:08:39,USA-55059,Kenosha,county,329,7,Wisconsin
+28/04/2020 15:08:39,USA-56021,Laramie,county,86,1,Wyoming
+28/04/2020 15:08:39,USA-56029,Park,county,1,0,Wyoming
+28/04/2020 15:08:39,USA-01015,Calhoun,county,90,3,Alabama
+28/04/2020 15:08:39,USA-01121,Talladega,county,55,2,Alabama
+28/04/2020 15:08:39,USA-02122,Kenai Peninsula Borough,county,18,0,Alaska
+28/04/2020 15:08:39,USA-04005,Coconino,county,402,40,Arizona
+28/04/2020 15:08:39,USA-05011,Bradley,county,7,1,Arkansas
+28/04/2020 15:08:39,USA-05045,Faulkner,county,70,2,Arkansas
+28/04/2020 15:08:39,USA-05143,Washington,county,74,3,Arkansas
+28/04/2020 15:08:39,USA-06045,Mendocino,county,11,0,California
+28/04/2020 15:08:39,USA-08125,Yuma,county,6,0,Colorado
+28/04/2020 15:08:39,USA-09007,Middlesex,county,576,62,Connecticut
+28/04/2020 15:08:39,USA-10001,Kent,county,579,18,Delaware
+28/04/2020 15:08:39,USA-12073,Leon,county,207,2,Florida
+28/04/2020 15:08:39,USA-12119,Sumter,county,169,12,Florida
+28/04/2020 15:08:39,USA-12131,Walton,county,35,0,Florida
+28/04/2020 15:08:39,USA-13073,Columbia,county,138,2,Georgia
+28/04/2020 15:08:39,USA-13153,Houston,county,206,13,Georgia
+28/04/2020 15:08:39,USA-16083,Twin Falls,county,131,11,Idaho
+28/04/2020 15:08:39,USA-17077,Jackson,county,56,7,Illinois
+28/04/2020 15:08:39,USA-17091,Kankakee,county,299,26,Illinois
+28/04/2020 15:08:39,USA-17093,Kendall,county,203,5,Illinois
+28/04/2020 15:08:39,USA-17099,LaSalle,county,43,1,Illinois
+28/04/2020 15:08:39,USA-17119,Madison,county,280,16,Illinois
+28/04/2020 15:08:39,USA-17189,Washington,county,7,0,Illinois
+28/04/2020 15:08:39,USA-17199,Williamson,county,22,0,Illinois
+28/04/2020 15:08:39,USA-18019,Clark,county,223,13,Indiana
+28/04/2020 15:08:39,USA-18041,Fayette,county,25,4,Indiana
+28/04/2020 15:08:39,USA-18079,Jennings,county,71,1,Indiana
+28/04/2020 15:08:39,USA-18095,Madison,county,395,43,Indiana
+28/04/2020 15:08:39,USA-19183,Washington,county,134,5,Iowa
+28/04/2020 15:08:39,USA-19191,Winneshiek,county,12,0,Iowa
+28/04/2020 15:08:39,USA-20103,Leavenworth,county,169,3,Kansas
+28/04/2020 15:08:39,USA-21073,Franklin,county,15,0,Kentucky
+28/04/2020 15:08:39,USA-21117,Kenton,county,226,16,Kentucky
+28/04/2020 15:08:39,USA-21227,Warren,county,184,0,Kentucky
+28/04/2020 15:08:39,USA-22999,Unknown,county,63,0,Louisiana
+28/04/2020 15:08:39,USA-23019,Penobscot,county,52,0,Maine
+28/04/2020 15:08:39,USA-25011,Franklin,county,225,32,Massachusetts
+28/04/2020 15:08:39,USA-27131,Rice,county,9,1,Minnesota
+28/04/2020 15:08:39,USA-28011,Bolivar,county,94,7,Mississippi
+28/04/2020 15:08:39,USA-28027,Coahoma,county,54,2,Mississippi
+28/04/2020 15:08:39,USA-28033,DeSoto,county,263,4,Mississippi
+28/04/2020 15:08:39,USA-28089,Madison,county,186,5,Mississippi
+28/04/2020 15:08:39,USA-28111,Perry,county,25,1,Mississippi
+28/04/2020 15:08:39,USA-29183,St. Charles,county,513,29,Missouri
+28/04/2020 15:08:39,USA-29510,St. Louis,county,985,50,Missouri
+28/04/2020 15:08:39,USA-31001,Adams,county,125,1,Nebraska
+28/04/2020 15:08:39,USA-31111,Lincoln,county,20,1,Nebraska
+28/04/2020 15:08:39,USA-33001,Belknap,county,31,0,New Hampshire
+28/04/2020 15:08:39,USA-33013,Merrimack,county,129,3,New Hampshire
+28/04/2020 15:08:39,USA-34001,Atlantic,county,596,29,New Jersey
+28/04/2020 15:08:39,USA-36017,Chenango,county,91,0,New York
+28/04/2020 15:08:39,USA-36031,Essex,county,30,0,New York
+28/04/2020 15:08:39,USA-36041,Hamilton,county,3,0,New York
+28/04/2020 15:08:39,USA-36045,Jefferson,county,59,0,New York
+28/04/2020 15:08:39,USA-36051,Livingston,county,58,2,New York
+28/04/2020 15:08:39,USA-36113,Warren,county,132,7,New York
+28/04/2020 15:08:39,USA-36115,Washington,county,113,0,New York
+28/04/2020 15:08:39,USA-37071,Gaston,county,132,3,North Carolina
+28/04/2020 15:08:39,USA-37081,Guilford,county,293,19,North Carolina
+28/04/2020 15:08:39,USA-37093,Hoke,county,46,0,North Carolina
+28/04/2020 15:08:39,USA-37109,Lincoln,county,24,0,North Carolina
+28/04/2020 15:08:39,USA-37125,Moore,county,67,2,North Carolina
+28/04/2020 15:08:39,USA-37129,New Hanover,county,71,3,North Carolina
+28/04/2020 15:08:39,USA-38059,Morton,county,24,2,North Dakota
+28/04/2020 15:08:39,USA-39005,Ashland,county,5,0,Ohio
+28/04/2020 15:08:39,USA-39023,Clark,county,32,1,Ohio
+28/04/2020 15:08:39,USA-39041,Delaware,county,138,3,Ohio
+28/04/2020 15:08:39,USA-39077,Huron,county,27,1,Ohio
+28/04/2020 15:08:39,USA-39109,Miami,county,135,25,Ohio
+28/04/2020 15:08:39,USA-42001,Adams,county,113,2,Pennsylvania
+28/04/2020 15:08:39,USA-42011,Berks,county,2406,88,Pennsylvania
+28/04/2020 15:08:39,USA-42069,Lackawanna,county,772,63,Pennsylvania
+28/04/2020 15:08:39,USA-42133,York,county,578,13,Pennsylvania
+28/04/2020 15:08:39,USA-45061,Lee,county,51,6,South Carolina
+28/04/2020 15:08:39,USA-47021,Cheatham,county,36,0,Tennessee
+28/04/2020 15:08:39,USA-47147,Robertson,county,127,0,Tennessee
+28/04/2020 15:08:39,USA-47165,Sumner,county,584,34,Tennessee
+28/04/2020 15:08:39,USA-48285,Lavaca,county,5,1,Texas
+28/04/2020 15:08:39,USA-48309,McLennan,county,81,4,Texas
+28/04/2020 15:08:39,USA-48325,Medina,county,19,2,Texas
+28/04/2020 15:08:39,USA-48401,Rusk,county,30,1,Texas
+28/04/2020 15:08:39,USA-48479,Webb,county,340,13,Texas
+28/04/2020 15:08:39,USA-48485,Wichita,county,62,2,Texas
+28/04/2020 15:08:39,USA-48491,Williamson,county,211,6,Texas
+28/04/2020 15:08:39,USA-49003,Box Elder,county,17,1,Utah
+28/04/2020 15:08:39,USA-49005,Cache,county,41,0,Utah
+28/04/2020 15:08:39,USA-51036,Charles City,county,12,1,Virginia
+28/04/2020 15:08:39,USA-51760,Richmond City,county,287,14,Virginia
+28/04/2020 15:08:39,USA-53005,Benton,county,399,38,Washington
+28/04/2020 15:08:39,USA-54055,Mercer,county,9,0,West Virginia
+28/04/2020 15:08:39,USA-55009,Brown,county,720,2,Wisconsin
+28/04/2020 15:08:39,USA-55063,La Crosse,county,26,0,Wisconsin
+28/04/2020 15:08:39,USA-55131,Washington,county,92,4,Wisconsin
+28/04/2020 15:08:39,USA-56039,Teton,county,64,1,Wyoming
+28/04/2020 15:08:39,USA-01017,Chambers,county,284,18,Alabama
+28/04/2020 15:08:39,USA-01097,Mobile,county,888,40,Alabama
+28/04/2020 15:08:39,USA-01127,Walker,county,91,0,Alabama
+28/04/2020 15:08:39,USA-04023,Santa Cruz,county,30,0,Arizona
+28/04/2020 15:08:39,USA-04025,Yavapai,county,76,1,Arizona
+28/04/2020 15:08:39,USA-05007,Benton,county,79,0,Arkansas
+28/04/2020 15:08:39,USA-05009,Boone,county,4,0,Arkansas
+28/04/2020 15:08:39,USA-05019,Clark,county,28,0,Arkansas
+28/04/2020 15:08:39,USA-05031,Craighead,county,62,1,Arkansas
+28/04/2020 15:08:39,USA-05035,Crittenden,county,169,5,Arkansas
+28/04/2020 15:08:39,USA-05053,Grant,county,11,0,Arkansas
+28/04/2020 15:08:39,USA-05055,Greene,county,14,0,Arkansas
+28/04/2020 15:08:39,USA-05063,Independence,county,9,0,Arkansas
+28/04/2020 15:08:39,USA-05111,Poinsett,county,14,0,Arkansas
+28/04/2020 15:08:39,USA-05113,Polk,county,7,0,Arkansas
+28/04/2020 15:08:39,USA-05115,Pope,county,37,0,Arkansas
+28/04/2020 15:08:39,USA-05129,Searcy,county,6,0,Arkansas
+28/04/2020 15:08:39,USA-05131,Sebastian,county,12,0,Arkansas
+28/04/2020 15:08:39,USA-05133,Sevier,county,11,0,Arkansas
+28/04/2020 15:08:39,USA-05141,Van Buren,county,27,2,Arkansas
+28/04/2020 15:08:39,USA-08025,Crowley,county,2,1,Colorado
+28/04/2020 15:08:39,USA-08049,Grand,county,5,0,Colorado
+28/04/2020 15:08:39,USA-08087,Morgan,county,249,11,Colorado
+28/04/2020 15:08:39,USA-09013,Tolland,county,384,35,Connecticut
+28/04/2020 15:08:39,USA-09015,Windham,county,151,4,Connecticut
+28/04/2020 15:08:39,USA-12053,Hernando,county,89,3,Florida
+28/04/2020 15:08:39,USA-12061,Indian River,county,89,5,Florida
+28/04/2020 15:08:39,USA-12063,Jackson,county,13,0,Florida
+28/04/2020 15:08:39,USA-12085,Martin,county,169,5,Florida
+28/04/2020 15:08:39,USA-13021,Bibb,county,247,6,Georgia
+28/04/2020 15:08:39,USA-13099,Early,county,194,15,Georgia
+28/04/2020 15:08:39,USA-13103,Effingham,county,34,1,Georgia
+28/04/2020 15:08:39,USA-13127,Glynn,county,51,1,Georgia
+28/04/2020 15:08:39,USA-13175,Laurens,county,52,1,Georgia
+28/04/2020 15:08:39,USA-13225,Peach,county,37,2,Georgia
+28/04/2020 15:08:39,USA-13247,Rockdale,county,162,6,Georgia
+28/04/2020 15:08:39,USA-18119,Owen,county,22,1,Indiana
+28/04/2020 15:08:39,USA-18157,Tippecanoe,county,71,2,Indiana
+28/04/2020 15:08:39,USA-18177,Wayne,county,31,3,Indiana
+28/04/2020 15:08:39,USA-19061,Dubuque,county,70,1,Iowa
+28/04/2020 15:08:39,USA-19139,Muscatine,county,295,7,Iowa
+28/04/2020 15:08:39,USA-20021,Cherokee,county,7,0,Kansas
+28/04/2020 15:08:39,USA-20107,Linn,county,6,0,Kansas
+28/04/2020 15:08:39,USA-20127,Morris,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20173,Sedgwick,county,334,6,Kansas
+28/04/2020 15:08:39,USA-21047,Christian,county,86,3,Kentucky
+28/04/2020 15:08:39,USA-21059,Daviess,county,147,6,Kentucky
+28/04/2020 15:08:39,USA-21101,Henderson,county,47,1,Kentucky
+28/04/2020 15:08:39,USA-21199,Pulaski,county,41,2,Kentucky
+28/04/2020 15:08:39,USA-21209,Scott,county,28,0,Kentucky
+28/04/2020 15:08:39,USA-21999,Unknown,county,35,5,Kentucky
+28/04/2020 15:08:39,USA-22007,Assumption,county,172,3,Louisiana
+28/04/2020 15:08:39,USA-22019,Calcasieu,county,360,26,Louisiana
+28/04/2020 15:08:39,USA-22045,Iberia,county,240,15,Louisiana
+28/04/2020 15:08:39,USA-22047,Iberville,county,433,26,Louisiana
+28/04/2020 15:08:39,USA-22055,Lafayette,county,442,17,Louisiana
+28/04/2020 15:08:39,USA-22063,Livingston,county,177,11,Louisiana
+28/04/2020 15:08:39,USA-22075,Plaquemines,county,168,16,Louisiana
+28/04/2020 15:08:39,USA-22093,St. James,county,237,18,Louisiana
+28/04/2020 15:08:39,USA-22097,St. Landry,county,163,34,Louisiana
+28/04/2020 15:08:39,USA-22119,Webster,county,82,4,Louisiana
+28/04/2020 15:08:39,USA-22121,West Baton Rouge,county,92,15,Louisiana
+28/04/2020 15:08:39,USA-24009,Calvert,county,130,7,Maryland
+28/04/2020 15:08:39,USA-24045,Wicomico,county,242,4,Maryland
+28/04/2020 15:08:39,USA-25015,Hampshire,county,412,20,Massachusetts
+28/04/2020 15:08:39,USA-26037,Clinton,county,106,9,Michigan
+28/04/2020 15:08:39,USA-26045,Eaton,county,114,5,Michigan
+28/04/2020 15:08:39,USA-26049,Genesee,county,1452,157,Michigan
+28/04/2020 15:08:39,USA-26093,Livingston,county,315,14,Michigan
+28/04/2020 15:08:39,USA-26111,Midland,county,51,3,Michigan
+28/04/2020 15:08:39,USA-27099,Mower,county,28,0,Minnesota
+28/04/2020 15:08:39,USA-27139,Scott,county,32,1,Minnesota
+28/04/2020 15:08:39,USA-28051,Holmes,county,100,5,Mississippi
+28/04/2020 15:08:39,USA-28067,Jones,county,116,0,Mississippi
+28/04/2020 15:08:39,USA-28123,Scott,county,240,0,Mississippi
+28/04/2020 15:08:39,USA-28147,Walthall,county,27,0,Mississippi
+28/04/2020 15:08:39,USA-28157,Wilkinson,county,68,7,Mississippi
+28/04/2020 15:08:39,USA-28159,Winston,county,38,0,Mississippi
+28/04/2020 15:08:39,USA-28163,Yazoo,county,120,1,Mississippi
+28/04/2020 15:08:39,USA-30007,Broadwater,county,4,0,Montana
+28/04/2020 15:08:39,USA-30029,Flathead,county,37,2,Montana
+28/04/2020 15:08:39,USA-30057,Madison,county,8,1,Montana
+28/04/2020 15:08:39,USA-30085,Roosevelt,county,7,0,Montana
+28/04/2020 15:08:39,USA-31127,Nemaha,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-32007,Elko,county,12,1,Nevada
+28/04/2020 15:08:39,USA-32999,Unknown,county,16,0,Nevada
+28/04/2020 15:08:39,USA-34009,Cape May,county,261,18,New Jersey
+28/04/2020 15:08:39,USA-34037,Sussex,county,812,91,New Jersey
+28/04/2020 15:08:39,USA-35047,San Miguel,county,2,0,New Mexico
+28/04/2020 15:08:39,USA-36095,Schoharie,county,33,0,New York
+28/04/2020 15:08:39,USA-36117,Wayne,county,65,0,New York
+28/04/2020 15:08:39,USA-39061,Hamilton,county,975,54,Ohio
+28/04/2020 15:08:39,USA-39113,Montgomery,county,256,8,Ohio
+28/04/2020 15:08:39,USA-39139,Richland,county,77,1,Ohio
+28/04/2020 15:08:39,USA-40039,Custer,county,10,0,Oklahoma
+28/04/2020 15:08:39,USA-40051,Grady,county,34,1,Oklahoma
+28/04/2020 15:08:39,USA-40083,Logan,county,12,0,Oklahoma
+28/04/2020 15:08:39,USA-40087,McClain,county,30,0,Oklahoma
+28/04/2020 15:08:39,USA-40147,Washington,county,222,15,Oklahoma
+28/04/2020 15:08:39,USA-42071,Lancaster,county,1501,140,Pennsylvania
+28/04/2020 15:08:39,USA-42075,Lebanon,county,592,8,Pennsylvania
+28/04/2020 15:08:39,USA-42129,Westmoreland,county,360,27,Pennsylvania
+28/04/2020 15:08:39,USA-45001,Abbeville,county,24,0,South Carolina
+28/04/2020 15:08:39,USA-45035,Dorchester,county,86,2,South Carolina
+28/04/2020 15:08:39,USA-45081,Saluda,county,28,0,South Carolina
+28/04/2020 15:08:39,USA-47035,Cumberland,county,67,0,Tennessee
+28/04/2020 15:08:39,USA-47045,Dyer,county,31,0,Tennessee
+28/04/2020 15:08:39,USA-47125,Montgomery,county,134,2,Tennessee
+28/04/2020 15:08:39,USA-47179,Washington,county,49,0,Tennessee
+28/04/2020 15:08:39,USA-47189,Wilson,county,199,3,Tennessee
+28/04/2020 15:08:39,USA-48061,Cameron,county,354,14,Texas
+28/04/2020 15:08:39,USA-48103,Crane,county,2,0,Texas
+28/04/2020 15:08:39,USA-48123,DeWitt,county,15,1,Texas
+28/04/2020 15:08:39,USA-48251,Johnson,county,63,1,Texas
+28/04/2020 15:08:39,USA-48467,Van Zandt,county,13,1,Texas
+28/04/2020 15:08:39,USA-53009,Clallam,county,15,0,Washington
+28/04/2020 15:08:39,USA-54061,Monongalia,county,97,4,West Virginia
+28/04/2020 15:08:39,USA-54093,Tucker,county,4,0,West Virginia
+28/04/2020 15:08:39,USA-55007,Bayfield,county,3,1,Wisconsin
+28/04/2020 15:08:39,USA-55015,Calumet,county,7,0,Wisconsin
+28/04/2020 15:08:39,USA-55021,Columbia,county,27,1,Wisconsin
+28/04/2020 15:08:39,USA-55035,Eau Claire,county,24,0,Wisconsin
+28/04/2020 15:08:39,USA-55089,Ozaukee,county,82,9,Wisconsin
+28/04/2020 15:08:39,USA-55111,Sauk,county,38,3,Wisconsin
+28/04/2020 15:08:39,USA-55127,Walworth,county,132,8,Wisconsin
+28/04/2020 15:08:39,USA-01043,Cullman,county,49,0,Alabama
+28/04/2020 15:08:39,USA-01071,Jackson,county,45,2,Alabama
+28/04/2020 15:08:39,USA-01075,Lamar,county,10,0,Alabama
+28/04/2020 15:08:39,USA-01077,Lauderdale,county,27,2,Alabama
+28/04/2020 15:08:39,USA-01129,Washington,county,20,1,Alabama
+28/04/2020 15:08:39,USA-04027,Yuma,county,47,1,Arizona
+28/04/2020 15:08:39,USA-05999,Unknown,county,202,0,Arkansas
+28/04/2020 15:08:39,USA-06005,Amador,county,7,0,California
+28/04/2020 15:08:39,USA-06025,Imperial,county,251,7,California
+28/04/2020 15:08:39,USA-08014,Broomfield,county,135,5,Colorado
+28/04/2020 15:08:39,USA-08093,Park,county,7,0,Colorado
+28/04/2020 15:08:39,USA-08113,San Miguel,county,17,0,Colorado
+28/04/2020 15:08:39,USA-09011,New London,county,473,28,Connecticut
+28/04/2020 15:08:39,USA-12087,Monroe,county,77,3,Florida
+28/04/2020 15:08:39,USA-13045,Carroll,county,325,11,Georgia
+28/04/2020 15:08:39,USA-13051,Chatham,county,206,6,Georgia
+28/04/2020 15:08:39,USA-13085,Dawson,county,51,1,Georgia
+28/04/2020 15:08:39,USA-13097,Douglas,county,276,8,Georgia
+28/04/2020 15:08:39,USA-13149,Heard,county,9,1,Georgia
+28/04/2020 15:08:39,USA-13171,Lamar,county,33,0,Georgia
+28/04/2020 15:08:39,USA-13181,Lincoln,county,10,0,Georgia
+28/04/2020 15:08:39,USA-13201,Miller,county,28,0,Georgia
+28/04/2020 15:08:39,USA-13207,Monroe,county,19,1,Georgia
+28/04/2020 15:08:39,USA-13215,Muscogee,county,270,4,Georgia
+28/04/2020 15:08:39,USA-13219,Oconee,county,55,0,Georgia
+28/04/2020 15:08:39,USA-13227,Pickens,county,20,2,Georgia
+28/04/2020 15:08:39,USA-13243,Randolph,county,153,19,Georgia
+28/04/2020 15:08:39,USA-13255,Spalding,county,189,8,Georgia
+28/04/2020 15:08:39,USA-13261,Sumter,county,350,21,Georgia
+28/04/2020 15:08:39,USA-13273,Terrell,county,165,17,Georgia
+28/04/2020 15:08:39,USA-13277,Tift,county,100,3,Georgia
+28/04/2020 15:08:39,USA-13287,Turner,county,62,6,Georgia
+28/04/2020 15:08:39,USA-13999,Unknown,county,608,1,Georgia
+28/04/2020 15:08:39,USA-13321,Worth,county,140,9,Georgia
+28/04/2020 15:08:39,USA-16011,Bingham,county,3,0,Idaho
+28/04/2020 15:08:39,USA-16027,Canyon,county,219,6,Idaho
+28/04/2020 15:08:39,USA-16055,Kootenai,county,58,0,Idaho
+28/04/2020 15:08:39,USA-17001,Adams,county,32,0,Illinois
+28/04/2020 15:08:39,USA-17021,Christian,county,28,5,Illinois
+28/04/2020 15:08:39,USA-17113,McLean,county,88,3,Illinois
+28/04/2020 15:08:39,USA-18003,Allen,county,427,26,Indiana
+28/04/2020 15:08:39,USA-18053,Grant,county,113,6,Indiana
+28/04/2020 15:08:39,USA-18145,Shelby,county,176,6,Indiana
+28/04/2020 15:08:39,USA-18163,Vanderburgh,county,113,1,Indiana
+28/04/2020 15:08:39,USA-18167,Vigo,county,62,5,Indiana
+28/04/2020 15:08:39,USA-20155,Reno,county,21,0,Kansas
+28/04/2020 15:08:39,USA-20161,Riley,county,43,0,Kansas
+28/04/2020 15:08:39,USA-21035,Calloway,county,29,1,Kentucky
+28/04/2020 15:08:39,USA-22025,Catahoula,county,25,2,Louisiana
+28/04/2020 15:08:39,USA-22031,De Soto,county,184,10,Louisiana
+28/04/2020 15:08:39,USA-22079,Rapides,county,239,8,Louisiana
+28/04/2020 15:08:39,USA-22105,Tangipahoa,county,526,21,Louisiana
+28/04/2020 15:08:39,USA-24047,Worcester,county,46,0,Maryland
+28/04/2020 15:08:39,USA-27025,Chisago,county,7,1,Minnesota
+28/04/2020 15:08:39,USA-27027,Clay,county,113,7,Minnesota
+28/04/2020 15:08:39,USA-27045,Fillmore,county,12,1,Minnesota
+28/04/2020 15:08:39,USA-28001,Adams,county,109,7,Mississippi
+28/04/2020 15:08:39,USA-28037,Franklin,county,16,1,Mississippi
+28/04/2020 15:08:39,USA-28053,Humphreys,county,14,3,Mississippi
+28/04/2020 15:08:39,USA-28071,Lafayette,county,87,3,Mississippi
+28/04/2020 15:08:39,USA-28077,Lawrence,county,30,0,Mississippi
+28/04/2020 15:08:39,USA-28081,Lee,county,72,5,Mississippi
+28/04/2020 15:08:39,USA-28093,Marshall,county,41,2,Mississippi
+28/04/2020 15:08:39,USA-28113,Pike,county,133,5,Mississippi
+28/04/2020 15:08:39,USA-28121,Rankin,county,162,5,Mississippi
+28/04/2020 15:08:39,USA-28129,Smith,county,58,3,Mississippi
+28/04/2020 15:08:39,USA-28139,Tippah,county,51,7,Mississippi
+28/04/2020 15:08:39,USA-29043,Christian,county,18,0,Missouri
+28/04/2020 15:08:39,USA-29069,Dunklin,county,19,2,Missouri
+28/04/2020 15:08:39,USA-29998,Kansas City,county,486,15,Missouri
+28/04/2020 15:08:39,USA-29169,Pulaski,county,33,1,Missouri
+28/04/2020 15:08:39,USA-29201,Scott,county,60,1,Missouri
+28/04/2020 15:08:39,USA-29999,Unknown,county,2,0,Missouri
+28/04/2020 15:08:39,USA-31019,Buffalo,county,85,1,Nebraska
+28/04/2020 15:08:39,USA-31109,Lancaster,county,120,1,Nebraska
+28/04/2020 15:08:39,USA-32023,Nye,county,31,0,Nevada
+28/04/2020 15:08:39,USA-33005,Cheshire,county,36,2,New Hampshire
+28/04/2020 15:08:39,USA-34011,Cumberland,county,504,6,New Jersey
+28/04/2020 15:08:39,USA-35013,Doña Ana,county,110,1,New Mexico
+28/04/2020 15:08:39,USA-35031,McKinley,county,708,9,New Mexico
+28/04/2020 15:08:39,USA-36021,Columbia,county,140,16,New York
+28/04/2020 15:08:39,USA-36035,Fulton,county,61,1,New York
+28/04/2020 15:08:39,USA-36037,Genesee,county,141,2,New York
+28/04/2020 15:08:39,USA-36063,Niagara,county,344,11,New York
+28/04/2020 15:08:39,USA-36065,Oneida,county,364,8,New York
+28/04/2020 15:08:39,USA-37031,Carteret,county,27,3,North Carolina
+28/04/2020 15:08:39,USA-37057,Davidson,county,120,4,North Carolina
+28/04/2020 15:08:39,USA-37069,Franklin,county,92,14,North Carolina
+28/04/2020 15:08:39,USA-37135,Orange,county,209,10,North Carolina
+28/04/2020 15:08:39,USA-37139,Pasquotank,county,34,1,North Carolina
+28/04/2020 15:08:39,USA-37147,Pitt,county,143,2,North Carolina
+28/04/2020 15:08:39,USA-37159,Rowan,county,342,20,North Carolina
+28/04/2020 15:08:39,USA-37167,Stanly,county,28,4,North Carolina
+28/04/2020 15:08:39,USA-38069,Pierce,county,2,0,North Dakota
+28/04/2020 15:08:39,USA-38071,Ramsey,county,3,0,North Dakota
+28/04/2020 15:08:39,USA-39007,Ashtabula,county,107,10,Ohio
+28/04/2020 15:08:39,USA-39029,Columbiana,county,219,18,Ohio
+28/04/2020 15:08:39,USA-39101,Marion,county,2172,4,Ohio
+28/04/2020 15:08:39,USA-39159,Union,county,18,0,Ohio
+28/04/2020 15:08:39,USA-39165,Warren,county,131,10,Ohio
+28/04/2020 15:08:39,USA-40049,Garvin,county,13,0,Oklahoma
+28/04/2020 15:08:39,USA-41023,Grant,county,1,0,Oregon
+28/04/2020 15:08:39,USA-41061,Union,county,4,0,Oregon
+28/04/2020 15:08:39,USA-42027,Centre,county,81,2,Pennsylvania
+28/04/2020 15:08:39,USA-42049,Erie,county,79,1,Pennsylvania
+28/04/2020 15:08:39,USA-42055,Franklin,county,181,10,Pennsylvania
+28/04/2020 15:08:39,USA-42105,Potter,county,4,0,Pennsylvania
+28/04/2020 15:08:39,USA-45003,Aiken,county,89,6,South Carolina
+28/04/2020 15:08:39,USA-45015,Berkeley,county,181,8,South Carolina
+28/04/2020 15:08:39,USA-45027,Clarendon,county,172,9,South Carolina
+28/04/2020 15:08:39,USA-45031,Darlington,county,103,0,South Carolina
+28/04/2020 15:08:39,USA-45041,Florence,county,242,9,South Carolina
+28/04/2020 15:08:39,USA-45075,Orangeburg,county,56,1,South Carolina
+28/04/2020 15:08:39,USA-45077,Pickens,county,44,0,South Carolina
+28/04/2020 15:08:39,USA-45085,Sumter,county,213,6,South Carolina
+28/04/2020 15:08:39,USA-47001,Anderson,county,24,1,Tennessee
+28/04/2020 15:08:39,USA-47009,Blount,county,53,3,Tennessee
+28/04/2020 15:08:39,USA-47011,Bradley,county,41,1,Tennessee
+28/04/2020 15:08:39,USA-47043,Dickson,county,64,0,Tennessee
+28/04/2020 15:08:39,USA-47059,Greene,county,41,2,Tennessee
+28/04/2020 15:08:39,USA-47063,Hamblen,county,14,2,Tennessee
+28/04/2020 15:08:39,USA-47119,Maury,county,38,1,Tennessee
+28/04/2020 15:08:39,USA-47167,Tipton,county,91,0,Tennessee
+28/04/2020 15:08:39,USA-48049,Brown,county,17,1,Texas
+28/04/2020 15:08:39,USA-48067,Cass,county,16,2,Texas
+28/04/2020 15:08:39,USA-48147,Fannin,county,15,0,Texas
+28/04/2020 15:08:39,USA-48219,Hockley,county,20,1,Texas
+28/04/2020 15:08:39,USA-48459,Upshur,county,13,0,Texas
+28/04/2020 15:08:39,USA-50001,Addison,county,61,2,Vermont
+28/04/2020 15:08:39,USA-50021,Rutland,county,44,1,Vermont
+28/04/2020 15:08:39,USA-51001,Accomack,county,146,3,Virginia
+28/04/2020 15:08:39,USA-51073,Gloucester,county,22,1,Virginia
+28/04/2020 15:08:39,USA-51700,Newport News,county,109,6,Virginia
+28/04/2020 15:08:39,USA-51710,Norfolk,county,169,3,Virginia
+28/04/2020 15:08:39,USA-51740,Portsmouth,county,103,5,Virginia
+28/04/2020 15:08:39,USA-53015,Cowlitz,county,39,0,Washington
+28/04/2020 15:08:39,USA-53055,San Juan,county,14,0,Washington
+28/04/2020 15:08:39,USA-53065,Stevens,county,10,1,Washington
+28/04/2020 15:08:39,USA-54035,Jackson,county,124,8,West Virginia
+28/04/2020 15:08:39,USA-54039,Kanawha,county,148,4,West Virginia
+28/04/2020 15:08:39,USA-55017,Chippewa,county,20,0,Wisconsin
+28/04/2020 15:08:39,USA-55031,Douglas,county,9,0,Wisconsin
+28/04/2020 15:08:39,USA-55033,Dunn,county,9,0,Wisconsin
+28/04/2020 15:08:39,USA-55045,Green,county,11,0,Wisconsin
+28/04/2020 15:08:39,USA-55055,Jefferson,county,39,0,Wisconsin
+28/04/2020 15:08:39,USA-55073,Marathon,county,18,1,Wisconsin
+28/04/2020 15:08:39,USA-55105,Rock,county,151,4,Wisconsin
+28/04/2020 15:08:39,USA-55109,St. Croix,county,13,0,Wisconsin
+28/04/2020 15:08:39,USA-56005,Campbell,county,14,0,Wyoming
+28/04/2020 15:08:39,USA-56025,Natrona,county,39,0,Wyoming
+28/04/2020 15:08:39,USA-01093,Marion,county,73,5,Alabama
+28/04/2020 15:08:39,USA-04001,Apache,county,314,5,Arizona
+28/04/2020 15:08:39,USA-04003,Cochise,county,36,0,Arizona
+28/04/2020 15:08:39,USA-06007,Butte,county,16,0,California
+28/04/2020 15:08:39,USA-06017,El Dorado,county,42,0,California
+28/04/2020 15:08:39,USA-06093,Siskiyou,county,5,0,California
+28/04/2020 15:08:39,USA-06115,Yuba,county,16,1,California
+28/04/2020 15:08:39,USA-08015,Chaffee,county,65,12,Colorado
+28/04/2020 15:08:39,USA-08039,Elbert,county,27,1,Colorado
+28/04/2020 15:08:39,USA-08053,Hinsdale,county,3,0,Colorado
+28/04/2020 15:08:39,USA-08085,Montrose,county,87,9,Colorado
+28/04/2020 15:08:39,USA-12005,Bay,county,63,2,Florida
+28/04/2020 15:08:39,USA-12055,Highlands,county,76,7,Florida
+28/04/2020 15:08:39,USA-12083,Marion,county,150,4,Florida
+28/04/2020 15:08:39,USA-12107,Putnam,county,83,1,Florida
+28/04/2020 15:08:39,USA-12111,St. Lucie,county,225,19,Florida
+28/04/2020 15:08:39,USA-13009,Baldwin,county,180,6,Georgia
+28/04/2020 15:08:39,USA-13187,Lumpkin,county,29,0,Georgia
+28/04/2020 15:08:39,USA-17037,DeKalb,county,71,1,Illinois
+28/04/2020 15:08:39,USA-18035,Delaware,county,144,11,Indiana
+28/04/2020 15:08:39,USA-18039,Elkhart,county,238,4,Indiana
+28/04/2020 15:08:39,USA-18059,Hancock,county,177,7,Indiana
+28/04/2020 15:08:39,USA-18061,Harrison,county,115,4,Indiana
+28/04/2020 15:08:39,USA-18103,Miami,county,42,0,Indiana
+28/04/2020 15:08:39,USA-18175,Washington,county,40,0,Indiana
+28/04/2020 15:08:39,USA-19065,Fayette,county,12,0,Iowa
+28/04/2020 15:08:39,USA-19087,Henry,county,32,1,Iowa
+28/04/2020 15:08:39,USA-19113,Linn,county,550,33,Iowa
+28/04/2020 15:08:39,USA-19169,Story,county,22,0,Iowa
+28/04/2020 15:08:39,USA-21005,Anderson,county,7,1,Kentucky
+28/04/2020 15:08:39,USA-21151,Madison,county,27,1,Kentucky
+28/04/2020 15:08:39,USA-21215,Spencer,county,10,0,Kentucky
+28/04/2020 15:08:39,USA-22009,Avoyelles,county,69,7,Louisiana
+28/04/2020 15:08:39,USA-22011,Beauregard,county,35,3,Louisiana
+28/04/2020 15:08:39,USA-22013,Bienville,county,70,13,Louisiana
+28/04/2020 15:08:39,USA-22027,Claiborne,county,52,5,Louisiana
+28/04/2020 15:08:39,USA-22039,Evangeline,county,45,0,Louisiana
+28/04/2020 15:08:39,USA-22073,Ouachita,county,609,16,Louisiana
+28/04/2020 15:08:39,USA-22101,St. Mary,county,178,20,Louisiana
+28/04/2020 15:08:39,USA-23023,Sagadahoc,county,18,0,Maine
+28/04/2020 15:08:39,USA-24011,Caroline,county,61,0,Maryland
+28/04/2020 15:08:39,USA-24039,Somerset,county,14,0,Maryland
+28/04/2020 15:08:39,USA-24043,Washington,county,154,3,Maryland
+28/04/2020 15:08:39,USA-25019,Nantucket,county,9,0,Massachusetts
+28/04/2020 15:08:39,USA-26005,Allegan,county,65,1,Michigan
+28/04/2020 15:08:39,USA-26015,Barry,county,28,1,Michigan
+28/04/2020 15:08:39,USA-26021,Berrien,county,213,12,Michigan
+28/04/2020 15:08:39,USA-26025,Calhoun,county,191,10,Michigan
+28/04/2020 15:08:39,USA-26035,Clare,county,10,1,Michigan
+28/04/2020 15:08:39,USA-26145,Saginaw,county,545,43,Michigan
+28/04/2020 15:08:39,USA-26157,Tuscola,county,81,13,Michigan
+28/04/2020 15:08:39,USA-26165,Wexford,county,8,1,Michigan
+28/04/2020 15:08:39,USA-27039,Dodge,county,19,0,Minnesota
+28/04/2020 15:08:39,USA-27063,Jackson,county,7,0,Minnesota
+28/04/2020 15:08:39,USA-27137,St. Louis,county,61,10,Minnesota
+28/04/2020 15:08:39,USA-27147,Steele,county,12,0,Minnesota
+28/04/2020 15:08:39,USA-27999,Unknown,county,5,0,Minnesota
+28/04/2020 15:08:39,USA-27157,Wabasha,county,8,0,Minnesota
+28/04/2020 15:08:39,USA-28007,Attala,county,80,0,Mississippi
+28/04/2020 15:08:39,USA-28025,Clay,county,32,2,Mississippi
+28/04/2020 15:08:39,USA-28039,George,county,11,1,Mississippi
+28/04/2020 15:08:39,USA-28043,Grenada,county,27,0,Mississippi
+28/04/2020 15:08:39,USA-28057,Itawamba,county,33,1,Mississippi
+28/04/2020 15:08:39,USA-28079,Leake,county,149,1,Mississippi
+28/04/2020 15:08:39,USA-28085,Lincoln,county,136,8,Mississippi
+28/04/2020 15:08:39,USA-28087,Lowndes,county,41,2,Mississippi
+28/04/2020 15:08:39,USA-28107,Panola,county,36,2,Mississippi
+28/04/2020 15:08:39,USA-28127,Simpson,county,38,0,Mississippi
+28/04/2020 15:08:39,USA-28143,Tunica,county,34,1,Mississippi
+28/04/2020 15:08:39,USA-28145,Union,county,14,1,Mississippi
+28/04/2020 15:08:39,USA-28151,Washington,county,77,3,Mississippi
+28/04/2020 15:08:39,USA-29013,Bates,county,6,1,Missouri
+28/04/2020 15:08:39,USA-29097,Jasper,county,22,0,Missouri
+28/04/2020 15:08:39,USA-29101,Johnson,county,53,0,Missouri
+28/04/2020 15:08:39,USA-30013,Cascade,county,14,2,Montana
+28/04/2020 15:08:39,USA-30081,Ravalli,county,5,0,Montana
+28/04/2020 15:08:39,USA-33017,Strafford,county,129,7,New Hampshire
+28/04/2020 15:08:39,USA-35025,Lea,county,10,0,New Mexico
+28/04/2020 15:08:39,USA-36101,Steuben,county,204,10,New York
+28/04/2020 15:08:39,USA-37021,Buncombe,county,50,3,North Carolina
+28/04/2020 15:08:39,USA-37035,Catawba,county,47,1,North Carolina
+28/04/2020 15:08:39,USA-39025,Clermont,county,77,2,Ohio
+28/04/2020 15:08:39,USA-39039,Defiance,county,19,1,Ohio
+28/04/2020 15:08:39,USA-39043,Erie,county,47,3,Ohio
+28/04/2020 15:08:39,USA-39089,Licking,county,108,4,Ohio
+28/04/2020 15:08:39,USA-41033,Josephine,county,19,1,Oregon
+28/04/2020 15:08:39,USA-42019,Butler,county,168,6,Pennsylvania
+28/04/2020 15:08:39,USA-42093,Montour,county,48,0,Pennsylvania
+28/04/2020 15:08:39,USA-45033,Dillon,county,35,0,South Carolina
+28/04/2020 15:08:39,USA-45037,Edgefield,county,23,1,South Carolina
+28/04/2020 15:08:39,USA-45047,Greenwood,county,43,0,South Carolina
+28/04/2020 15:08:39,USA-45053,Jasper,county,17,1,South Carolina
+28/04/2020 15:08:39,USA-45069,Marlboro,county,38,0,South Carolina
+28/04/2020 15:08:39,USA-45071,Newberry,county,22,1,South Carolina
+28/04/2020 15:08:39,USA-47017,Carroll,county,16,1,Tennessee
+28/04/2020 15:08:39,USA-47029,Cocke,county,14,0,Tennessee
+28/04/2020 15:08:39,USA-47047,Fayette,county,51,1,Tennessee
+28/04/2020 15:08:39,USA-47123,Monroe,county,12,1,Tennessee
+28/04/2020 15:08:39,USA-47141,Putnam,county,106,5,Tennessee
+28/04/2020 15:08:39,USA-47145,Roane,county,8,0,Tennessee
+28/04/2020 15:08:39,USA-47151,Scott,county,11,0,Tennessee
+28/04/2020 15:08:39,USA-48021,Bastrop,county,57,2,Texas
+28/04/2020 15:08:39,USA-48069,Castro,county,13,1,Texas
+28/04/2020 15:08:39,USA-48117,Deaf Smith,county,21,0,Texas
+28/04/2020 15:08:39,USA-48329,Midland,county,71,5,Texas
+28/04/2020 15:08:39,USA-48359,Oldham,county,3,1,Texas
+28/04/2020 15:08:39,USA-48375,Potter,county,326,6,Texas
+28/04/2020 15:08:39,USA-50011,Franklin,county,90,5,Vermont
+28/04/2020 15:08:39,USA-50025,Windham,county,68,2,Vermont
+28/04/2020 15:08:39,USA-51003,Albemarle,county,73,3,Virginia
+28/04/2020 15:08:39,USA-51023,Botetourt,county,27,3,Virginia
+28/04/2020 15:08:39,USA-51067,Franklin,county,19,0,Virginia
+28/04/2020 15:08:39,USA-51093,Isle of Wight,county,91,2,Virginia
+28/04/2020 15:08:39,USA-51117,Mecklenburg,county,85,9,Virginia
+28/04/2020 15:08:39,USA-51800,Suffolk,county,141,5,Virginia
+28/04/2020 15:08:39,USA-54051,Marshall,county,9,0,West Virginia
+28/04/2020 15:08:39,USA-54079,Putnam,county,17,0,West Virginia
+28/04/2020 15:08:39,USA-56007,Carbon,county,4,0,Wyoming
+28/04/2020 15:08:39,USA-08999,Unknown,county,131,2,Colorado
+28/04/2020 15:08:39,USA-12007,Bradford,county,42,2,Florida
+28/04/2020 15:08:39,USA-12023,Columbia,county,47,0,Florida
+28/04/2020 15:08:39,USA-12027,DeSoto,county,24,4,Florida
+28/04/2020 15:08:39,USA-12035,Flagler,county,116,2,Florida
+28/04/2020 15:08:39,USA-12999,Unknown,county,1,0,Florida
+28/04/2020 15:08:39,USA-13013,Barrow,county,111,3,Georgia
+28/04/2020 15:08:39,USA-13035,Butts,county,125,2,Georgia
+28/04/2020 15:08:39,USA-13055,Chattooga,county,13,1,Georgia
+28/04/2020 15:08:39,USA-13065,Clinch,county,7,0,Georgia
+28/04/2020 15:08:39,USA-13069,Coffee,county,103,4,Georgia
+28/04/2020 15:08:39,USA-13267,Tattnall,county,6,0,Georgia
+28/04/2020 15:08:39,USA-13289,Twiggs,county,8,0,Georgia
+28/04/2020 15:08:39,USA-16085,Valley,county,2,0,Idaho
+28/04/2020 15:08:39,USA-17019,Champaign,county,102,5,Illinois
+28/04/2020 15:08:39,USA-17085,Jo Daviess,county,11,0,Illinois
+28/04/2020 15:08:39,USA-17105,Livingston,county,20,1,Illinois
+28/04/2020 15:08:39,USA-17161,Rock Island,county,293,6,Illinois
+28/04/2020 15:08:39,USA-17177,Stephenson,county,16,0,Illinois
+28/04/2020 15:08:39,USA-18105,Monroe,county,120,6,Indiana
+28/04/2020 15:08:39,USA-18109,Morgan,county,133,3,Indiana
+28/04/2020 15:08:39,USA-18133,Putnam,county,58,4,Indiana
+28/04/2020 15:08:39,USA-18137,Ripley,county,89,5,Indiana
+28/04/2020 15:08:39,USA-18143,Scott,county,36,2,Indiana
+28/04/2020 15:08:39,USA-18159,Tipton,county,17,1,Indiana
+28/04/2020 15:08:39,USA-19033,Cerro Gordo,county,14,0,Iowa
+28/04/2020 15:08:39,USA-19109,Kossuth,county,1,0,Iowa
+28/04/2020 15:08:39,USA-19157,Poweshiek,county,50,1,Iowa
+28/04/2020 15:08:39,USA-19163,Scott,county,207,5,Iowa
+28/04/2020 15:08:39,USA-19167,Sioux,county,7,0,Iowa
+28/04/2020 15:08:39,USA-19171,Tama,county,262,7,Iowa
+28/04/2020 15:08:39,USA-19193,Woodbury,county,316,1,Iowa
+28/04/2020 15:08:39,USA-20085,Jackson,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20123,Mitchell,county,2,0,Kansas
+28/04/2020 15:08:39,USA-21003,Allen,county,7,0,Kentucky
+28/04/2020 15:08:39,USA-21025,Breathitt,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21093,Hardin,county,34,0,Kentucky
+28/04/2020 15:08:39,USA-21113,Jessamine,county,32,0,Kentucky
+28/04/2020 15:08:39,USA-21185,Oldham,county,24,0,Kentucky
+28/04/2020 15:08:39,USA-22001,Acadia,county,130,7,Louisiana
+28/04/2020 15:08:39,USA-24015,Cecil,county,146,5,Maryland
+28/04/2020 15:08:39,USA-24037,St. Marys,county,124,6,Maryland
+28/04/2020 15:08:39,USA-26047,Emmet,county,21,2,Michigan
+28/04/2020 15:08:39,USA-26051,Gladwin,county,10,1,Michigan
+28/04/2020 15:08:39,USA-26055,Grand Traverse,county,19,5,Michigan
+28/04/2020 15:08:39,USA-26143,Roscommon,county,13,0,Michigan
+28/04/2020 15:08:39,USA-27079,Le Sueur,county,22,0,Minnesota
+28/04/2020 15:08:39,USA-28017,Chickasaw,county,56,4,Mississippi
+28/04/2020 15:08:39,USA-28097,Montgomery,county,18,1,Mississippi
+28/04/2020 15:08:39,USA-28105,Oktibbeha,county,46,3,Mississippi
+28/04/2020 15:08:39,USA-28115,Pontotoc,county,18,2,Mississippi
+28/04/2020 15:08:39,USA-28133,Sunflower,county,51,2,Mississippi
+28/04/2020 15:08:39,USA-28137,Tate,county,38,0,Mississippi
+28/04/2020 15:08:39,USA-28155,Webster,county,16,1,Mississippi
+28/04/2020 15:08:39,USA-31047,Dawson,county,352,0,Nebraska
+28/04/2020 15:08:39,USA-33019,Sullivan,county,10,1,New Hampshire
+28/04/2020 15:08:39,USA-34033,Salem,county,177,6,New Jersey
+28/04/2020 15:08:39,USA-35045,San Juan,county,435,33,New Mexico
+28/04/2020 15:08:39,USA-36023,Cortland,county,28,0,New York
+28/04/2020 15:08:39,USA-36053,Madison,county,121,3,New York
+28/04/2020 15:08:39,USA-36089,St. Lawrence,county,156,1,New York
+28/04/2020 15:08:39,USA-37039,Cherokee,county,15,1,North Carolina
+28/04/2020 15:08:39,USA-37051,Cumberland,county,184,6,North Carolina
+28/04/2020 15:08:39,USA-37059,Davie,county,29,2,North Carolina
+28/04/2020 15:08:39,USA-37077,Granville,county,126,5,North Carolina
+28/04/2020 15:08:39,USA-37089,Henderson,county,152,14,North Carolina
+28/04/2020 15:08:39,USA-37105,Lee,county,101,0,North Carolina
+28/04/2020 15:08:39,USA-37127,Nash,county,80,1,North Carolina
+28/04/2020 15:08:39,USA-37155,Robeson,county,92,3,North Carolina
+28/04/2020 15:08:39,USA-37165,Scotland,county,21,0,North Carolina
+28/04/2020 15:08:39,USA-37179,Union,county,195,7,North Carolina
+28/04/2020 15:08:39,USA-39019,Carroll,county,20,1,Ohio
+28/04/2020 15:08:39,USA-39027,Clinton,county,27,0,Ohio
+28/04/2020 15:08:39,USA-39053,Gallia,county,6,1,Ohio
+28/04/2020 15:08:39,USA-39057,Greene,county,41,3,Ohio
+28/04/2020 15:08:39,USA-39063,Hancock,county,34,1,Ohio
+28/04/2020 15:08:39,USA-39133,Portage,county,214,31,Ohio
+28/04/2020 15:08:39,USA-39173,Wood,county,132,16,Ohio
+28/04/2020 15:08:39,USA-40101,Muskogee,county,26,4,Oklahoma
+28/04/2020 15:08:39,USA-40103,Noble,county,6,0,Oklahoma
+28/04/2020 15:08:39,USA-42037,Columbia,county,257,8,Pennsylvania
+28/04/2020 15:08:39,USA-42043,Dauphin,county,492,18,Pennsylvania
+28/04/2020 15:08:39,USA-42051,Fayette,county,79,4,Pennsylvania
+28/04/2020 15:08:39,USA-42085,Mercer,county,64,1,Pennsylvania
+28/04/2020 15:08:39,USA-42107,Schuylkill,county,311,7,Pennsylvania
+28/04/2020 15:08:39,USA-45029,Colleton,county,26,3,South Carolina
+28/04/2020 15:08:39,USA-46013,Brown,county,30,0,South Dakota
+28/04/2020 15:08:39,USA-47023,Chester,county,10,0,Tennessee
+28/04/2020 15:08:39,USA-47051,Franklin,county,29,1,Tennessee
+28/04/2020 15:08:39,USA-47053,Gibson,county,35,1,Tennessee
+28/04/2020 15:08:39,USA-47083,Houston,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-47105,Loudon,county,25,0,Tennessee
+28/04/2020 15:08:39,USA-47115,Marion,county,28,1,Tennessee
+28/04/2020 15:08:39,USA-47107,McMinn,county,10,0,Tennessee
+28/04/2020 15:08:39,USA-47135,Perry,county,8,0,Tennessee
+28/04/2020 15:08:39,USA-51009,Amherst,county,9,0,Virginia
+28/04/2020 15:08:39,USA-51019,Bedford,county,24,0,Virginia
+28/04/2020 15:08:39,USA-51047,Culpeper,county,95,1,Virginia
+28/04/2020 15:08:39,USA-51065,Fluvanna,county,72,5,Virginia
+28/04/2020 15:08:39,USA-51105,Lee,county,8,0,Virginia
+28/04/2020 15:08:39,USA-51109,Louisa,county,39,0,Virginia
+28/04/2020 15:08:39,USA-51165,Rockingham,county,184,1,Virginia
+28/04/2020 15:08:39,USA-53075,Whitman,county,16,0,Washington
+28/04/2020 15:08:39,USA-01059,Franklin,county,38,0,Alabama
+28/04/2020 15:08:39,USA-01069,Houston,county,76,3,Alabama
+28/04/2020 15:08:39,USA-01123,Tallapoosa,county,267,17,Alabama
+28/04/2020 15:08:39,USA-02110,Juneau City and Borough,county,27,0,Alaska
+28/04/2020 15:08:39,USA-02170,Matanuska-Susitna Borough,county,20,1,Alaska
+28/04/2020 15:08:39,USA-08067,La Plata,county,59,0,Colorado
+28/04/2020 15:08:39,USA-08075,Logan,county,213,1,Colorado
+28/04/2020 15:08:39,USA-08119,Teller,county,27,2,Colorado
+28/04/2020 15:08:39,USA-13033,Burke,county,71,3,Georgia
+28/04/2020 15:08:39,USA-13047,Catoosa,county,46,0,Georgia
+28/04/2020 15:08:39,USA-13145,Harris,county,55,2,Georgia
+28/04/2020 15:08:39,USA-13179,Liberty,county,35,0,Georgia
+28/04/2020 15:08:39,USA-13195,Madison,county,23,1,Georgia
+28/04/2020 15:08:39,USA-13211,Morgan,county,24,0,Georgia
+28/04/2020 15:08:39,USA-13229,Pierce,county,52,2,Georgia
+28/04/2020 15:08:39,USA-13303,Washington,county,34,1,Georgia
+28/04/2020 15:08:39,USA-15999,Unknown,county,0,0,Hawaii
+28/04/2020 15:08:39,USA-17133,Monroe,county,63,10,Illinois
+28/04/2020 15:08:39,USA-17999,Unknown,county,274,0,Illinois
+28/04/2020 15:08:39,USA-18037,Dubois,county,17,0,Indiana
+28/04/2020 15:08:39,USA-19081,Hancock,county,3,0,Iowa
+28/04/2020 15:08:39,USA-19179,Wapello,county,8,0,Iowa
+28/04/2020 15:08:39,USA-20011,Bourbon,county,6,1,Kansas
+28/04/2020 15:08:39,USA-20111,Lyon,county,158,1,Kansas
+28/04/2020 15:08:39,USA-21141,Logan,county,8,0,Kentucky
+28/04/2020 15:08:39,USA-22003,Allen,county,82,9,Louisiana
+28/04/2020 15:08:39,USA-22043,Grant,county,11,0,Louisiana
+28/04/2020 15:08:39,USA-22061,Lincoln,county,69,4,Louisiana
+28/04/2020 15:08:39,USA-22069,Natchitoches,county,73,2,Louisiana
+28/04/2020 15:08:39,USA-22083,Richland,county,48,0,Louisiana
+28/04/2020 15:08:39,USA-22099,St. Martin,county,219,14,Louisiana
+28/04/2020 15:08:39,USA-23013,Knox,county,13,0,Maine
+28/04/2020 15:08:39,USA-24023,Garrett,county,4,0,Maryland
+28/04/2020 15:08:39,USA-24035,Queen Annes,county,52,3,Maryland
+28/04/2020 15:08:39,USA-26033,Chippewa,county,2,0,Michigan
+28/04/2020 15:08:39,USA-26077,Kalamazoo,county,280,11,Michigan
+28/04/2020 15:08:39,USA-26121,Muskegon,county,213,13,Michigan
+28/04/2020 15:08:39,USA-26123,Newaygo,county,14,0,Michigan
+28/04/2020 15:08:39,USA-27011,Big Stone,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27021,Cass,county,5,0,Minnesota
+28/04/2020 15:08:39,USA-27073,Lac qui Parle,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27141,Sherburne,county,15,0,Minnesota
+28/04/2020 15:08:39,USA-28073,Lamar,county,85,2,Mississippi
+28/04/2020 15:08:39,USA-28091,Marion,county,57,5,Mississippi
+28/04/2020 15:08:39,USA-28135,Tallahatchie,county,11,1,Mississippi
+28/04/2020 15:08:39,USA-29001,Adair,county,12,0,Missouri
+28/04/2020 15:08:39,USA-29027,Callaway,county,21,1,Missouri
+28/04/2020 15:08:39,USA-29029,Camden,county,35,1,Missouri
+28/04/2020 15:08:39,USA-29047,Clay,county,65,1,Missouri
+28/04/2020 15:08:39,USA-29049,Clinton,county,11,0,Missouri
+28/04/2020 15:08:39,USA-29107,Lafayette,county,33,1,Missouri
+28/04/2020 15:08:39,USA-29135,Moniteau,county,36,0,Missouri
+28/04/2020 15:08:39,USA-29157,Perry,county,39,0,Missouri
+28/04/2020 15:08:39,USA-29187,St. Francois,county,26,1,Missouri
+28/04/2020 15:08:39,USA-29213,Taney,county,10,1,Missouri
+28/04/2020 15:08:39,USA-31119,Madison,county,74,3,Nebraska
+28/04/2020 15:08:39,USA-31177,Washington,county,22,1,Nebraska
+28/04/2020 15:08:39,USA-32005,Douglas,county,18,0,Nevada
+28/04/2020 15:08:39,USA-35005,Chaves,county,22,1,New Mexico
+28/04/2020 15:08:39,USA-36011,Cayuga,county,47,1,New York
+28/04/2020 15:08:39,USA-36075,Oswego,county,57,0,New York
+28/04/2020 15:08:39,USA-36077,Otsego,county,60,5,New York
+28/04/2020 15:08:39,USA-37001,Alamance,county,77,1,North Carolina
+28/04/2020 15:08:39,USA-37153,Richmond,county,36,2,North Carolina
+28/04/2020 15:08:39,USA-37181,Vance,county,41,2,North Carolina
+28/04/2020 15:08:39,USA-38099,Walsh,county,4,0,North Dakota
+28/04/2020 15:08:39,USA-39083,Knox,county,15,1,Ohio
+28/04/2020 15:08:39,USA-39091,Logan,county,18,0,Ohio
+28/04/2020 15:08:39,USA-39097,Madison,county,51,3,Ohio
+28/04/2020 15:08:39,USA-39143,Sandusky,county,20,2,Ohio
+28/04/2020 15:08:39,USA-39167,Washington,county,93,8,Ohio
+28/04/2020 15:08:39,USA-40123,Pontotoc,county,10,1,Oklahoma
+28/04/2020 15:08:39,USA-41027,Hood River,county,5,0,Oregon
+28/04/2020 15:08:39,USA-42021,Cambria,county,21,2,Pennsylvania
+28/04/2020 15:08:39,USA-45023,Chester,county,27,0,South Carolina
+28/04/2020 15:08:39,USA-45043,Georgetown,county,39,2,South Carolina
+28/04/2020 15:08:39,USA-45073,Oconee,county,20,0,South Carolina
+28/04/2020 15:08:39,USA-46029,Codington,county,14,0,South Dakota
+28/04/2020 15:08:39,USA-46065,Hughes,county,7,0,South Dakota
+28/04/2020 15:08:39,USA-46085,Lyman,county,2,0,South Dakota
+28/04/2020 15:08:39,USA-46103,Pennington,county,11,0,South Dakota
+28/04/2020 15:08:39,USA-48343,Morris,county,5,0,Texas
+28/04/2020 15:08:39,USA-49021,Iron,county,21,0,Utah
+28/04/2020 15:08:39,USA-50999,Unknown,county,5,0,Vermont
+28/04/2020 15:08:39,USA-51590,Danville,county,32,1,Virginia
+28/04/2020 15:08:39,USA-51163,Rockbridge,county,5,0,Virginia
+28/04/2020 15:08:39,USA-53001,Adams,county,46,0,Washington
+28/04/2020 15:08:39,USA-53017,Douglas,county,70,1,Washington
+28/04/2020 15:08:39,USA-55027,Dodge,county,23,1,Wisconsin
+28/04/2020 15:08:39,USA-01001,Autauga,county,37,2,Alabama
+28/04/2020 15:08:39,USA-01103,Morgan,county,57,0,Alabama
+28/04/2020 15:08:39,USA-05027,Columbia,county,5,0,Arkansas
+28/04/2020 15:08:39,USA-05029,Conway,county,10,1,Arkansas
+28/04/2020 15:08:39,USA-05033,Crawford,county,4,0,Arkansas
+28/04/2020 15:08:39,USA-05037,Cross,county,11,0,Arkansas
+28/04/2020 15:08:39,USA-05057,Hempstead,county,5,1,Arkansas
+28/04/2020 15:08:39,USA-05059,Hot Spring,county,9,0,Arkansas
+28/04/2020 15:08:39,USA-05075,Lawrence,county,41,1,Arkansas
+28/04/2020 15:08:39,USA-05109,Pike,county,3,0,Arkansas
+28/04/2020 15:08:39,USA-05137,Stone,county,7,0,Arkansas
+28/04/2020 15:08:39,USA-05139,Union,county,32,0,Arkansas
+28/04/2020 15:08:39,USA-05145,White,county,31,1,Arkansas
+28/04/2020 15:08:39,USA-05147,Woodruff,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-06009,Calaveras,county,13,0,California
+28/04/2020 15:08:39,USA-06047,Merced,county,102,3,California
+28/04/2020 15:08:39,USA-06051,Mono,county,24,1,California
+28/04/2020 15:08:39,USA-08029,Delta,county,26,1,Colorado
+28/04/2020 15:08:39,USA-08043,Fremont,county,20,0,Colorado
+28/04/2020 15:08:39,USA-08055,Huerfano,county,2,0,Colorado
+28/04/2020 15:08:39,USA-13007,Baker,county,19,2,Georgia
+28/04/2020 15:08:39,USA-13017,Ben Hill,county,23,0,Georgia
+28/04/2020 15:08:39,USA-13029,Bryan,county,47,2,Georgia
+28/04/2020 15:08:39,USA-13039,Camden,county,28,1,Georgia
+28/04/2020 15:08:39,USA-13071,Colquitt,county,165,6,Georgia
+28/04/2020 15:08:39,USA-13081,Crisp,county,151,2,Georgia
+28/04/2020 15:08:39,USA-13111,Fannin,county,21,0,Georgia
+28/04/2020 15:08:39,USA-13133,Greene,county,53,1,Georgia
+28/04/2020 15:08:39,USA-13155,Irwin,county,15,1,Georgia
+28/04/2020 15:08:39,USA-13159,Jasper,county,20,0,Georgia
+28/04/2020 15:08:39,USA-13193,Macon,county,68,3,Georgia
+28/04/2020 15:08:39,USA-13199,Meriwether,county,49,0,Georgia
+28/04/2020 15:08:39,USA-13205,Mitchell,county,287,25,Georgia
+28/04/2020 15:08:39,USA-13235,Pulaski,county,20,1,Georgia
+28/04/2020 15:08:39,USA-13253,Seminole,county,27,2,Georgia
+28/04/2020 15:08:39,USA-13257,Stephens,county,56,1,Georgia
+28/04/2020 15:08:39,USA-13271,Telfair,county,26,0,Georgia
+28/04/2020 15:08:39,USA-13297,Walton,county,97,3,Georgia
+28/04/2020 15:08:39,USA-16005,Bannock,county,5,0,Idaho
+28/04/2020 15:08:39,USA-16031,Cassia,county,12,1,Idaho
+28/04/2020 15:08:39,USA-17063,Grundy,county,28,0,Illinois
+28/04/2020 15:08:39,USA-18013,Brown,county,15,1,Indiana
+28/04/2020 15:08:39,USA-18029,Dearborn,county,84,5,Indiana
+28/04/2020 15:08:39,USA-18031,Decatur,county,194,26,Indiana
+28/04/2020 15:08:39,USA-18051,Gibson,county,6,0,Indiana
+28/04/2020 15:08:39,USA-18071,Jackson,county,108,0,Indiana
+28/04/2020 15:08:39,USA-18093,Lawrence,county,92,9,Indiana
+28/04/2020 15:08:39,USA-18107,Montgomery,county,30,0,Indiana
+28/04/2020 15:08:39,USA-18115,Ohio,county,3,0,Indiana
+28/04/2020 15:08:39,USA-18127,Porter,county,210,5,Indiana
+28/04/2020 15:08:39,USA-18149,Starke,county,13,1,Indiana
+28/04/2020 15:08:39,USA-18153,Sullivan,county,12,0,Indiana
+28/04/2020 15:08:39,USA-18173,Warrick,county,80,12,Indiana
+28/04/2020 15:08:39,USA-19019,Buchanan,county,12,0,Iowa
+28/04/2020 15:08:39,USA-19031,Cedar,county,28,0,Iowa
+28/04/2020 15:08:39,USA-19099,Jasper,county,79,0,Iowa
+28/04/2020 15:08:39,USA-19181,Warren,county,20,0,Iowa
+28/04/2020 15:08:39,USA-20043,Doniphan,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20149,Pottawatomie,county,9,0,Kansas
+28/04/2020 15:08:39,USA-20207,Woodson,county,5,0,Kansas
+28/04/2020 15:08:39,USA-21159,Martin,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21145,McCracken,county,34,2,Kentucky
+28/04/2020 15:08:39,USA-21165,Menifee,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21177,Muhlenberg,county,96,4,Kentucky
+28/04/2020 15:08:39,USA-21213,Simpson,county,23,2,Kentucky
+28/04/2020 15:08:39,USA-22115,Vernon,county,16,2,Louisiana
+28/04/2020 15:08:39,USA-23027,Waldo,county,48,11,Maine
+28/04/2020 15:08:39,USA-26059,Hillsdale,county,109,14,Michigan
+28/04/2020 15:08:39,USA-26073,Isabella,county,55,7,Michigan
+28/04/2020 15:08:39,USA-26079,Kalkaska,county,17,2,Michigan
+28/04/2020 15:08:39,USA-26087,Lapeer,county,162,23,Michigan
+28/04/2020 15:08:39,USA-26101,Manistee,county,12,0,Michigan
+28/04/2020 15:08:39,USA-28019,Choctaw,county,13,1,Mississippi
+28/04/2020 15:08:39,USA-28101,Newton,county,58,0,Mississippi
+28/04/2020 15:08:39,USA-28103,Noxubee,county,45,0,Mississippi
+28/04/2020 15:08:39,USA-29031,Cape Girardeau,county,43,1,Missouri
+28/04/2020 15:08:39,USA-29071,Franklin,county,106,6,Missouri
+28/04/2020 15:08:39,USA-29099,Jefferson,county,251,3,Missouri
+28/04/2020 15:08:39,USA-29155,Pemiscot,county,17,1,Missouri
+28/04/2020 15:08:39,USA-30043,Jefferson,county,2,0,Montana
+28/04/2020 15:08:39,USA-31155,Saunders,county,9,0,Nebraska
+28/04/2020 15:08:39,USA-35006,Cibola,county,39,2,New Mexico
+28/04/2020 15:08:39,USA-35009,Curry,county,11,0,New Mexico
+28/04/2020 15:08:39,USA-36015,Chemung,county,103,3,New York
+28/04/2020 15:08:39,USA-36073,Orleans,county,75,3,New York
+28/04/2020 15:08:39,USA-37099,Jackson,county,4,0,North Carolina
+28/04/2020 15:08:39,USA-37123,Montgomery,county,20,1,North Carolina
+28/04/2020 15:08:39,USA-37151,Randolph,county,118,2,North Carolina
+28/04/2020 15:08:39,USA-37175,Transylvania,county,7,0,North Carolina
+28/04/2020 15:08:39,USA-38025,Dunn,county,10,0,North Dakota
+28/04/2020 15:08:39,USA-39021,Champaign,county,12,1,Ohio
+28/04/2020 15:08:39,USA-39033,Crawford,county,39,0,Ohio
+28/04/2020 15:08:39,USA-39045,Fairfield,county,110,2,Ohio
+28/04/2020 15:08:39,USA-39071,Highland,county,8,0,Ohio
+28/04/2020 15:08:39,USA-40097,Mayes,county,21,3,Oklahoma
+28/04/2020 15:08:39,USA-40145,Wagoner,county,114,13,Oklahoma
+28/04/2020 15:08:39,USA-41007,Clatsop,county,6,0,Oregon
+28/04/2020 15:08:39,USA-42005,Armstrong,county,46,2,Pennsylvania
+28/04/2020 15:08:39,USA-42015,Bradford,county,28,5,Pennsylvania
+28/04/2020 15:08:39,USA-42025,Carbon,county,162,12,Pennsylvania
+28/04/2020 15:08:39,USA-42033,Clearfield,county,11,0,Pennsylvania
+28/04/2020 15:08:39,USA-42067,Juniata,county,77,0,Pennsylvania
+28/04/2020 15:08:39,USA-42111,Somerset,county,25,0,Pennsylvania
+28/04/2020 15:08:39,USA-45025,Chesterfield,county,44,0,South Carolina
+28/04/2020 15:08:39,USA-46011,Brookings,county,11,0,South Dakota
+28/04/2020 15:08:39,USA-47025,Claiborne,county,5,0,Tennessee
+28/04/2020 15:08:39,USA-47041,DeKalb,county,12,0,Tennessee
+28/04/2020 15:08:39,USA-47061,Grundy,county,28,1,Tennessee
+28/04/2020 15:08:39,USA-47071,Hardin,county,5,0,Tennessee
+28/04/2020 15:08:39,USA-47103,Lincoln,county,12,0,Tennessee
+28/04/2020 15:08:39,USA-47113,Madison,county,99,1,Tennessee
+28/04/2020 15:08:39,USA-47133,Overton,county,7,0,Tennessee
+28/04/2020 15:08:39,USA-47183,Weakley,county,16,0,Tennessee
+28/04/2020 15:08:39,USA-48071,Chambers,county,41,0,Texas
+28/04/2020 15:08:39,USA-48091,Comal,county,48,6,Texas
+28/04/2020 15:08:39,USA-48145,Falls,county,1,0,Texas
+28/04/2020 15:08:39,USA-48181,Grayson,county,22,0,Texas
+28/04/2020 15:08:39,USA-48215,Hidalgo,county,303,4,Texas
+28/04/2020 15:08:39,USA-48245,Jefferson,county,243,18,Texas
+28/04/2020 15:08:39,USA-48355,Nueces,county,94,2,Texas
+28/04/2020 15:08:39,USA-48367,Parker,county,24,0,Texas
+28/04/2020 15:08:39,USA-48469,Victoria,county,114,2,Texas
+28/04/2020 15:08:39,USA-50005,Caledonia,county,13,0,Vermont
+28/04/2020 15:08:39,USA-50019,Orleans,county,9,0,Vermont
+28/04/2020 15:08:39,USA-51550,Chesapeake,county,200,6,Virginia
+28/04/2020 15:08:39,USA-51083,Halifax,county,16,0,Virginia
+28/04/2020 15:08:39,USA-54003,Berkeley,county,130,1,West Virginia
+28/04/2020 15:08:39,USA-54033,Harrison,county,30,1,West Virginia
+28/04/2020 15:08:39,USA-54077,Preston,county,12,0,West Virginia
+28/04/2020 15:08:39,USA-54107,Wood,county,35,2,West Virginia
+28/04/2020 15:08:39,USA-56037,Sweetwater,county,10,0,Wyoming
+28/04/2020 15:08:39,USA-01009,Blount,county,31,0,Alabama
+28/04/2020 15:08:39,USA-01013,Butler,county,28,0,Alabama
+28/04/2020 15:08:39,USA-01019,Cherokee,county,12,0,Alabama
+28/04/2020 15:08:39,USA-01021,Chilton,county,49,1,Alabama
+28/04/2020 15:08:39,USA-01027,Clay,county,19,1,Alabama
+28/04/2020 15:08:39,USA-01029,Cleburne,county,12,1,Alabama
+28/04/2020 15:08:39,USA-01033,Colbert,county,23,2,Alabama
+28/04/2020 15:08:39,USA-01047,Dallas,county,32,2,Alabama
+28/04/2020 15:08:39,USA-01055,Etowah,county,123,8,Alabama
+28/04/2020 15:08:39,USA-01079,Lawrence,county,12,0,Alabama
+28/04/2020 15:08:39,USA-01095,Marshall,county,279,5,Alabama
+28/04/2020 15:08:39,USA-01107,Pickens,county,46,1,Alabama
+28/04/2020 15:08:39,USA-01109,Pike,county,58,0,Alabama
+28/04/2020 15:08:39,USA-01113,Russell,county,53,0,Alabama
+28/04/2020 15:08:39,USA-01131,Wilcox,county,53,1,Alabama
+28/04/2020 15:08:39,USA-05043,Drew,county,13,1,Arkansas
+28/04/2020 15:08:39,USA-06027,Inyo,county,19,1,California
+28/04/2020 15:08:39,USA-06101,Sutter,county,29,2,California
+28/04/2020 15:08:39,USA-08089,Otero,county,8,1,Colorado
+28/04/2020 15:08:39,USA-12039,Gadsden,county,79,0,Florida
+28/04/2020 15:08:39,USA-13087,Decatur,county,60,1,Georgia
+28/04/2020 15:08:39,USA-13091,Dodge,county,23,0,Georgia
+28/04/2020 15:08:39,USA-13157,Jackson,county,75,1,Georgia
+28/04/2020 15:08:39,USA-13169,Jones,county,26,0,Georgia
+28/04/2020 15:08:39,USA-13183,Long,county,3,0,Georgia
+28/04/2020 15:08:39,USA-13269,Taylor,county,16,2,Georgia
+28/04/2020 15:08:39,USA-13275,Thomas,county,157,16,Georgia
+28/04/2020 15:08:39,USA-13299,Ware,county,105,8,Georgia
+28/04/2020 15:08:39,USA-13311,White,county,38,0,Georgia
+28/04/2020 15:08:39,USA-13317,Wilkes,county,22,0,Georgia
+28/04/2020 15:08:39,USA-16043,Fremont,county,2,0,Idaho
+28/04/2020 15:08:39,USA-16049,Idaho,county,3,0,Idaho
+28/04/2020 15:08:39,USA-16051,Jefferson,county,4,0,Idaho
+28/04/2020 15:08:39,USA-16069,Nez Perce,county,49,13,Idaho
+28/04/2020 15:08:39,USA-16075,Payette,county,11,1,Idaho
+28/04/2020 15:08:39,USA-17041,Douglas,county,12,0,Illinois
+28/04/2020 15:08:39,USA-17107,Logan,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17123,Marshall,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17137,Morgan,county,15,1,Illinois
+28/04/2020 15:08:39,USA-18033,DeKalb,county,15,1,Indiana
+28/04/2020 15:08:39,USA-18073,Jasper,county,32,1,Indiana
+28/04/2020 15:08:39,USA-18139,Rush,county,28,1,Indiana
+28/04/2020 15:08:39,USA-19011,Benton,county,26,1,Iowa
+28/04/2020 15:08:39,USA-20037,Crawford,county,6,1,Kansas
+28/04/2020 15:08:39,USA-20133,Neosho,county,2,0,Kansas
+28/04/2020 15:08:39,USA-20177,Shawnee,county,100,5,Kansas
+28/04/2020 15:08:39,USA-21085,Grayson,county,42,1,Kentucky
+28/04/2020 15:08:39,USA-21125,Laurel,county,14,2,Kentucky
+28/04/2020 15:08:39,USA-21147,McCreary,county,11,0,Kentucky
+28/04/2020 15:08:39,USA-21231,Wayne,county,6,0,Kentucky
+28/04/2020 15:08:39,USA-22049,Jackson,county,25,0,Louisiana
+28/04/2020 15:08:39,USA-22053,Jefferson Davis,county,59,5,Louisiana
+28/04/2020 15:08:39,USA-22067,Morehouse,county,46,4,Louisiana
+28/04/2020 15:08:39,USA-22111,Union,county,102,6,Louisiana
+28/04/2020 15:08:39,USA-22127,Winn,county,20,2,Louisiana
+28/04/2020 15:08:39,USA-24029,Kent,county,67,3,Maryland
+28/04/2020 15:08:39,USA-25007,Dukes,county,15,1,Massachusetts
+28/04/2020 15:08:39,USA-26069,Iosco,county,29,4,Michigan
+28/04/2020 15:08:39,USA-26091,Lenawee,county,82,0,Michigan
+28/04/2020 15:08:39,USA-26095,Luce,county,1,0,Michigan
+28/04/2020 15:08:39,USA-26103,Marquette,county,41,7,Michigan
+28/04/2020 15:08:39,USA-26151,Sanilac,county,34,4,Michigan
+28/04/2020 15:08:39,USA-26159,Van Buren,county,34,2,Michigan
+28/04/2020 15:08:39,USA-27049,Goodhue,county,19,0,Minnesota
+28/04/2020 15:08:39,USA-27169,Winona,county,66,13,Minnesota
+28/04/2020 15:08:39,USA-28005,Amite,county,23,0,Mississippi
+28/04/2020 15:08:39,USA-28013,Calhoun,county,48,3,Mississippi
+28/04/2020 15:08:39,USA-28117,Prentiss,county,29,1,Mississippi
+28/04/2020 15:08:39,USA-29053,Cooper,county,7,0,Missouri
+28/04/2020 15:08:39,USA-29119,McDonald,county,4,0,Missouri
+28/04/2020 15:08:39,USA-29139,Montgomery,county,7,0,Missouri
+28/04/2020 15:08:39,USA-29145,Newton,county,10,1,Missouri
+28/04/2020 15:08:39,USA-29165,Platte,county,31,0,Missouri
+28/04/2020 15:08:39,USA-29173,Ralls,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29175,Randolph,county,8,0,Missouri
+28/04/2020 15:08:39,USA-29205,Shelby,county,1,0,Missouri
+28/04/2020 15:08:39,USA-30041,Hill,county,1,0,Montana
+28/04/2020 15:08:39,USA-31053,Dodge,county,45,0,Nebraska
+28/04/2020 15:08:39,USA-32019,Lyon,county,23,0,Nevada
+28/04/2020 15:08:39,USA-35015,Eddy,county,11,1,New Mexico
+28/04/2020 15:08:39,USA-35039,Rio Arriba,county,12,0,New Mexico
+28/04/2020 15:08:39,USA-36013,Chautauqua,county,27,1,New York
+28/04/2020 15:08:39,USA-36033,Franklin,county,14,0,New York
+28/04/2020 15:08:39,USA-37015,Bertie,county,40,1,North Carolina
+28/04/2020 15:08:39,USA-37023,Burke,county,86,8,North Carolina
+28/04/2020 15:08:39,USA-37027,Caldwell,county,30,0,North Carolina
+28/04/2020 15:08:39,USA-37045,Cleveland,county,46,2,North Carolina
+28/04/2020 15:08:39,USA-37061,Duplin,county,61,0,North Carolina
+28/04/2020 15:08:39,USA-37091,Hertford,county,32,1,North Carolina
+28/04/2020 15:08:39,USA-37107,Lenoir,county,47,2,North Carolina
+28/04/2020 15:08:39,USA-37111,McDowell,county,21,1,North Carolina
+28/04/2020 15:08:39,USA-37131,Northampton,county,83,3,North Carolina
+28/04/2020 15:08:39,USA-38031,Foster,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-38089,Stark,county,40,2,North Dakota
+28/04/2020 15:08:39,USA-39047,Fayette,county,13,0,Ohio
+28/04/2020 15:08:39,USA-39087,Lawrence,county,22,0,Ohio
+28/04/2020 15:08:39,USA-39107,Mercer,county,18,1,Ohio
+28/04/2020 15:08:39,USA-39129,Pickaway,county,1662,5,Ohio
+28/04/2020 15:08:39,USA-39147,Seneca,county,12,1,Ohio
+28/04/2020 15:08:39,USA-39169,Wayne,county,100,20,Ohio
+28/04/2020 15:08:39,USA-40001,Adair,county,54,3,Oklahoma
+28/04/2020 15:08:39,USA-40013,Bryan,county,6,1,Oklahoma
+28/04/2020 15:08:39,USA-40019,Carter,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-40037,Creek,county,73,6,Oklahoma
+28/04/2020 15:08:39,USA-40041,Delaware,county,90,10,Oklahoma
+28/04/2020 15:08:39,USA-40113,Osage,county,71,8,Oklahoma
+28/04/2020 15:08:39,USA-40125,Pottawatomie,county,40,4,Oklahoma
+28/04/2020 15:08:39,USA-40137,Stephens,county,20,1,Oklahoma
+28/04/2020 15:08:39,USA-41041,Lincoln,county,5,0,Oregon
+28/04/2020 15:08:39,USA-42059,Greene,county,25,0,Pennsylvania
+28/04/2020 15:08:39,USA-42073,Lawrence,county,61,6,Pennsylvania
+28/04/2020 15:08:39,USA-42081,Lycoming,county,53,2,Pennsylvania
+28/04/2020 15:08:39,USA-42123,Warren,county,1,1,Pennsylvania
+28/04/2020 15:08:39,USA-44001,Bristol,county,107,0,Rhode Island
+28/04/2020 15:08:39,USA-44003,Kent,county,496,2,Rhode Island
+28/04/2020 15:08:39,USA-44005,Newport,county,130,0,Rhode Island
+28/04/2020 15:08:39,USA-44007,Providence,county,4916,111,Rhode Island
+28/04/2020 15:08:39,USA-44009,Washington,county,282,6,Rhode Island
+28/04/2020 15:08:39,USA-45067,Marion,county,29,1,South Carolina
+28/04/2020 15:08:39,USA-45087,Union,county,25,0,South Carolina
+28/04/2020 15:08:39,USA-45089,Williamsburg,county,45,0,South Carolina
+28/04/2020 15:08:39,USA-46083,Lincoln,county,125,0,South Dakota
+28/04/2020 15:08:39,USA-46093,Meade,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-47003,Bedford,county,150,2,Tennessee
+28/04/2020 15:08:39,USA-47073,Hawkins,county,29,2,Tennessee
+28/04/2020 15:08:39,USA-47101,Lewis,county,2,0,Tennessee
+28/04/2020 15:08:39,USA-47185,White,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-48013,Atascosa,county,14,1,Texas
+28/04/2020 15:08:39,USA-48015,Austin,county,12,0,Texas
+28/04/2020 15:08:39,USA-48031,Blanco,county,6,0,Texas
+28/04/2020 15:08:39,USA-48053,Burnet,county,14,0,Texas
+28/04/2020 15:08:39,USA-48099,Coryell,county,104,1,Texas
+28/04/2020 15:08:39,USA-48133,Eastland,county,3,0,Texas
+28/04/2020 15:08:39,USA-48143,Erath,county,12,1,Texas
+28/04/2020 15:08:39,USA-48149,Fayette,county,15,1,Texas
+28/04/2020 15:08:39,USA-48165,Gaines,county,2,0,Texas
+28/04/2020 15:08:39,USA-48185,Grimes,county,13,1,Texas
+28/04/2020 15:08:39,USA-48187,Guadalupe,county,67,0,Texas
+28/04/2020 15:08:39,USA-48189,Hale,county,19,4,Texas
+28/04/2020 15:08:39,USA-48199,Hardin,county,95,3,Texas
+28/04/2020 15:08:39,USA-48223,Hopkins,county,4,0,Texas
+28/04/2020 15:08:39,USA-48231,Hunt,county,38,2,Texas
+28/04/2020 15:08:39,USA-48257,Kaufman,county,71,0,Texas
+28/04/2020 15:08:39,USA-48259,Kendall,county,16,0,Texas
+28/04/2020 15:08:39,USA-48277,Lamar,county,8,0,Texas
+28/04/2020 15:08:39,USA-48291,Liberty,county,38,0,Texas
+28/04/2020 15:08:39,USA-48293,Limestone,county,11,1,Texas
+28/04/2020 15:08:39,USA-48299,Llano,county,3,0,Texas
+28/04/2020 15:08:39,USA-48323,Maverick,county,16,0,Texas
+28/04/2020 15:08:39,USA-48331,Milam,county,13,1,Texas
+28/04/2020 15:08:39,USA-48361,Orange,county,64,0,Texas
+28/04/2020 15:08:39,USA-48395,Robertson,county,2,0,Texas
+28/04/2020 15:08:39,USA-48409,San Patricio,county,12,0,Texas
+28/04/2020 15:08:39,USA-48445,Terry,county,10,0,Texas
+28/04/2020 15:08:39,USA-48451,Tom Green,county,42,1,Texas
+28/04/2020 15:08:39,USA-48471,Walker,county,164,2,Texas
+28/04/2020 15:08:39,USA-48481,Wharton,county,36,0,Texas
+28/04/2020 15:08:39,USA-48493,Wilson,county,26,2,Texas
+28/04/2020 15:08:39,USA-50015,Lamoille,county,26,2,Vermont
+28/04/2020 15:08:39,USA-51600,Fairfax City,county,26,2,Virginia
+28/04/2020 15:08:39,USA-51069,Frederick,county,93,0,Virginia
+28/04/2020 15:08:39,USA-51630,Fredericksburg,county,23,0,Virginia
+28/04/2020 15:08:39,USA-51113,Madison,county,14,0,Virginia
+28/04/2020 15:08:39,USA-51683,Manassas,county,154,1,Virginia
+28/04/2020 15:08:39,USA-51115,Mathews,county,4,0,Virginia
+28/04/2020 15:08:39,USA-51125,Nelson,county,7,0,Virginia
+28/04/2020 15:08:39,USA-51135,Nottoway,county,11,0,Virginia
+28/04/2020 15:08:39,USA-51137,Orange,county,25,0,Virginia
+28/04/2020 15:08:39,USA-51161,Roanoke,county,39,0,Virginia
+28/04/2020 15:08:39,USA-51171,Shenandoah,county,72,1,Virginia
+28/04/2020 15:08:39,USA-53019,Ferry,county,1,0,Washington
+28/04/2020 15:08:39,USA-53047,Okanogan,county,19,1,Washington
+28/04/2020 15:08:39,USA-54045,Logan,county,11,1,West Virginia
+28/04/2020 15:08:39,USA-54049,Marion,county,45,2,West Virginia
+28/04/2020 15:08:39,USA-54069,Ohio,county,26,1,West Virginia
+28/04/2020 15:08:39,USA-54081,Raleigh,county,8,0,West Virginia
+28/04/2020 15:08:39,USA-55043,Grant,county,28,3,Wisconsin
+28/04/2020 15:08:39,USA-55049,Iowa,county,7,0,Wisconsin
+28/04/2020 15:08:39,USA-55057,Juneau,county,12,1,Wisconsin
+28/04/2020 15:08:39,USA-55081,Monroe,county,14,0,Wisconsin
+28/04/2020 15:08:39,USA-56001,Albany,county,6,0,Wyoming
+28/04/2020 15:08:39,USA-01011,Bullock,county,12,0,Alabama
+28/04/2020 15:08:39,USA-01023,Choctaw,county,27,0,Alabama
+28/04/2020 15:08:39,USA-01037,Coosa,county,29,1,Alabama
+28/04/2020 15:08:39,USA-01041,Crenshaw,county,10,0,Alabama
+28/04/2020 15:08:39,USA-01049,DeKalb,county,63,2,Alabama
+28/04/2020 15:08:39,USA-01085,Lowndes,county,38,1,Alabama
+28/04/2020 15:08:39,USA-01091,Marengo,county,40,3,Alabama
+28/04/2020 15:08:39,USA-04012,La Paz,county,7,1,Arizona
+28/04/2020 15:08:39,USA-04015,Mohave,county,81,3,Arizona
+28/04/2020 15:08:39,USA-05017,Chicot,county,8,0,Arkansas
+28/04/2020 15:08:39,USA-05061,Howard,county,13,0,Arkansas
+28/04/2020 15:08:39,USA-05085,Lonoke,county,33,0,Arkansas
+28/04/2020 15:08:39,USA-05121,Randolph,county,15,0,Arkansas
+28/04/2020 15:08:39,USA-08063,Kit Carson,county,19,2,Colorado
+28/04/2020 15:08:39,USA-08105,Rio Grande,county,7,0,Colorado
+28/04/2020 15:08:39,USA-08121,Washington,county,6,0,Colorado
+28/04/2020 15:08:39,USA-12133,Washington,county,12,0,Florida
+28/04/2020 15:08:39,USA-13037,Calhoun,county,86,3,Georgia
+28/04/2020 15:08:39,USA-13119,Franklin,county,17,0,Georgia
+28/04/2020 15:08:39,USA-13143,Haralson,county,26,1,Georgia
+28/04/2020 15:08:39,USA-13189,McDuffie,county,43,4,Georgia
+28/04/2020 15:08:39,USA-13279,Toombs,county,27,3,Georgia
+28/04/2020 15:08:39,USA-16037,Custer,county,2,0,Idaho
+28/04/2020 15:08:39,USA-17055,Franklin,county,8,0,Illinois
+28/04/2020 15:08:39,USA-17179,Tazewell,county,36,3,Illinois
+28/04/2020 15:08:39,USA-18045,Fountain,county,9,2,Indiana
+28/04/2020 15:08:39,USA-18099,Marshall,county,26,1,Indiana
+28/04/2020 15:08:39,USA-18117,Orange,county,57,6,Indiana
+28/04/2020 15:08:39,USA-18129,Posey,county,9,0,Indiana
+28/04/2020 15:08:39,USA-18171,Warren,county,11,1,Indiana
+28/04/2020 15:08:39,USA-19007,Appanoose,county,2,2,Iowa
+28/04/2020 15:08:39,USA-19043,Clayton,county,11,1,Iowa
+28/04/2020 15:08:39,USA-19057,Des Moines,county,17,0,Iowa
+28/04/2020 15:08:39,USA-19123,Mahaska,county,8,1,Iowa
+28/04/2020 15:08:39,USA-19133,Monona,county,7,0,Iowa
+28/04/2020 15:08:39,USA-19145,Page,county,5,0,Iowa
+28/04/2020 15:08:39,USA-20087,Jefferson,county,8,0,Kansas
+28/04/2020 15:08:39,USA-20191,Sumner,county,3,1,Kansas
+28/04/2020 15:08:39,USA-21015,Boone,county,103,2,Kentucky
+28/04/2020 15:08:39,USA-21107,Hopkins,county,174,19,Kentucky
+28/04/2020 15:08:39,USA-21161,Mason,county,6,0,Kentucky
+28/04/2020 15:08:39,USA-21167,Mercer,county,11,0,Kentucky
+28/04/2020 15:08:39,USA-21225,Union,county,8,0,Kentucky
+28/04/2020 15:08:39,USA-21233,Webster,county,19,0,Kentucky
+28/04/2020 15:08:39,USA-22037,East Feliciana,county,107,11,Louisiana
+28/04/2020 15:08:39,USA-22059,LaSalle,county,18,0,Louisiana
+28/04/2020 15:08:39,USA-22065,Madison,county,7,0,Louisiana
+28/04/2020 15:08:39,USA-22077,Pointe Coupee,county,89,11,Louisiana
+28/04/2020 15:08:39,USA-22113,Vermilion,county,34,1,Louisiana
+28/04/2020 15:08:39,USA-23007,Franklin,county,27,1,Maine
+28/04/2020 15:08:39,USA-26053,Gogebic,county,4,1,Michigan
+28/04/2020 15:08:39,USA-26067,Ionia,county,41,2,Michigan
+28/04/2020 15:08:39,USA-26107,Mecosta,county,14,1,Michigan
+28/04/2020 15:08:39,USA-26113,Missaukee,county,15,1,Michigan
+28/04/2020 15:08:39,USA-26127,Oceana,county,4,1,Michigan
+28/04/2020 15:08:39,USA-26129,Ogemaw,county,8,0,Michigan
+28/04/2020 15:08:39,USA-26155,Shiawassee,county,129,7,Michigan
+28/04/2020 15:08:39,USA-26999,Unknown,county,1102,33,Michigan
+28/04/2020 15:08:39,USA-27067,Kandiyohi,county,28,0,Minnesota
+28/04/2020 15:08:39,USA-27143,Sibley,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27167,Wilkin,county,11,3,Minnesota
+28/04/2020 15:08:39,USA-28009,Benton,county,9,0,Mississippi
+28/04/2020 15:08:39,USA-28075,Lauderdale,county,284,19,Mississippi
+28/04/2020 15:08:39,USA-28119,Quitman,county,14,0,Mississippi
+28/04/2020 15:08:39,USA-28161,Yalobusha,county,17,0,Mississippi
+28/04/2020 15:08:39,USA-29015,Benton,county,4,0,Missouri
+28/04/2020 15:08:39,USA-29017,Bollinger,county,4,0,Missouri
+28/04/2020 15:08:39,USA-29035,Carter,county,3,1,Missouri
+28/04/2020 15:08:39,USA-29207,Stoddard,county,19,0,Missouri
+28/04/2020 15:08:39,USA-30053,Lincoln,county,7,1,Montana
+28/04/2020 15:08:39,USA-30059,Meagher,county,1,0,Montana
+28/04/2020 15:08:39,USA-30101,Toole,county,29,6,Montana
+28/04/2020 15:08:39,USA-31079,Hall,county,811,21,Nebraska
+28/04/2020 15:08:39,USA-31081,Hamilton,county,47,3,Nebraska
+28/04/2020 15:08:39,USA-31099,Kearney,county,4,0,Nebraska
+28/04/2020 15:08:39,USA-37013,Beaufort,county,31,0,North Carolina
+28/04/2020 15:08:39,USA-38049,McHenry,county,1,1,North Dakota
+28/04/2020 15:08:39,USA-38051,McIntosh,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-39009,Athens,county,3,1,Ohio
+28/04/2020 15:08:39,USA-39081,Jefferson,county,35,1,Ohio
+28/04/2020 15:08:39,USA-39119,Muskingum,county,11,0,Ohio
+28/04/2020 15:08:39,USA-39175,Wyandot,county,24,2,Ohio
+28/04/2020 15:08:39,USA-40031,Comanche,county,76,1,Oklahoma
+28/04/2020 15:08:39,USA-40035,Craig,county,9,0,Oklahoma
+28/04/2020 15:08:39,USA-40081,Lincoln,county,10,0,Oklahoma
+28/04/2020 15:08:39,USA-40111,Okmulgee,county,16,0,Oklahoma
+28/04/2020 15:08:39,USA-40115,Ottawa,county,29,1,Oklahoma
+28/04/2020 15:08:39,USA-40135,Sequoyah,county,11,3,Oklahoma
+28/04/2020 15:08:39,USA-41057,Tillamook,county,6,0,Oregon
+28/04/2020 15:08:39,USA-41065,Wasco,county,12,0,Oregon
+28/04/2020 15:08:39,USA-42013,Blair,county,21,0,Pennsylvania
+28/04/2020 15:08:39,USA-42039,Crawford,county,19,0,Pennsylvania
+28/04/2020 15:08:39,USA-42063,Indiana,county,63,4,Pennsylvania
+28/04/2020 15:08:39,USA-42115,Susquehanna,county,77,4,Pennsylvania
+28/04/2020 15:08:39,USA-47005,Benton,county,6,1,Tennessee
+28/04/2020 15:08:39,USA-47015,Cannon,county,10,0,Tennessee
+28/04/2020 15:08:39,USA-47111,Macon,county,96,11,Tennessee
+28/04/2020 15:08:39,USA-47121,Meigs,county,5,0,Tennessee
+28/04/2020 15:08:39,USA-47171,Unicoi,county,1,0,Tennessee
+28/04/2020 15:08:39,USA-48005,Angelina,county,36,0,Texas
+28/04/2020 15:08:39,USA-48057,Calhoun,county,26,2,Texas
+28/04/2020 15:08:39,USA-48097,Cooke,county,4,0,Texas
+28/04/2020 15:08:39,USA-48239,Jackson,county,6,0,Texas
+28/04/2020 15:08:39,USA-48255,Karnes,county,3,0,Texas
+28/04/2020 15:08:39,USA-48317,Martin,county,2,0,Texas
+28/04/2020 15:08:39,USA-48347,Nacogdoches,county,115,6,Texas
+28/04/2020 15:08:39,USA-48397,Rockwall,county,51,0,Texas
+28/04/2020 15:08:39,USA-48465,Val Verde,county,12,0,Texas
+28/04/2020 15:08:39,USA-49029,Morgan,county,9,0,Utah
+28/04/2020 15:08:39,USA-49999,Unknown,county,0,1,Utah
+28/04/2020 15:08:39,USA-51007,Amelia,county,15,1,Virginia
+28/04/2020 15:08:39,USA-51061,Fauquier,county,80,2,Virginia
+28/04/2020 15:08:39,USA-51079,Greene,county,10,1,Virginia
+28/04/2020 15:08:39,USA-51650,Hampton,county,101,1,Virginia
+28/04/2020 15:08:39,USA-51099,King George,county,25,4,Virginia
+28/04/2020 15:08:39,USA-51680,Lynchburg,county,48,1,Virginia
+28/04/2020 15:08:39,USA-51131,Northampton,county,20,0,Virginia
+28/04/2020 15:08:39,USA-51143,Pittsylvania,county,11,1,Virginia
+28/04/2020 15:08:39,USA-51735,Poquoson,county,6,0,Virginia
+28/04/2020 15:08:39,USA-51149,Prince George,county,30,0,Virginia
+28/04/2020 15:08:39,USA-51750,Radford,county,3,0,Virginia
+28/04/2020 15:08:39,USA-51175,Southampton,county,75,1,Virginia
+28/04/2020 15:08:39,USA-51187,Warren,county,42,0,Virginia
+28/04/2020 15:08:39,USA-51191,Washington,county,30,3,Virginia
+28/04/2020 15:08:39,USA-54053,Mason,county,11,0,West Virginia
+28/04/2020 15:08:39,USA-54097,Upshur,county,4,0,West Virginia
+28/04/2020 15:08:39,USA-55019,Clark,county,19,1,Wisconsin
+28/04/2020 15:08:39,USA-55097,Portage,county,4,0,Wisconsin
+28/04/2020 15:08:39,USA-55125,Vilas,county,4,0,Wisconsin
+28/04/2020 15:08:39,USA-56017,Hot Springs,county,2,0,Wyoming
+28/04/2020 15:08:39,USA-56019,Johnson,county,11,1,Wyoming
+28/04/2020 15:08:39,USA-01039,Covington,county,32,0,Alabama
+28/04/2020 15:08:39,USA-01053,Escambia,county,22,1,Alabama
+28/04/2020 15:08:39,USA-01063,Greene,county,44,0,Alabama
+28/04/2020 15:08:39,USA-01111,Randolph,county,60,4,Alabama
+28/04/2020 15:08:39,USA-01133,Winston,county,10,0,Alabama
+28/04/2020 15:08:39,USA-05005,Baxter,county,5,0,Arkansas
+28/04/2020 15:08:39,USA-06011,Colusa,county,3,0,California
+28/04/2020 15:08:39,USA-06031,Kings,county,52,1,California
+28/04/2020 15:08:39,USA-08003,Alamosa,county,10,2,Colorado
+28/04/2020 15:08:39,USA-08023,Costilla,county,3,0,Colorado
+28/04/2020 15:08:39,USA-08073,Lincoln,county,4,0,Colorado
+28/04/2020 15:08:39,USA-12075,Levy,county,13,0,Florida
+28/04/2020 15:08:39,USA-12121,Suwannee,county,109,11,Florida
+28/04/2020 15:08:39,USA-13053,Chattahoochee,county,8,0,Georgia
+28/04/2020 15:08:39,USA-13137,Habersham,county,170,3,Georgia
+28/04/2020 15:08:39,USA-13147,Hart,county,6,0,Georgia
+28/04/2020 15:08:39,USA-13293,Upson,county,196,14,Georgia
+28/04/2020 15:08:39,USA-16045,Gem,county,10,0,Idaho
+28/04/2020 15:08:39,USA-17011,Bureau,county,9,0,Illinois
+28/04/2020 15:08:39,USA-17073,Henry,county,36,0,Illinois
+28/04/2020 15:08:39,USA-17075,Iroquois,county,16,0,Illinois
+28/04/2020 15:08:39,USA-18015,Carroll,county,9,1,Indiana
+28/04/2020 15:08:39,USA-18023,Clinton,county,30,1,Indiana
+28/04/2020 15:08:39,USA-18049,Fulton,county,10,0,Indiana
+28/04/2020 15:08:39,USA-18065,Henry,county,32,1,Indiana
+28/04/2020 15:08:39,USA-18069,Huntington,county,6,2,Indiana
+28/04/2020 15:08:39,USA-18085,Kosciusko,county,27,1,Indiana
+28/04/2020 15:08:39,USA-18087,LaGrange,county,21,1,Indiana
+28/04/2020 15:08:39,USA-18135,Randolph,county,14,2,Indiana
+28/04/2020 15:08:39,USA-18183,Whitley,county,16,1,Indiana
+28/04/2020 15:08:39,USA-19023,Butler,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19045,Clinton,county,47,0,Iowa
+28/04/2020 15:08:39,USA-19059,Dickinson,county,5,0,Iowa
+28/04/2020 15:08:39,USA-19083,Hardin,county,5,0,Iowa
+28/04/2020 15:08:39,USA-19095,Iowa,county,16,0,Iowa
+28/04/2020 15:08:39,USA-19127,Marshall,county,345,0,Iowa
+28/04/2020 15:08:39,USA-19137,Montgomery,county,1,0,Iowa
+28/04/2020 15:08:39,USA-19187,Webster,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19197,Wright,county,2,0,Iowa
+28/04/2020 15:08:39,USA-20027,Clay,county,4,0,Kansas
+28/04/2020 15:08:39,USA-20031,Coffey,county,48,7,Kansas
+28/04/2020 15:08:39,USA-20063,Gove,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20079,Harvey,county,5,0,Kansas
+28/04/2020 15:08:39,USA-20113,McPherson,county,20,0,Kansas
+28/04/2020 15:08:39,USA-20139,Osage,county,5,0,Kansas
+28/04/2020 15:08:39,USA-20143,Ottawa,county,3,0,Kansas
+28/04/2020 15:08:39,USA-21029,Bullitt,county,43,2,Kentucky
+28/04/2020 15:08:39,USA-21037,Campbell,county,73,7,Kentucky
+28/04/2020 15:08:39,USA-21123,Larue,county,5,0,Kentucky
+28/04/2020 15:08:39,USA-21239,Woodford,county,19,0,Kentucky
+28/04/2020 15:08:39,USA-22125,West Feliciana,county,97,3,Louisiana
+28/04/2020 15:08:39,USA-26027,Cass,county,26,2,Michigan
+28/04/2020 15:08:39,USA-26039,Crawford,county,45,3,Michigan
+28/04/2020 15:08:39,USA-26043,Dickinson,county,3,2,Michigan
+28/04/2020 15:08:39,USA-26057,Gratiot,county,8,1,Michigan
+28/04/2020 15:08:39,USA-26063,Huron,county,11,0,Michigan
+28/04/2020 15:08:39,USA-27007,Beltrami,county,6,0,Minnesota
+28/04/2020 15:08:39,USA-27043,Faribault,county,4,0,Minnesota
+28/04/2020 15:08:39,USA-27081,Lincoln,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27087,Mahnomen,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-28063,Jefferson,county,8,0,Mississippi
+28/04/2020 15:08:39,USA-28069,Kemper,county,40,0,Mississippi
+28/04/2020 15:08:39,USA-28099,Neshoba,county,119,2,Mississippi
+28/04/2020 15:08:39,USA-28125,Sharkey,county,4,0,Mississippi
+28/04/2020 15:08:39,USA-29005,Atchison,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29009,Barry,county,6,0,Missouri
+28/04/2020 15:08:39,USA-29021,Buchanan,county,48,1,Missouri
+28/04/2020 15:08:39,USA-29041,Chariton,county,5,0,Missouri
+28/04/2020 15:08:39,USA-29113,Lincoln,county,43,1,Missouri
+28/04/2020 15:08:39,USA-29159,Pettis,county,25,0,Missouri
+28/04/2020 15:08:39,USA-29177,Ray,county,10,0,Missouri
+28/04/2020 15:08:39,USA-29215,Texas,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29229,Wright,county,9,0,Missouri
+28/04/2020 15:08:39,USA-30047,Lake,county,5,0,Montana
+28/04/2020 15:08:39,USA-30067,Park,county,7,0,Montana
+28/04/2020 15:08:39,USA-35041,Roosevelt,county,6,0,New Mexico
+28/04/2020 15:08:39,USA-35061,Valencia,county,41,0,New Mexico
+28/04/2020 15:08:39,USA-37079,Greene,county,16,0,North Carolina
+28/04/2020 15:08:39,USA-37145,Person,county,18,0,North Carolina
+28/04/2020 15:08:39,USA-37171,Surry,county,12,0,North Carolina
+28/04/2020 15:08:39,USA-39051,Fulton,county,19,0,Ohio
+28/04/2020 15:08:39,USA-39149,Shelby,county,30,1,Ohio
+28/04/2020 15:08:39,USA-40015,Caddo,county,53,6,Oklahoma
+28/04/2020 15:08:39,USA-40021,Cherokee,county,26,1,Oklahoma
+28/04/2020 15:08:39,USA-40023,Choctaw,county,3,0,Oklahoma
+28/04/2020 15:08:39,USA-40077,Latimer,county,4,1,Oklahoma
+28/04/2020 15:08:39,USA-40121,Pittsburg,county,21,2,Oklahoma
+28/04/2020 15:08:39,USA-41009,Columbia,county,14,0,Oregon
+28/04/2020 15:08:39,USA-41049,Morrow,county,5,0,Oregon
+28/04/2020 15:08:39,USA-42097,Northumberland,county,87,0,Pennsylvania
+28/04/2020 15:08:39,USA-42119,Union,county,31,0,Pennsylvania
+28/04/2020 15:08:39,USA-46003,Aurora,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46049,Faulk,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46081,Lawrence,county,9,0,South Dakota
+28/04/2020 15:08:39,USA-46121,Todd,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46127,Union,county,12,0,South Dakota
+28/04/2020 15:08:39,USA-47159,Smith,county,19,1,Tennessee
+28/04/2020 15:08:39,USA-48073,Cherokee,county,12,1,Texas
+28/04/2020 15:08:39,USA-48203,Harrison,county,69,2,Texas
+28/04/2020 15:08:39,USA-48221,Hood,county,17,3,Texas
+28/04/2020 15:08:39,USA-48337,Montague,county,6,1,Texas
+28/04/2020 15:08:39,USA-48349,Navarro,county,28,2,Texas
+28/04/2020 15:08:39,USA-48381,Randall,county,164,3,Texas
+28/04/2020 15:08:39,USA-48419,Shelby,county,86,0,Texas
+28/04/2020 15:08:39,USA-48427,Starr,county,7,0,Texas
+28/04/2020 15:08:39,USA-48441,Taylor,county,203,3,Texas
+28/04/2020 15:08:39,USA-48463,Uvalde,county,7,0,Texas
+28/04/2020 15:08:39,USA-48489,Willacy,county,13,1,Texas
+28/04/2020 15:08:39,USA-48501,Yoakum,county,1,0,Texas
+28/04/2020 15:08:39,USA-48503,Young,county,4,1,Texas
+28/04/2020 15:08:39,USA-49047,Uintah,county,6,0,Utah
+28/04/2020 15:08:39,USA-51520,Bristol,county,1,0,Virginia
+28/04/2020 15:08:39,USA-51640,Galax,county,1,0,Virginia
+28/04/2020 15:08:39,USA-51770,Roanoke City,county,33,0,Virginia
+28/04/2020 15:08:39,USA-53059,Skamania,county,3,0,Washington
+28/04/2020 15:08:39,USA-54025,Greenbrier,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-54029,Hancock,county,7,0,West Virginia
+28/04/2020 15:08:39,USA-54073,Pleasants,county,2,0,West Virginia
+28/04/2020 15:08:39,USA-55051,Iron,county,2,1,Wisconsin
+28/04/2020 15:08:39,USA-55075,Marinette,county,7,1,Wisconsin
+28/04/2020 15:08:39,USA-55103,Richland,county,10,1,Wisconsin
+28/04/2020 15:08:39,USA-55135,Waupaca,county,7,1,Wisconsin
+28/04/2020 15:08:39,USA-56015,Goshen,county,3,0,Wyoming
+28/04/2020 15:08:39,USA-56043,Washakie,county,4,0,Wyoming
+28/04/2020 15:08:39,USA-01099,Monroe,county,11,1,Alabama
+28/04/2020 15:08:39,USA-04007,Gila,county,11,0,Arizona
+28/04/2020 15:08:39,USA-05071,Johnson,county,26,0,Arkansas
+28/04/2020 15:08:39,USA-06021,Glenn,county,5,0,California
+28/04/2020 15:08:39,USA-08009,Baca,county,10,0,Colorado
+28/04/2020 15:08:39,USA-08081,Moffat,county,6,0,Colorado
+28/04/2020 15:08:39,USA-12051,Hendry,county,64,2,Florida
+28/04/2020 15:08:39,USA-13031,Bulloch,county,34,2,Georgia
+28/04/2020 15:08:39,USA-13165,Jenkins,county,16,1,Georgia
+28/04/2020 15:08:39,USA-13213,Murray,county,24,0,Georgia
+28/04/2020 15:08:39,USA-13231,Pike,county,39,2,Georgia
+28/04/2020 15:08:39,USA-13309,Wheeler,county,3,0,Georgia
+28/04/2020 15:08:39,USA-16019,Bonneville,county,16,0,Idaho
+28/04/2020 15:08:39,USA-16063,Lincoln,county,21,0,Idaho
+28/04/2020 15:08:39,USA-17015,Carroll,county,9,2,Illinois
+28/04/2020 15:08:39,USA-17051,Fayette,county,16,2,Illinois
+28/04/2020 15:08:39,USA-17115,Macon,county,100,11,Illinois
+28/04/2020 15:08:39,USA-18025,Crawford,county,16,0,Indiana
+28/04/2020 15:08:39,USA-18111,Newton,county,44,5,Indiana
+28/04/2020 15:08:39,USA-18155,Switzerland,county,14,0,Indiana
+28/04/2020 15:08:39,USA-18165,Vermillion,county,7,0,Indiana
+28/04/2020 15:08:39,USA-18169,Wabash,county,12,1,Indiana
+28/04/2020 15:08:39,USA-18181,White,county,18,0,Indiana
+28/04/2020 15:08:39,USA-19015,Boone,county,6,0,Iowa
+28/04/2020 15:08:39,USA-19107,Keokuk,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19165,Shelby,county,9,0,Iowa
+28/04/2020 15:08:39,USA-19173,Taylor,county,1,0,Iowa
+28/04/2020 15:08:39,USA-20121,Miami,county,5,0,Kansas
+28/04/2020 15:08:39,USA-21021,Boyle,county,18,0,Kentucky
+28/04/2020 15:08:39,USA-21023,Bracken,county,7,0,Kentucky
+28/04/2020 15:08:39,USA-21027,Breckinridge,county,7,0,Kentucky
+28/04/2020 15:08:39,USA-21031,Butler,county,103,3,Kentucky
+28/04/2020 15:08:39,USA-21041,Carroll,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-21071,Floyd,county,6,0,Kentucky
+28/04/2020 15:08:39,USA-21081,Grant,county,18,3,Kentucky
+28/04/2020 15:08:39,USA-21181,Nicholas,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21211,Shelby,county,26,3,Kentucky
+28/04/2020 15:08:39,USA-21229,Washington,county,5,0,Kentucky
+28/04/2020 15:08:39,USA-22035,East Carroll,county,6,0,Louisiana
+28/04/2020 15:08:39,USA-22041,Franklin,county,113,2,Louisiana
+28/04/2020 15:08:39,USA-26133,Osceola,county,8,0,Michigan
+28/04/2020 15:08:39,USA-27029,Clearwater,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27083,Lyon,county,6,0,Minnesota
+28/04/2020 15:08:39,USA-28023,Clarke,county,44,3,Mississippi
+28/04/2020 15:08:39,USA-28031,Covington,county,45,0,Mississippi
+28/04/2020 15:08:39,USA-29181,Ripley,county,5,0,Missouri
+28/04/2020 15:08:39,USA-29219,Warren,county,22,0,Missouri
+28/04/2020 15:08:39,USA-31073,Gosper,county,8,0,Nebraska
+28/04/2020 15:08:39,USA-31141,Platte,county,16,0,Nebraska
+28/04/2020 15:08:39,USA-32013,Humboldt,county,36,2,Nevada
+28/04/2020 15:08:39,USA-36009,Cattaraugus,county,45,1,New York
+28/04/2020 15:08:39,USA-36097,Schuyler,county,7,0,New York
+28/04/2020 15:08:39,USA-37065,Edgecombe,county,77,1,North Carolina
+28/04/2020 15:08:39,USA-37143,Perquimans,county,10,0,North Carolina
+28/04/2020 15:08:39,USA-37149,Polk,county,12,0,North Carolina
+28/04/2020 15:08:39,USA-38003,Barnes,county,4,0,North Dakota
+28/04/2020 15:08:39,USA-38023,Divide,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-38055,McLean,county,3,0,North Dakota
+28/04/2020 15:08:39,USA-38061,Mountrail,county,33,0,North Dakota
+28/04/2020 15:08:39,USA-38085,Sioux,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-69,Northern Mariana Islands,territory,14,2
+28/04/2020 15:08:39,USA-69999,Northern Mariana Islands,county,14,2
+28/04/2020 15:08:39,USA-39003,Allen,county,108,17,Ohio
+28/04/2020 15:08:39,USA-39011,Auglaize,county,30,3,Ohio
+28/04/2020 15:08:39,USA-39123,Ottawa,county,37,0,Ohio
+28/04/2020 15:08:39,USA-39131,Pike,county,3,0,Ohio
+28/04/2020 15:08:39,USA-39161,Van Wert,county,3,0,Ohio
+28/04/2020 15:08:39,USA-40079,Le Flore,county,9,0,Oklahoma
+28/04/2020 15:08:39,USA-40105,Nowata,county,19,0,Oklahoma
+28/04/2020 15:08:39,USA-42023,Cameron,county,1,0,Pennsylvania
+28/04/2020 15:08:39,USA-42031,Clarion,county,22,1,Pennsylvania
+28/04/2020 15:08:39,USA-42061,Huntingdon,county,22,0,Pennsylvania
+28/04/2020 15:08:39,USA-42083,McKean,county,5,0,Pennsylvania
+28/04/2020 15:08:39,USA-42099,Perry,county,26,1,Pennsylvania
+28/04/2020 15:08:39,USA-42109,Snyder,county,32,1,Pennsylvania
+28/04/2020 15:08:39,USA-42117,Tioga,county,14,2,Pennsylvania
+28/04/2020 15:08:39,USA-45059,Laurens,county,22,1,South Carolina
+28/04/2020 15:08:39,USA-46039,Deuel,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46057,Hamlin,county,2,0,South Dakota
+28/04/2020 15:08:39,USA-46067,Hutchinson,county,2,0,South Dakota
+28/04/2020 15:08:39,USA-46135,Yankton,county,26,0,South Dakota
+28/04/2020 15:08:39,USA-47007,Bledsoe,county,586,0,Tennessee
+28/04/2020 15:08:39,USA-47019,Carter,county,10,1,Tennessee
+28/04/2020 15:08:39,USA-47039,Decatur,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-47069,Hardeman,county,11,0,Tennessee
+28/04/2020 15:08:39,USA-47091,Johnson,county,2,0,Tennessee
+28/04/2020 15:08:39,USA-47129,Morgan,county,6,0,Tennessee
+28/04/2020 15:08:39,USA-47169,Trousdale,county,47,1,Tennessee
+28/04/2020 15:08:39,USA-47173,Union,county,3,0,Tennessee
+28/04/2020 15:08:39,USA-48003,Andrews,county,19,0,Texas
+28/04/2020 15:08:39,USA-48051,Burleson,county,11,0,Texas
+28/04/2020 15:08:39,USA-48055,Caldwell,county,10,0,Texas
+28/04/2020 15:08:39,USA-48279,Lamb,county,2,0,Texas
+28/04/2020 15:08:39,USA-48305,Lynn,county,5,1,Texas
+28/04/2020 15:08:39,USA-48477,Washington,county,103,11,Texas
+28/04/2020 15:08:39,USA-49017,Garfield,county,1,0,Utah
+28/04/2020 15:08:39,USA-49037,San Juan,county,40,2,Utah
+28/04/2020 15:08:39,USA-51670,Hopewell,county,21,0,Virginia
+28/04/2020 15:08:39,USA-51103,Lancaster,county,1,0,Virginia
+28/04/2020 15:08:39,USA-51121,Montgomery,county,51,1,Virginia
+28/04/2020 15:08:39,USA-51127,New Kent,county,20,1,Virginia
+28/04/2020 15:08:39,USA-51133,Northumberland,county,8,0,Virginia
+28/04/2020 15:08:39,USA-51145,Powhatan,county,11,0,Virginia
+28/04/2020 15:08:39,USA-55085,Oneida,county,6,0,Wisconsin
+28/04/2020 15:08:39,USA-56009,Converse,county,10,0,Wyoming
+28/04/2020 15:08:39,USA-56035,Sublette,county,1,0,Wyoming
+28/04/2020 15:08:39,USA-01087,Macon,county,31,2,Alabama
+28/04/2020 15:08:39,USA-05001,Arkansas,county,2,0,Arkansas
+28/04/2020 15:08:39,USA-05003,Ashley,county,13,0,Arkansas
+28/04/2020 15:08:39,USA-05099,Nevada,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-05105,Perry,county,6,0,Arkansas
+28/04/2020 15:08:39,USA-06109,Tuolumne,county,3,0,California
+28/04/2020 15:08:39,USA-08079,Mineral,county,2,0,Colorado
+28/04/2020 15:08:39,USA-08083,Montezuma,county,15,2,Colorado
+28/04/2020 15:08:39,USA-12043,Glades,county,5,1,Florida
+28/04/2020 15:08:39,USA-12129,Wakulla,county,20,1,Florida
+28/04/2020 15:08:39,USA-13005,Bacon,county,21,1,Georgia
+28/04/2020 15:08:39,USA-13027,Brooks,county,39,6,Georgia
+28/04/2020 15:08:39,USA-13043,Candler,county,7,0,Georgia
+28/04/2020 15:08:39,USA-16073,Owyhee,county,8,0,Idaho
+28/04/2020 15:08:39,USA-17005,Bond,county,5,1,Illinois
+28/04/2020 15:08:39,USA-17095,Knox,county,31,0,Illinois
+28/04/2020 15:08:39,USA-17129,Menard,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17135,Montgomery,county,23,0,Illinois
+28/04/2020 15:08:39,USA-18021,Clay,county,19,1,Indiana
+28/04/2020 15:08:39,USA-18055,Greene,county,46,4,Indiana
+28/04/2020 15:08:39,USA-18083,Knox,county,20,0,Indiana
+28/04/2020 15:08:39,USA-18151,Steuben,county,21,1,Indiana
+28/04/2020 15:08:39,USA-20055,Finney,county,139,1,Kansas
+28/04/2020 15:08:39,USA-20125,Montgomery,county,14,2,Kansas
+28/04/2020 15:08:39,USA-20185,Stafford,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20189,Stevens,county,6,0,Kansas
+28/04/2020 15:08:39,USA-21019,Boyd,county,33,3,Kentucky
+28/04/2020 15:08:39,USA-21135,Lewis,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21217,Taylor,county,6,0,Kentucky
+28/04/2020 15:08:39,USA-22021,Caldwell,county,17,0,Louisiana
+28/04/2020 15:08:39,USA-22081,Red River,county,22,4,Louisiana
+28/04/2020 15:08:39,USA-22085,Sabine,county,13,0,Louisiana
+28/04/2020 15:08:39,USA-23025,Somerset,county,17,0,Maine
+28/04/2020 15:08:39,USA-26031,Cheboygan,county,17,1,Michigan
+28/04/2020 15:08:39,USA-27033,Cottonwood,county,6,0,Minnesota
+28/04/2020 15:08:39,USA-27041,Douglas,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27059,Isanti,county,7,0,Minnesota
+28/04/2020 15:08:39,USA-27111,Otter Tail,county,8,0,Minnesota
+28/04/2020 15:08:39,USA-28015,Carroll,county,15,1,Mississippi
+28/04/2020 15:08:39,USA-28021,Claiborne,county,18,0,Mississippi
+28/04/2020 15:08:39,USA-28149,Warren,county,45,2,Mississippi
+28/04/2020 15:08:39,USA-30023,Deer Lodge,county,3,0,Montana
+28/04/2020 15:08:39,USA-31157,Scotts Bluff,county,26,0,Nebraska
+28/04/2020 15:08:39,USA-36049,Lewis,county,9,0,New York
+28/04/2020 15:08:39,USA-37005,Alleghany,county,2,0,North Carolina
+28/04/2020 15:08:39,USA-37017,Bladen,county,7,0,North Carolina
+28/04/2020 15:08:39,USA-37033,Caswell,county,15,0,North Carolina
+28/04/2020 15:08:39,USA-37047,Columbus,county,87,6,North Carolina
+28/04/2020 15:08:39,USA-37053,Currituck,county,2,0,North Carolina
+28/04/2020 15:08:39,USA-37083,Halifax,county,46,1,North Carolina
+28/04/2020 15:08:39,USA-37137,Pamlico,county,7,0,North Carolina
+28/04/2020 15:08:39,USA-37187,Washington,county,25,2,North Carolina
+28/04/2020 15:08:39,USA-37197,Yadkin,county,11,1,North Carolina
+28/04/2020 15:08:39,USA-40047,Garfield,county,11,1,Oklahoma
+28/04/2020 15:08:39,USA-40131,Rogers,county,46,3,Oklahoma
+28/04/2020 15:08:39,USA-40133,Seminole,county,8,1,Oklahoma
+28/04/2020 15:08:39,USA-40139,Texas,county,68,1,Oklahoma
+28/04/2020 15:08:39,USA-42087,Mifflin,county,26,0,Pennsylvania
+28/04/2020 15:08:39,USA-42121,Venango,county,7,0,Pennsylvania
+28/04/2020 15:08:39,USA-46025,Clark,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46027,Clay,county,5,0,South Dakota
+28/04/2020 15:08:39,USA-46047,Fall River,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46109,Roberts,county,4,0,South Dakota
+28/04/2020 15:08:39,USA-46125,Turner,county,15,0,South Dakota
+28/04/2020 15:08:39,USA-47031,Coffee,county,31,0,Tennessee
+28/04/2020 15:08:39,USA-47075,Haywood,county,17,1,Tennessee
+28/04/2020 15:08:39,USA-47079,Henry,county,11,0,Tennessee
+28/04/2020 15:08:39,USA-47109,McNairy,county,11,0,Tennessee
+28/04/2020 15:08:39,USA-47131,Obion,county,12,1,Tennessee
+28/04/2020 15:08:39,USA-48115,Dawson,county,18,1,Texas
+28/04/2020 15:08:39,USA-48135,Ector,county,70,4,Texas
+28/04/2020 15:08:39,USA-48159,Franklin,county,1,0,Texas
+28/04/2020 15:08:39,USA-48213,Henderson,county,22,0,Texas
+28/04/2020 15:08:39,USA-48273,Kleberg,county,8,1,Texas
+28/04/2020 15:08:39,USA-48373,Polk,county,18,0,Texas
+28/04/2020 15:08:39,USA-48407,San Jacinto,county,10,0,Texas
+28/04/2020 15:08:39,USA-48437,Swisher,county,7,0,Texas
+28/04/2020 15:08:39,USA-48473,Waller,county,28,0,Texas
+28/04/2020 15:08:39,USA-51005,Alleghany,county,5,0,Virginia
+28/04/2020 15:08:39,USA-51081,Greensville,county,30,4,Virginia
+28/04/2020 15:08:39,USA-51685,Manassas Park,county,44,1,Virginia
+28/04/2020 15:08:39,USA-51185,Tazewell,county,4,0,Virginia
+28/04/2020 15:08:39,USA-51840,Winchester,county,33,0,Virginia
+28/04/2020 15:08:39,USA-51197,Wythe,county,11,1,Virginia
+28/04/2020 15:08:39,USA-54011,Cabell,county,38,0,West Virginia
+28/04/2020 15:08:39,USA-54065,Morgan,county,9,0,West Virginia
+28/04/2020 15:08:39,USA-54103,Wetzel,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-54105,Wirt,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-01007,Bibb,county,35,0,Alabama
+28/04/2020 15:08:39,USA-01057,Fayette,county,5,0,Alabama
+28/04/2020 15:08:39,USA-01065,Hale,county,40,2,Alabama
+28/04/2020 15:08:39,USA-01119,Sumter,county,51,1,Alabama
+28/04/2020 15:08:39,USA-04011,Greenlee,county,2,0,Arizona
+28/04/2020 15:08:39,USA-05101,Newton,county,3,0,Arkansas
+28/04/2020 15:08:39,USA-05123,St. Francis,county,75,0,Arkansas
+28/04/2020 15:08:39,USA-06003,Alpine,county,1,0,California
+28/04/2020 15:08:39,USA-08007,Archuleta,county,8,0,Colorado
+28/04/2020 15:08:39,USA-08095,Phillips,county,5,0,Colorado
+28/04/2020 15:08:39,USA-09999,Unknown,county,521,2,Connecticut
+28/04/2020 15:08:39,USA-12059,Holmes,county,9,0,Florida
+28/04/2020 15:08:39,USA-13001,Appling,county,54,4,Georgia
+28/04/2020 15:08:39,USA-13011,Banks,county,18,0,Georgia
+28/04/2020 15:08:39,USA-13019,Berrien,county,16,0,Georgia
+28/04/2020 15:08:39,USA-13023,Bleckley,county,9,0,Georgia
+28/04/2020 15:08:39,USA-13061,Clay,county,20,2,Georgia
+28/04/2020 15:08:39,USA-13075,Cook,county,16,1,Georgia
+28/04/2020 15:08:39,USA-13083,Dade,county,16,1,Georgia
+28/04/2020 15:08:39,USA-13093,Dooly,county,108,7,Georgia
+28/04/2020 15:08:39,USA-13123,Gilmer,county,36,0,Georgia
+28/04/2020 15:08:39,USA-13161,Jeff Davis,county,11,1,Georgia
+28/04/2020 15:08:39,USA-13163,Jefferson,county,13,1,Georgia
+28/04/2020 15:08:39,USA-13167,Johnson,county,36,2,Georgia
+28/04/2020 15:08:39,USA-13191,McIntosh,county,4,0,Georgia
+28/04/2020 15:08:39,USA-13249,Schley,county,16,1,Georgia
+28/04/2020 15:08:39,USA-13263,Talbot,county,21,1,Georgia
+28/04/2020 15:08:39,USA-13301,Warren,county,12,0,Georgia
+28/04/2020 15:08:39,USA-16017,Bonner,county,4,0,Idaho
+28/04/2020 15:08:39,USA-16039,Elmore,county,27,2,Idaho
+28/04/2020 15:08:39,USA-16053,Jerome,county,37,2,Idaho
+28/04/2020 15:08:39,USA-16067,Minidoka,county,7,0,Idaho
+28/04/2020 15:08:39,USA-17023,Clark,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17033,Crawford,county,10,0,Illinois
+28/04/2020 15:08:39,USA-17121,Marion,county,26,0,Illinois
+28/04/2020 15:08:39,USA-17157,Randolph,county,79,1,Illinois
+28/04/2020 15:08:39,USA-17165,Saline,county,3,0,Illinois
+28/04/2020 15:08:39,USA-19009,Audubon,county,1,0,Iowa
+28/04/2020 15:08:39,USA-19047,Crawford,county,10,1,Iowa
+28/04/2020 15:08:39,USA-19077,Guthrie,county,6,0,Iowa
+28/04/2020 15:08:39,USA-19097,Jackson,county,5,0,Iowa
+28/04/2020 15:08:39,USA-19105,Jones,county,18,0,Iowa
+28/04/2020 15:08:39,USA-19177,Van Buren,county,8,0,Iowa
+28/04/2020 15:08:39,USA-20005,Atchison,county,8,0,Kansas
+28/04/2020 15:08:39,USA-20169,Saline,county,19,2,Kansas
+28/04/2020 15:08:39,USA-21155,Marion,county,14,0,Kentucky
+28/04/2020 15:08:39,USA-21157,Marshall,county,27,0,Kentucky
+28/04/2020 15:08:39,USA-26009,Antrim,county,10,1,Michigan
+28/04/2020 15:08:39,USA-26041,Delta,county,12,2,Michigan
+28/04/2020 15:08:39,USA-26061,Houghton,county,2,0,Michigan
+28/04/2020 15:08:39,USA-26149,St. Joseph,county,27,1,Michigan
+28/04/2020 15:08:39,USA-27061,Itasca,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27093,Meeker,county,4,0,Minnesota
+28/04/2020 15:08:39,USA-27165,Watonwan,county,5,0,Minnesota
+28/04/2020 15:08:39,USA-28003,Alcorn,county,9,0,Mississippi
+28/04/2020 15:08:39,USA-29039,Cedar,county,5,0,Missouri
+28/04/2020 15:08:39,USA-29055,Crawford,county,7,0,Missouri
+28/04/2020 15:08:39,USA-29117,Livingston,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29121,Macon,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29125,Maries,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29141,Morgan,county,3,0,Missouri
+28/04/2020 15:08:39,USA-29151,Osage,county,5,0,Missouri
+28/04/2020 15:08:39,USA-29163,Pike,county,7,0,Missouri
+28/04/2020 15:08:39,USA-29179,Reynolds,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29209,Stone,county,3,0,Missouri
+28/04/2020 15:08:39,USA-29225,Webster,county,13,0,Missouri
+28/04/2020 15:08:39,USA-31003,Antelope,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-31185,York,county,9,0,Nebraska
+28/04/2020 15:08:39,USA-35057,Torrance,county,13,0,New Mexico
+28/04/2020 15:08:39,USA-37003,Alexander,county,4,0,North Carolina
+28/04/2020 15:08:39,USA-37161,Rutherford,county,108,6,North Carolina
+28/04/2020 15:08:39,USA-38035,Grand Forks,county,173,0,North Dakota
+28/04/2020 15:08:39,USA-38065,Oliver,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-39015,Brown,county,11,1,Ohio
+28/04/2020 15:08:39,USA-39075,Holmes,county,5,1,Ohio
+28/04/2020 15:08:39,USA-39135,Preble,county,25,1,Ohio
+28/04/2020 15:08:39,USA-39141,Ross,county,35,1,Ohio
+28/04/2020 15:08:39,USA-40009,Beckham,county,3,0,Oklahoma
+28/04/2020 15:08:39,USA-40033,Cotton,county,5,1,Oklahoma
+28/04/2020 15:08:39,USA-40085,Love,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-45011,Barnwell,county,14,0,South Carolina
+28/04/2020 15:08:39,USA-46019,Butte,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46091,Marshall,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-47049,Fentress,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-47055,Giles,county,6,0,Tennessee
+28/04/2020 15:08:39,USA-47099,Lawrence,county,16,0,Tennessee
+28/04/2020 15:08:39,USA-47117,Marshall,county,22,1,Tennessee
+28/04/2020 15:08:39,USA-47177,Warren,county,5,0,Tennessee
+28/04/2020 15:08:39,USA-47181,Wayne,county,2,0,Tennessee
+28/04/2020 15:08:39,USA-48007,Aransas,county,2,0,Texas
+28/04/2020 15:08:39,USA-48191,Hall,county,0,0,Texas
+28/04/2020 15:08:39,USA-48217,Hill,county,15,1,Texas
+28/04/2020 15:08:39,USA-48249,Jim Wells,county,3,0,Texas
+28/04/2020 15:08:39,USA-48289,Leon,county,5,0,Texas
+28/04/2020 15:08:39,USA-48341,Moore,county,192,3,Texas
+28/04/2020 15:08:39,USA-48497,Wise,county,15,2,Texas
+28/04/2020 15:08:39,USA-51089,Henry,county,13,1,Virginia
+28/04/2020 15:08:39,USA-51101,King William,county,5,0,Virginia
+28/04/2020 15:08:39,USA-51730,Petersburg,county,27,2,Virginia
+28/04/2020 15:08:39,USA-51173,Smyth,county,13,0,Virginia
+28/04/2020 15:08:39,USA-54083,Randolph,county,4,0,West Virginia
+28/04/2020 15:08:39,USA-54087,Roane,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-55029,Door,county,10,1,Wisconsin
+28/04/2020 15:08:39,USA-55053,Jackson,county,12,1,Wisconsin
+28/04/2020 15:08:39,USA-55077,Marquette,county,3,1,Wisconsin
+28/04/2020 15:08:39,USA-05091,Miller,county,32,1,Arkansas
+28/04/2020 15:08:39,USA-05127,Scott,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-06063,Plumas,county,4,0,California
+28/04/2020 15:08:39,USA-08065,Lake,county,16,0,Colorado
+28/04/2020 15:08:39,USA-08109,Saguache,county,3,0,Colorado
+28/04/2020 15:08:39,USA-12013,Calhoun,county,6,0,Florida
+28/04/2020 15:08:39,USA-12125,Union,county,4,0,Florida
+28/04/2020 15:08:39,USA-13107,Emanuel,county,19,0,Georgia
+28/04/2020 15:08:39,USA-13131,Grady,county,48,3,Georgia
+28/04/2020 15:08:39,USA-13221,Oglethorpe,county,48,3,Georgia
+28/04/2020 15:08:39,USA-13241,Rabun,county,9,0,Georgia
+28/04/2020 15:08:39,USA-13251,Screven,county,14,1,Georgia
+28/04/2020 15:08:39,USA-13259,Stewart,county,17,0,Georgia
+28/04/2020 15:08:39,USA-13295,Walker,county,59,0,Georgia
+28/04/2020 15:08:39,USA-13307,Webster,county,7,0,Georgia
+28/04/2020 15:08:39,USA-13315,Wilcox,county,68,6,Georgia
+28/04/2020 15:08:39,USA-13319,Wilkinson,county,30,2,Georgia
+28/04/2020 15:08:39,USA-16003,Adams,county,3,0,Idaho
+28/04/2020 15:08:39,USA-16025,Camas,county,1,0,Idaho
+28/04/2020 15:08:39,USA-17053,Ford,county,8,1,Illinois
+28/04/2020 15:08:39,USA-17125,Mason,county,6,0,Illinois
+28/04/2020 15:08:39,USA-17141,Ogle,county,85,1,Illinois
+28/04/2020 15:08:39,USA-18017,Cass,county,315,1,Indiana
+28/04/2020 15:08:39,USA-18077,Jefferson,county,22,0,Indiana
+28/04/2020 15:08:39,USA-19041,Clay,county,3,0,Iowa
+28/04/2020 15:08:39,USA-20009,Barton,county,9,0,Kansas
+28/04/2020 15:08:39,USA-20019,Chautauqua,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20099,Labette,county,21,0,Kansas
+28/04/2020 15:08:39,USA-21009,Barren,county,13,0,Kentucky
+28/04/2020 15:08:39,USA-21061,Edmonson,county,13,0,Kentucky
+28/04/2020 15:08:39,USA-21083,Graves,county,109,11,Kentucky
+28/04/2020 15:08:39,USA-21091,Hancock,county,6,0,Kentucky
+28/04/2020 15:08:39,USA-21103,Henry,county,4,0,Kentucky
+28/04/2020 15:08:39,USA-21127,Lawrence,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21197,Powell,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21203,Rockcastle,county,11,0,Kentucky
+28/04/2020 15:08:39,USA-21207,Russell,county,16,2,Kentucky
+28/04/2020 15:08:39,USA-22029,Concordia,county,30,3,Louisiana
+28/04/2020 15:08:39,USA-22091,St. Helena,county,27,1,Louisiana
+28/04/2020 15:08:39,USA-26011,Arenac,county,16,1,Michigan
+28/04/2020 15:08:39,USA-26023,Branch,county,47,2,Michigan
+28/04/2020 15:08:39,USA-26135,Oscoda,county,4,0,Michigan
+28/04/2020 15:08:39,USA-26153,Schoolcraft,county,3,0,Michigan
+28/04/2020 15:08:39,USA-27015,Brown,county,8,1,Minnesota
+28/04/2020 15:08:39,USA-27017,Carlton,county,47,0,Minnesota
+28/04/2020 15:08:39,USA-27155,Traverse,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-28141,Tishomingo,county,7,0,Mississippi
+28/04/2020 15:08:39,USA-29081,Harrison,county,6,0,Missouri
+28/04/2020 15:08:39,USA-29127,Marion,county,4,0,Missouri
+28/04/2020 15:08:39,USA-29186,Ste. Genevieve,county,7,1,Missouri
+28/04/2020 15:08:39,USA-30051,Liberty,county,1,0,Montana
+28/04/2020 15:08:39,USA-30065,Musselshell,county,1,0,Montana
+28/04/2020 15:08:39,USA-31105,Kimball,county,10,0,Nebraska
+28/04/2020 15:08:39,USA-36099,Seneca,county,36,1,New York
+28/04/2020 15:08:39,USA-37007,Anson,county,20,0,North Carolina
+28/04/2020 15:08:39,USA-37043,Clay,county,5,0,North Carolina
+28/04/2020 15:08:39,USA-37117,Martin,county,16,0,North Carolina
+28/04/2020 15:08:39,USA-37157,Rockingham,county,23,2,North Carolina
+28/04/2020 15:08:39,USA-37193,Wilkes,county,18,1,North Carolina
+28/04/2020 15:08:39,USA-38037,Grant,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-38053,McKenzie,county,12,0,North Dakota
+28/04/2020 15:08:39,USA-38105,Williams,county,10,0,North Dakota
+28/04/2020 15:08:39,USA-39127,Perry,county,12,0,Ohio
+28/04/2020 15:08:39,USA-41045,Malheur,county,6,0,Oregon
+28/04/2020 15:08:39,USA-41063,Wallowa,county,1,0,Oregon
+28/04/2020 15:08:39,USA-42009,Bedford,county,21,1,Pennsylvania
+28/04/2020 15:08:39,USA-45009,Bamberg,county,7,0,South Carolina
+28/04/2020 15:08:39,USA-46077,Kingsbury,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-47085,Humphreys,county,9,1,Tennessee
+28/04/2020 15:08:39,USA-51025,Brunswick,county,14,0,Virginia
+28/04/2020 15:08:39,USA-51029,Buckingham,county,34,0,Virginia
+28/04/2020 15:08:39,USA-51031,Campbell,county,10,0,Virginia
+28/04/2020 15:08:39,USA-51035,Carroll,county,3,0,Virginia
+28/04/2020 15:08:39,USA-51043,Clarke,county,7,0,Virginia
+28/04/2020 15:08:39,USA-51620,Franklin City,county,16,0,Virginia
+28/04/2020 15:08:39,USA-51097,King and Queen,county,2,0,Virginia
+28/04/2020 15:08:39,USA-51139,Page,county,82,0,Virginia
+28/04/2020 15:08:39,USA-51181,Surry,county,4,1,Virginia
+28/04/2020 15:08:39,USA-51820,Waynesboro,county,10,0,Virginia
+28/04/2020 15:08:39,USA-54031,Hardy,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-55003,Ashland,county,2,0,Wisconsin
+28/04/2020 15:08:39,USA-55011,Buffalo,county,4,1,Wisconsin
+28/04/2020 15:08:39,USA-55083,Oconto,county,6,0,Wisconsin
+28/04/2020 15:08:39,USA-01025,Clarke,county,25,1,Alabama
+28/04/2020 15:08:39,USA-01035,Conecuh,county,9,0,Alabama
+28/04/2020 15:08:39,USA-01045,Dale,county,25,0,Alabama
+28/04/2020 15:08:39,USA-05015,Carroll,county,4,0,Arkansas
+28/04/2020 15:08:39,USA-05077,Lee,county,3,1,Arkansas
+28/04/2020 15:08:39,USA-12045,Gulf,county,1,0,Florida
+28/04/2020 15:08:39,USA-12049,Hardee,county,10,0,Florida
+28/04/2020 15:08:39,USA-12079,Madison,county,41,2,Florida
+28/04/2020 15:08:39,USA-12093,Okeechobee,county,9,0,Florida
+28/04/2020 15:08:39,USA-13173,Lanier,county,8,1,Georgia
+28/04/2020 15:08:39,USA-13237,Putnam,county,31,3,Georgia
+28/04/2020 15:08:39,USA-13291,Union,county,28,2,Georgia
+28/04/2020 15:08:39,USA-16047,Gooding,county,8,0,Idaho
+28/04/2020 15:08:39,USA-16057,Latah,county,4,0,Idaho
+28/04/2020 15:08:39,USA-17127,Massac,county,3,0,Illinois
+28/04/2020 15:08:39,USA-17183,Vermilion,county,11,0,Illinois
+28/04/2020 15:08:39,USA-18007,Benton,county,6,0,Indiana
+28/04/2020 15:08:39,USA-18075,Jay,county,11,0,Indiana
+28/04/2020 15:08:39,USA-19121,Madison,county,3,1,Iowa
+28/04/2020 15:08:39,USA-19131,Mitchell,county,2,0,Iowa
+28/04/2020 15:08:39,USA-20151,Pratt,county,1,0,Kansas
+28/04/2020 15:08:39,USA-23009,Hancock,county,9,0,Maine
+28/04/2020 15:08:39,USA-24019,Dorchester,county,38,2,Maryland
+28/04/2020 15:08:39,USA-26097,Mackinac,county,5,0,Michigan
+28/04/2020 15:08:39,USA-27035,Crow Wing,county,20,0,Minnesota
+28/04/2020 15:08:39,USA-27047,Freeborn,county,33,0,Minnesota
+28/04/2020 15:08:39,USA-27173,Yellow Medicine,county,3,0,Minnesota
+28/04/2020 15:08:39,USA-28061,Jasper,county,32,1,Mississippi
+28/04/2020 15:08:39,USA-29023,Butler,county,25,0,Missouri
+28/04/2020 15:08:39,USA-29025,Caldwell,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29063,DeKalb,county,3,0,Missouri
+28/04/2020 15:08:39,USA-29073,Gasconade,county,2,0,Missouri
+28/04/2020 15:08:39,USA-30009,Carbon,county,6,0,Montana
+28/04/2020 15:08:39,USA-31039,Cuming,county,3,0,Nebraska
+28/04/2020 15:08:39,USA-35003,Catron,county,1,1,New Mexico
+28/04/2020 15:08:39,USA-35017,Grant,county,14,0,New Mexico
+28/04/2020 15:08:39,USA-35035,Otero,county,5,0,New Mexico
+28/04/2020 15:08:39,USA-38013,Burke,county,3,0,North Dakota
+28/04/2020 15:08:39,USA-39117,Morrow,county,26,0,Ohio
+28/04/2020 15:08:39,USA-40055,Greer,county,64,6,Oklahoma
+28/04/2020 15:08:39,USA-45005,Allendale,county,8,1,South Carolina
+28/04/2020 15:08:39,USA-47027,Clay,county,5,0,Tennessee
+28/04/2020 15:08:39,USA-47057,Grainger,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-47081,Hickman,county,40,0,Tennessee
+28/04/2020 15:08:39,USA-47097,Lauderdale,county,17,0,Tennessee
+28/04/2020 15:08:39,USA-47143,Rhea,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-47153,Sequatchie,county,4,0,Tennessee
+28/04/2020 15:08:39,USA-48001,Anderson,county,16,0,Texas
+28/04/2020 15:08:39,USA-48063,Camp,county,6,0,Texas
+28/04/2020 15:08:39,USA-48077,Clay,county,3,0,Texas
+28/04/2020 15:08:39,USA-48089,Colorado,county,10,0,Texas
+28/04/2020 15:08:39,USA-48093,Comanche,county,3,0,Texas
+28/04/2020 15:08:39,USA-48177,Gonzales,county,8,1,Texas
+28/04/2020 15:08:39,USA-48179,Gray,county,35,0,Texas
+28/04/2020 15:08:39,USA-48265,Kerr,county,5,0,Texas
+28/04/2020 15:08:39,USA-48297,Live Oak,county,5,0,Texas
+28/04/2020 15:08:39,USA-48351,Newton,county,2,0,Texas
+28/04/2020 15:08:39,USA-48405,San Augustine,county,16,1,Texas
+28/04/2020 15:08:39,USA-48499,Wood,county,7,0,Texas
+28/04/2020 15:08:39,USA-51015,Augusta,county,36,1,Virginia
+28/04/2020 15:08:39,USA-51580,Covington,county,1,0,Virginia
+28/04/2020 15:08:39,USA-51183,Sussex,county,28,1,Virginia
+28/04/2020 15:08:39,USA-54001,Barbour,county,4,1,West Virginia
+28/04/2020 15:08:39,USA-55023,Crawford,county,3,0,Wisconsin
+28/04/2020 15:08:39,USA-55078,Menominee,county,1,0,Wisconsin
+28/04/2020 15:08:39,USA-01031,Coffee,county,88,0,Alabama
+28/04/2020 15:08:39,USA-02290,Yukon-Koyukuk Census Area,county,1,0,Alaska
+28/04/2020 15:08:39,USA-05093,Mississippi,county,11,0,Arkansas
+28/04/2020 15:08:39,USA-05095,Monroe,county,4,0,Arkansas
+28/04/2020 15:08:39,USA-05103,Ouachita,county,5,0,Arkansas
+28/04/2020 15:08:39,USA-05135,Sharp,county,2,0,Arkansas
+28/04/2020 15:08:39,USA-06015,Del Norte,county,2,0,California
+28/04/2020 15:08:39,USA-08027,Custer,county,2,0,Colorado
+28/04/2020 15:08:39,USA-16061,Lewis,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16087,Washington,county,1,0,Idaho
+28/04/2020 15:08:39,USA-17117,Macoupin,county,28,0,Illinois
+28/04/2020 15:08:39,USA-17131,Mercer,county,7,0,Illinois
+28/04/2020 15:08:39,USA-17139,Moultrie,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17147,Piatt,county,7,0,Illinois
+28/04/2020 15:08:39,USA-18009,Blackford,county,7,1,Indiana
+28/04/2020 15:08:39,USA-18147,Spencer,county,5,0,Indiana
+28/04/2020 15:08:39,USA-19017,Bremer,county,38,2,Iowa
+28/04/2020 15:08:39,USA-19101,Jefferson,county,6,0,Iowa
+28/04/2020 15:08:39,USA-19141,OBrien,county,4,0,Iowa
+28/04/2020 15:08:39,USA-20029,Cloud,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20035,Cowley,county,1,1,Kansas
+28/04/2020 15:08:39,USA-21011,Bath,county,4,0,Kentucky
+28/04/2020 15:08:39,USA-21055,Crittenden,county,3,1,Kentucky
+28/04/2020 15:08:39,USA-21057,Cumberland,county,4,0,Kentucky
+28/04/2020 15:08:39,USA-21137,Lincoln,county,4,1,Kentucky
+28/04/2020 15:08:39,USA-21163,Meade,county,6,1,Kentucky
+28/04/2020 15:08:39,USA-21191,Pendleton,county,5,0,Kentucky
+28/04/2020 15:08:39,USA-24001,Allegany,county,105,3,Maryland
+28/04/2020 15:08:39,USA-27071,Koochiching,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-28153,Wayne,county,19,0,Mississippi
+28/04/2020 15:08:39,USA-29091,Howell,county,5,0,Missouri
+28/04/2020 15:08:39,USA-29143,New Madrid,county,9,0,Missouri
+28/04/2020 15:08:39,USA-31037,Colfax,county,9,0,Nebraska
+28/04/2020 15:08:39,USA-31067,Gage,county,29,2,Nebraska
+28/04/2020 15:08:39,USA-31131,Otoe,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-36123,Yates,county,16,1,New York
+28/04/2020 15:08:39,USA-37055,Dare,county,12,1,North Carolina
+28/04/2020 15:08:39,USA-37073,Gates,county,7,0,North Carolina
+28/04/2020 15:08:39,USA-37113,Macon,county,2,1,North Carolina
+28/04/2020 15:08:39,USA-37121,Mitchell,county,5,0,North Carolina
+28/04/2020 15:08:39,USA-37169,Stokes,county,11,0,North Carolina
+28/04/2020 15:08:39,USA-39059,Guernsey,county,15,0,Ohio
+28/04/2020 15:08:39,USA-39065,Hardin,county,23,0,Ohio
+28/04/2020 15:08:39,USA-39171,Williams,county,27,1,Ohio
+28/04/2020 15:08:39,USA-40005,Atoka,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-40073,Kingfisher,county,7,0,Oklahoma
+28/04/2020 15:08:39,USA-40075,Kiowa,county,4,0,Oklahoma
+28/04/2020 15:08:39,USA-40153,Woodward,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-42053,Forest,county,7,0,Pennsylvania
+28/04/2020 15:08:39,USA-45021,Cherokee,county,14,0,South Carolina
+28/04/2020 15:08:39,USA-45049,Hampton,county,21,0,South Carolina
+28/04/2020 15:08:39,USA-45065,McCormick,county,6,1,South Carolina
+28/04/2020 15:08:39,USA-46079,Lake,county,4,0,South Dakota
+28/04/2020 15:08:39,USA-46115,Spink,county,3,0,South Dakota
+28/04/2020 15:08:39,USA-47087,Jackson,county,7,0,Tennessee
+28/04/2020 15:08:39,USA-47139,Polk,county,7,0,Tennessee
+28/04/2020 15:08:39,USA-48129,Donley,county,24,0,Texas
+28/04/2020 15:08:39,USA-48171,Gillespie,county,2,0,Texas
+28/04/2020 15:08:39,USA-48175,Goliad,county,6,0,Texas
+28/04/2020 15:08:39,USA-48241,Jasper,county,10,1,Texas
+28/04/2020 15:08:39,USA-48287,Lee,county,2,0,Texas
+28/04/2020 15:08:39,USA-48363,Palo Pinto,county,7,1,Texas
+28/04/2020 15:08:39,USA-48365,Panola,county,70,5,Texas
+28/04/2020 15:08:39,USA-49025,Kane,county,3,0,Utah
+28/04/2020 15:08:39,USA-51049,Cumberland,county,10,0,Virginia
+28/04/2020 15:08:39,USA-51775,Salem,county,8,0,Virginia
+28/04/2020 15:08:39,USA-53051,Pend Oreille,county,2,0,Washington
+28/04/2020 15:08:39,USA-54071,Pendleton,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-55001,Adams,county,4,1,Wisconsin
+28/04/2020 15:08:39,USA-55121,Trempealeau,county,2,0,Wisconsin
+28/04/2020 15:08:39,USA-56041,Uinta,county,6,0,Wyoming
+28/04/2020 15:08:39,USA-01005,Barbour,county,33,0,Alabama
+28/04/2020 15:08:39,USA-01067,Henry,county,22,1,Alabama
+28/04/2020 15:08:39,USA-02240,Southeast Fairbanks Census Area,county,1,0,Alaska
+28/04/2020 15:08:39,USA-04999,Unknown,county,0,0,Arizona
+28/04/2020 15:08:39,USA-05073,Lafayette,county,6,0,Arkansas
+28/04/2020 15:08:39,USA-05117,Prairie,county,2,0,Arkansas
+28/04/2020 15:08:39,USA-06103,Tehama,county,1,0,California
+28/04/2020 15:08:39,USA-08071,Las Animas,county,3,0,Colorado
+28/04/2020 15:08:39,USA-08103,Rio Blanco,county,1,0,Colorado
+28/04/2020 15:08:39,USA-12037,Franklin,county,2,0,Florida
+28/04/2020 15:08:39,USA-13105,Elbert,county,16,0,Georgia
+28/04/2020 15:08:39,USA-13197,Marion,county,38,1,Georgia
+28/04/2020 15:08:39,USA-13239,Quitman,county,3,1,Georgia
+28/04/2020 15:08:39,USA-13281,Towns,county,20,0,Georgia
+28/04/2020 15:08:39,USA-17039,De Witt,county,1,0,Illinois
+28/04/2020 15:08:39,USA-17049,Effingham,county,5,1,Illinois
+28/04/2020 15:08:39,USA-17083,Jersey,county,12,1,Illinois
+28/04/2020 15:08:39,USA-18121,Parke,county,12,0,Indiana
+28/04/2020 15:08:39,USA-19115,Louisa,county,262,2,Iowa
+28/04/2020 15:08:39,USA-19119,Lyon,county,6,0,Iowa
+28/04/2020 15:08:39,USA-19149,Plymouth,county,11,0,Iowa
+28/04/2020 15:08:39,USA-20115,Marion,county,5,0,Kansas
+28/04/2020 15:08:39,USA-20141,Osborne,county,2,0,Kansas
+28/04/2020 15:08:39,USA-23003,Aroostook,county,4,0,Maine
+28/04/2020 15:08:39,USA-23029,Washington,county,2,0,Maine
+28/04/2020 15:08:39,USA-26141,Presque Isle,county,10,0,Michigan
+28/04/2020 15:08:39,USA-29045,Clark,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29115,Linn,county,5,1,Missouri
+28/04/2020 15:08:39,USA-29195,Saline,county,143,0,Missouri
+28/04/2020 15:08:39,USA-30035,Glacier,county,4,0,Montana
+28/04/2020 15:08:39,USA-31121,Merrick,county,10,0,Nebraska
+28/04/2020 15:08:39,USA-33007,Coos,county,2,0,New Hampshire
+28/04/2020 15:08:39,USA-37041,Chowan,county,9,0,North Carolina
+28/04/2020 15:08:39,USA-37087,Haywood,county,5,0,North Carolina
+28/04/2020 15:08:39,USA-38027,Eddy,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-38087,Slope,county,3,0,North Dakota
+28/04/2020 15:08:39,USA-40053,Grant,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-40093,Major,county,2,1,Oklahoma
+28/04/2020 15:08:39,USA-40089,McCurtain,county,8,0,Oklahoma
+28/04/2020 15:08:39,USA-40149,Washita,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-41013,Crook,county,1,0,Oregon
+28/04/2020 15:08:39,USA-42035,Clinton,county,18,0,Pennsylvania
+28/04/2020 15:08:39,USA-48281,Lampasas,county,3,0,Texas
+28/04/2020 15:08:39,USA-48449,Titus,county,15,0,Texas
+28/04/2020 15:08:39,USA-49007,Carbon,county,7,0,Utah
+28/04/2020 15:08:39,USA-49013,Duchesne,county,4,0,Utah
+28/04/2020 15:08:39,USA-49015,Emery,county,4,0,Utah
+28/04/2020 15:08:39,USA-49019,Grand,county,2,0,Utah
+28/04/2020 15:08:39,USA-49023,Juab,county,7,0,Utah
+28/04/2020 15:08:39,USA-49027,Millard,county,5,0,Utah
+28/04/2020 15:08:39,USA-51530,Buena Vista,county,5,0,Virginia
+28/04/2020 15:08:39,USA-51033,Caroline,county,21,0,Virginia
+28/04/2020 15:08:39,USA-51595,Emporia,county,18,1,Virginia
+28/04/2020 15:08:39,USA-51678,Lexington,county,3,0,Virginia
+28/04/2020 15:08:39,USA-51155,Pulaski,county,10,0,Virginia
+28/04/2020 15:08:39,USA-51159,Richmond,county,79,0,Virginia
+28/04/2020 15:08:39,USA-51193,Westmoreland,county,17,0,Virginia
+28/04/2020 15:08:39,USA-51195,Wise,county,20,1,Virginia
+28/04/2020 15:08:39,USA-53003,Asotin,county,17,1,Washington
+28/04/2020 15:08:39,USA-54057,Mineral,county,12,0,West Virginia
+28/04/2020 15:08:39,USA-55005,Barron,county,6,0,Wisconsin
+28/04/2020 15:08:39,USA-55107,Rusk,county,4,0,Wisconsin
+28/04/2020 15:08:39,USA-56023,Lincoln,county,6,0,Wyoming
+28/04/2020 15:08:39,USA-01105,Perry,county,9,0,Alabama
+28/04/2020 15:08:39,USA-02195,Petersburg Borough,county,2,0,Alaska
+28/04/2020 15:08:39,USA-05039,Dallas,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-08091,Ouray,county,5,1,Colorado
+28/04/2020 15:08:39,USA-12029,Dixie,county,6,0,Florida
+28/04/2020 15:08:39,USA-12065,Jefferson,county,27,2,Florida
+28/04/2020 15:08:39,USA-13305,Wayne,county,11,0,Georgia
+28/04/2020 15:08:39,USA-16029,Caribou,county,1,0,Idaho
+28/04/2020 15:08:39,USA-17079,Jasper,county,42,2,Illinois
+28/04/2020 15:08:39,USA-17103,Lee,county,19,0,Illinois
+28/04/2020 15:08:39,USA-17149,Pike,county,1,0,Illinois
+28/04/2020 15:08:39,USA-18101,Martin,county,7,0,Indiana
+28/04/2020 15:08:39,USA-18161,Union,county,6,0,Indiana
+28/04/2020 15:08:39,USA-19075,Grundy,county,8,0,Iowa
+28/04/2020 15:08:39,USA-19089,Howard,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19111,Lee,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19129,Mills,county,2,0,Iowa
+28/04/2020 15:08:39,USA-20073,Greenwood,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20089,Jewell,county,4,0,Kansas
+28/04/2020 15:08:39,USA-21033,Caldwell,county,13,0,Kentucky
+28/04/2020 15:08:39,USA-21053,Clinton,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-21183,Ohio,county,38,0,Kentucky
+28/04/2020 15:08:39,USA-21193,Perry,county,6,0,Kentucky
+28/04/2020 15:08:39,USA-27085,McLeod,county,3,0,Minnesota
+28/04/2020 15:08:39,USA-27119,Polk,county,20,0,Minnesota
+28/04/2020 15:08:39,USA-29147,Nodaway,county,3,0,Missouri
+28/04/2020 15:08:39,USA-30001,Beaverhead,county,1,0,Montana
+28/04/2020 15:08:39,USA-31031,Cherry,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-33999,Unknown,county,6,1,New Hampshire
+28/04/2020 15:08:39,USA-35027,Lincoln,county,2,0,New Mexico
+28/04/2020 15:08:39,USA-35028,Los Alamos,county,6,0,New Mexico
+28/04/2020 15:08:39,USA-36005,Bronx,county,0,0,New York
+28/04/2020 15:08:39,USA-36047,Brooklyn,county,0,0,New York
+28/04/2020 15:08:39,USA-36081,Queens,county,0,0,New York
+28/04/2020 15:08:39,USA-36085,Staten Island,county,0,0,New York
+28/04/2020 15:08:39,USA-37009,Ashe,county,4,0,North Carolina
+28/04/2020 15:08:39,USA-37185,Warren,county,4,0,North Carolina
+28/04/2020 15:08:39,USA-39001,Adams,county,4,0,Ohio
+28/04/2020 15:08:39,USA-40141,Tillman,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-42113,Sullivan,county,1,0,Pennsylvania
+28/04/2020 15:08:39,USA-42131,Wyoming,county,17,2,Pennsylvania
+28/04/2020 15:08:39,USA-47161,Stewart,county,6,0,Tennessee
+28/04/2020 15:08:39,USA-48211,Hemphill,county,1,0,Texas
+28/04/2020 15:08:39,USA-48233,Hutchinson,county,11,0,Texas
+28/04/2020 15:08:39,USA-48319,Mason,county,1,0,Texas
+28/04/2020 15:08:39,USA-48455,Trinity,county,8,0,Texas
+28/04/2020 15:08:39,USA-48457,Tyler,county,6,0,Texas
+28/04/2020 15:08:39,USA-51037,Charlotte,county,7,0,Virginia
+28/04/2020 15:08:39,USA-51790,Staunton,county,10,0,Virginia
+28/04/2020 15:08:39,USA-53069,Wahkiakum,county,2,0,Washington
+28/04/2020 15:08:39,USA-55071,Manitowoc,county,9,0,Wisconsin
+28/04/2020 15:08:39,USA-55115,Shawano,county,8,0,Wisconsin
+28/04/2020 15:08:39,USA-56011,Crook,county,5,0,Wyoming
+28/04/2020 15:08:39,USA-05107,Phillips,county,4,1,Arkansas
+28/04/2020 15:08:39,USA-05149,Yell,county,3,0,Arkansas
+28/04/2020 15:08:39,USA-13079,Crawford,county,14,0,Georgia
+28/04/2020 15:08:39,USA-17007,Boone,county,71,8,Illinois
+28/04/2020 15:08:39,USA-17013,Calhoun,county,1,0,Illinois
+28/04/2020 15:08:39,USA-17059,Gallatin,county,2,0,Illinois
+28/04/2020 15:08:39,USA-18027,Daviess,county,43,9,Indiana
+28/04/2020 15:08:39,USA-19039,Clarke,county,2,0,Iowa
+28/04/2020 15:08:39,USA-19079,Hamilton,county,7,0,Iowa
+28/04/2020 15:08:39,USA-20061,Geary,county,11,0,Kansas
+28/04/2020 15:08:39,USA-20157,Republic,county,4,0,Kansas
+28/04/2020 15:08:39,USA-20197,Wabaunsee,county,10,0,Kansas
+28/04/2020 15:08:39,USA-21001,Adair,county,83,7,Kentucky
+28/04/2020 15:08:39,USA-21043,Carter,county,4,0,Kentucky
+28/04/2020 15:08:39,USA-21089,Greenup,county,11,0,Kentucky
+28/04/2020 15:08:39,USA-21115,Johnson,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21131,Leslie,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-21133,Letcher,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21149,McLean,county,11,1,Kentucky
+28/04/2020 15:08:39,USA-21171,Monroe,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21195,Pike,county,8,2,Kentucky
+28/04/2020 15:08:39,USA-26019,Benzie,county,4,0,Michigan
+28/04/2020 15:08:39,USA-27055,Houston,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27117,Pipestone,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-28131,Stone,county,22,0,Mississippi
+28/04/2020 15:08:39,USA-31097,Johnson,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-31113,Logan,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31137,Phelps,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31159,Seward,county,6,1,Nebraska
+28/04/2020 15:08:39,USA-37141,Pender,county,11,0,North Carolina
+28/04/2020 15:08:39,USA-38029,Emmons,county,1,1,North Dakota
+28/04/2020 15:08:39,USA-39111,Monroe,county,2,0,Ohio
+28/04/2020 15:08:39,USA-40091,McIntosh,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-41055,Sherman,county,1,0,Oregon
+28/04/2020 15:08:39,USA-42057,Fulton,county,3,0,Pennsylvania
+28/04/2020 15:08:39,USA-47077,Henderson,county,5,0,Tennessee
+28/04/2020 15:08:39,USA-55037,Florence,county,2,0,Wisconsin
+28/04/2020 15:08:39,USA-05021,Clay,county,2,0,Arkansas
+28/04/2020 15:08:39,USA-05047,Franklin,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-05065,Izard,county,3,0,Arkansas
+28/04/2020 15:08:39,USA-05083,Logan,county,3,0,Arkansas
+28/04/2020 15:08:39,USA-06033,Lake,county,6,0,California
+28/04/2020 15:08:39,USA-12047,Hamilton,county,6,0,Florida
+28/04/2020 15:08:39,USA-13003,Atkinson,county,7,0,Georgia
+28/04/2020 15:08:39,USA-13025,Brantley,county,21,2,Georgia
+28/04/2020 15:08:39,USA-13101,Echols,county,5,0,Georgia
+28/04/2020 15:08:39,USA-13283,Treutlen,county,2,0,Georgia
+28/04/2020 15:08:39,USA-17081,Jefferson,county,80,2,Illinois
+28/04/2020 15:08:39,USA-17185,Wabash,county,1,0,Illinois
+28/04/2020 15:08:39,USA-18131,Pulaski,county,9,0,Indiana
+28/04/2020 15:08:39,USA-19037,Chickasaw,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19069,Franklin,county,2,0,Iowa
+28/04/2020 15:08:39,USA-19125,Marion,county,6,0,Iowa
+28/04/2020 15:08:39,USA-19189,Winnebago,county,2,0,Iowa
+28/04/2020 15:08:39,USA-20129,Morton,county,2,0,Kansas
+28/04/2020 15:08:39,USA-22123,West Carroll,county,4,0,Louisiana
+28/04/2020 15:08:39,USA-27101,Murray,county,8,0,Minnesota
+28/04/2020 15:08:39,USA-27127,Redwood,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-28041,Greene,county,4,1,Mississippi
+28/04/2020 15:08:39,USA-29075,Gentry,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29123,Madison,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29161,Phelps,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29227,Worth,county,1,0,Missouri
+28/04/2020 15:08:39,USA-31033,Cheyenne,county,5,0,Nebraska
+28/04/2020 15:08:39,USA-31041,Custer,county,21,2,Nebraska
+28/04/2020 15:08:39,USA-31167,Stanton,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-36061,Manhattan,county,0,0,New York
+28/04/2020 15:08:39,USA-39115,Morgan,county,4,0,Ohio
+28/04/2020 15:08:39,USA-39125,Paulding,county,8,0,Ohio
+28/04/2020 15:08:39,USA-39137,Putnam,county,51,5,Ohio
+28/04/2020 15:08:39,USA-39145,Scioto,county,6,0,Ohio
+28/04/2020 15:08:39,USA-40067,Jefferson,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-41015,Curry,county,4,0,Oregon
+28/04/2020 15:08:39,USA-48107,Crosby,county,2,1,Texas
+28/04/2020 15:08:39,USA-48111,Dallam,county,8,1,Texas
+28/04/2020 15:08:39,USA-48195,Hansford,county,4,0,Texas
+28/04/2020 15:08:39,USA-48371,Pecos,county,8,0,Texas
+28/04/2020 15:08:39,USA-48505,Zapata,county,7,0,Texas
+28/04/2020 15:08:39,USA-51011,Appomattox,county,12,0,Virginia
+28/04/2020 15:08:39,USA-51071,Giles,county,4,0,Virginia
+28/04/2020 15:08:39,USA-51167,Russell,county,3,0,Virginia
+28/04/2020 15:08:39,USA-54041,Lewis,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-54091,Taylor,county,5,0,West Virginia
+28/04/2020 15:08:39,USA-55061,Kewaunee,county,10,1,Wisconsin
+28/04/2020 15:08:39,USA-55137,Waushara,county,2,0,Wisconsin
+28/04/2020 15:08:39,USA-02050,Bethel Census Area,county,1,0,Alaska
+28/04/2020 15:08:39,USA-12041,Gilchrist,county,4,0,Florida
+28/04/2020 15:08:39,USA-12123,Taylor,county,3,0,Florida
+28/04/2020 15:08:39,USA-13141,Hancock,county,17,0,Georgia
+28/04/2020 15:08:39,USA-16077,Power,county,2,0,Idaho
+28/04/2020 15:08:39,USA-17029,Coles,county,22,1,Illinois
+28/04/2020 15:08:39,USA-17101,Lawrence,county,3,0,Illinois
+28/04/2020 15:08:39,USA-17159,Richland,county,3,0,Illinois
+28/04/2020 15:08:39,USA-17173,Shelby,county,9,0,Illinois
+28/04/2020 15:08:39,USA-19021,Buena Vista,county,3,0,Iowa
+28/04/2020 15:08:39,USA-19055,Delaware,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19073,Greene,county,1,0,Iowa
+28/04/2020 15:08:39,USA-20007,Barber,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20163,Rooks,county,5,0,Kansas
+28/04/2020 15:08:39,USA-20171,Scott,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20175,Seward,county,307,0,Kansas
+28/04/2020 15:08:39,USA-21087,Green,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21099,Hart,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21219,Todd,county,10,0,Kentucky
+28/04/2020 15:08:39,USA-22023,Cameron,county,3,0,Louisiana
+28/04/2020 15:08:39,USA-26105,Mason,county,5,0,Michigan
+28/04/2020 15:08:39,USA-27135,Roseau,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27151,Swift,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-29059,Dallas,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29089,Howard,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29149,Oregon,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29167,Polk,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29199,Scotland,county,4,0,Missouri
+28/04/2020 15:08:39,USA-38011,Bowman,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-39105,Meigs,county,2,0,Ohio
+28/04/2020 15:08:39,USA-40007,Beaver,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-40043,Dewey,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-40095,Marshall,county,2,0,Oklahoma
+28/04/2020 15:08:39,USA-42047,Elk,county,2,0,Pennsylvania
+28/04/2020 15:08:39,USA-42065,Jefferson,county,4,0,Pennsylvania
+28/04/2020 15:08:39,USA-48059,Callahan,county,1,0,Texas
+28/04/2020 15:08:39,USA-48193,Hamilton,county,5,0,Texas
+28/04/2020 15:08:39,USA-48275,Knox,county,1,0,Texas
+28/04/2020 15:08:39,USA-48335,Mitchell,county,1,0,Texas
+28/04/2020 15:08:39,USA-50013,Grand Isle,county,3,0,Vermont
+28/04/2020 15:08:39,USA-51027,Buchanan,county,13,0,Virginia
+28/04/2020 15:08:39,USA-51045,Craig,county,2,0,Virginia
+28/04/2020 15:08:39,USA-51053,Dinwiddie,county,12,0,Virginia
+28/04/2020 15:08:39,USA-51111,Lunenburg,county,4,0,Virginia
+28/04/2020 15:08:39,USA-51157,Rappahannock,county,2,0,Virginia
+28/04/2020 15:08:39,USA-54009,Brooke,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-54019,Fayette,county,9,0,West Virginia
+28/04/2020 15:08:39,USA-54047,McDowell,county,6,0,West Virginia
+28/04/2020 15:08:39,USA-54067,Nicholas,county,6,0,West Virginia
+28/04/2020 15:08:39,USA-54095,Tyler,county,3,0,West Virginia
+28/04/2020 15:08:39,USA-54109,Wyoming,county,1,0,West Virginia
+28/04/2020 15:08:39,USA-55065,Lafayette,county,4,0,Wisconsin
+28/04/2020 15:08:39,USA-01061,Geneva,county,7,0,Alabama
+28/04/2020 15:08:39,USA-05087,Madison,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-12067,Lafayette,county,1,0,Florida
+28/04/2020 15:08:39,USA-17067,Hancock,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17175,Stark,county,1,0,Illinois
+28/04/2020 15:08:39,USA-19195,Worth,county,1,0,Iowa
+28/04/2020 15:08:39,USA-21007,Ballard,county,5,0,Kentucky
+28/04/2020 15:08:39,USA-21109,Jackson,county,58,5,Kentucky
+28/04/2020 15:08:39,USA-21235,Whitley,county,10,0,Kentucky
+28/04/2020 15:08:39,USA-27115,Pine,county,45,0,Minnesota
+28/04/2020 15:08:39,USA-29221,Washington,county,8,1,Missouri
+28/04/2020 15:08:39,USA-30083,Richland,county,3,0,Montana
+28/04/2020 15:08:39,USA-38093,Stutsman,county,4,0,North Dakota
+28/04/2020 15:08:39,USA-39069,Henry,county,4,0,Ohio
+28/04/2020 15:08:39,USA-39079,Jackson,county,4,0,Ohio
+28/04/2020 15:08:39,USA-46102,Oglala Lakota,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-48025,Bee,county,6,0,Texas
+28/04/2020 15:08:39,USA-48119,Delta,county,1,0,Texas
+28/04/2020 15:08:39,USA-48125,Dickens,county,1,0,Texas
+28/04/2020 15:08:39,USA-48153,Floyd,county,3,0,Texas
+28/04/2020 15:08:39,USA-48163,Frio,county,3,0,Texas
+28/04/2020 15:08:39,USA-48253,Jones,county,13,0,Texas
+28/04/2020 15:08:39,USA-50009,Essex,county,2,0,Vermont
+28/04/2020 15:08:39,USA-54005,Boone,county,2,0,West Virginia
+28/04/2020 15:08:39,USA-54007,Braxton,county,2,0,West Virginia
+28/04/2020 15:08:39,USA-54027,Hampshire,county,7,1,West Virginia
+28/04/2020 15:08:39,USA-60,American Samoa,territory,0,0
+28/04/2020 15:08:39,USA-60999,American Samoa,county,0,0
+28/04/2020 15:08:39,USA-05013,Calhoun,county,0,0,Arkansas
+28/04/2020 15:08:39,USA-05049,Fulton,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-05067,Jackson,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-05081,Little River,county,0,0,Arkansas
+28/04/2020 15:08:39,USA-05089,Marion,county,1,0,Arkansas
+28/04/2020 15:08:39,USA-05097,Montgomery,county,0,0,Arkansas
+28/04/2020 15:08:39,USA-06043,Mariposa,county,0,0,California
+28/04/2020 15:08:39,USA-06091,Sierra,county,0,0,California
+28/04/2020 15:08:39,USA-08011,Bent,county,0,0,Colorado
+28/04/2020 15:08:39,USA-08017,Cheyenne,county,0,0,Colorado
+28/04/2020 15:08:39,USA-08021,Conejos,county,0,0,Colorado
+28/04/2020 15:08:39,USA-08033,Dolores,county,0,0,Colorado
+28/04/2020 15:08:39,USA-08047,Gilpin,county,1,0,Colorado
+28/04/2020 15:08:39,USA-08057,Jackson,county,0,0,Colorado
+28/04/2020 15:08:39,USA-08061,Kiowa,county,0,0,Colorado
+28/04/2020 15:08:39,USA-08099,Prowers,county,1,0,Colorado
+28/04/2020 15:08:39,USA-08111,San Juan,county,1,0,Colorado
+28/04/2020 15:08:39,USA-08115,Sedgwick,county,0,0,Colorado
+28/04/2020 15:08:39,USA-16007,Bear Lake,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16009,Benewah,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16015,Boise,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16021,Boundary,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16023,Butte,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16033,Clark,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16035,Clearwater,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16041,Franklin,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16059,Lemhi,county,1,0,Idaho
+28/04/2020 15:08:39,USA-16071,Oneida,county,0,0,Idaho
+28/04/2020 15:08:39,USA-16079,Shoshone,county,0,0,Idaho
+28/04/2020 15:08:39,USA-17003,Alexander,county,2,0,Illinois
+28/04/2020 15:08:39,USA-17009,Brown,county,0,0,Illinois
+28/04/2020 15:08:39,USA-17017,Cass,county,21,0,Illinois
+28/04/2020 15:08:39,USA-17025,Clay,county,2,0,Illinois
+28/04/2020 15:08:39,USA-17045,Edgar,county,0,0,Illinois
+28/04/2020 15:08:39,USA-17047,Edwards,county,0,0,Illinois
+28/04/2020 15:08:39,USA-17057,Fulton,county,2,0,Illinois
+28/04/2020 15:08:39,USA-17061,Greene,county,2,0,Illinois
+28/04/2020 15:08:39,USA-17065,Hamilton,county,2,0,Illinois
+28/04/2020 15:08:39,USA-17069,Hardin,county,1,0,Illinois
+28/04/2020 15:08:39,USA-17071,Henderson,county,4,0,Illinois
+28/04/2020 15:08:39,USA-17087,Johnson,county,3,0,Illinois
+28/04/2020 15:08:39,USA-17109,McDonough,county,5,0,Illinois
+28/04/2020 15:08:39,USA-17145,Perry,county,7,0,Illinois
+28/04/2020 15:08:39,USA-17151,Pope,county,0,0,Illinois
+28/04/2020 15:08:39,USA-17153,Pulaski,county,15,0,Illinois
+28/04/2020 15:08:39,USA-17155,Putnam,county,0,0,Illinois
+28/04/2020 15:08:39,USA-17169,Schuyler,county,1,0,Illinois
+28/04/2020 15:08:39,USA-17171,Scott,county,0,0,Illinois
+28/04/2020 15:08:39,USA-17181,Union,county,7,0,Illinois
+28/04/2020 15:08:39,USA-17187,Warren,county,44,0,Illinois
+28/04/2020 15:08:39,USA-17191,Wayne,county,2,0,Illinois
+28/04/2020 15:08:39,USA-17193,White,county,1,0,Illinois
+28/04/2020 15:08:39,USA-18123,Perry,county,6,0,Indiana
+28/04/2020 15:08:39,USA-18125,Pike,county,1,0,Indiana
+28/04/2020 15:08:39,USA-19003,Adams,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19025,Calhoun,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19029,Cass,county,1,0,Iowa
+28/04/2020 15:08:39,USA-19035,Cherokee,county,2,0,Iowa
+28/04/2020 15:08:39,USA-19051,Davis,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19053,Decatur,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19063,Emmet,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19067,Floyd,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19071,Fremont,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19091,Humboldt,county,4,0,Iowa
+28/04/2020 15:08:39,USA-19093,Ida,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19117,Lucas,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19135,Monroe,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19143,Osceola,county,7,0,Iowa
+28/04/2020 15:08:39,USA-19147,Palo Alto,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19151,Pocahontas,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19159,Ringgold,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19161,Sac,county,0,0,Iowa
+28/04/2020 15:08:39,USA-19175,Union,county,1,0,Iowa
+28/04/2020 15:08:39,USA-19185,Wayne,county,0,0,Iowa
+28/04/2020 15:08:39,USA-21121,Knox,county,5,0,Kentucky
+28/04/2020 15:08:39,USA-22107,Tensas,county,1,0,Louisiana
+28/04/2020 15:08:39,USA-23021,Piscataquis,county,1,0,Maine
+28/04/2020 15:08:39,USA-27001,Aitkin,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27005,Becker,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27023,Chippewa,county,2,0,Minnesota
+28/04/2020 15:08:39,USA-27031,Cook,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27051,Grant,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27057,Hubbard,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27065,Kanabec,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27069,Kittson,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27075,Lake,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27077,Lake of the Woods,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27089,Marshall,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27095,Mille Lacs,county,1,1,Minnesota
+28/04/2020 15:08:39,USA-27097,Morrison,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27105,Nobles,county,325,1,Minnesota
+28/04/2020 15:08:39,USA-27107,Norman,county,7,0,Minnesota
+28/04/2020 15:08:39,USA-27113,Pennington,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27121,Pope,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27125,Red Lake,county,1,0,Minnesota
+28/04/2020 15:08:39,USA-27133,Rock,county,5,0,Minnesota
+28/04/2020 15:08:39,USA-27149,Stevens,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-27153,Todd,county,3,0,Minnesota
+28/04/2020 15:08:39,USA-27159,Wadena,county,0,0,Minnesota
+28/04/2020 15:08:39,USA-28065,Jefferson Davis,county,22,1,Mississippi
+28/04/2020 15:08:39,USA-29003,Andrew,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29007,Audrain,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29011,Barton,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29033,Carroll,county,3,0,Missouri
+28/04/2020 15:08:39,USA-29057,Dade,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29061,Daviess,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29065,Dent,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29067,Douglas,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29079,Grundy,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29085,Hickory,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29087,Holt,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29093,Iron,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29103,Knox,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29105,Laclede,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29109,Lawrence,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29111,Lewis,county,6,1,Missouri
+28/04/2020 15:08:39,USA-29129,Mercer,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29131,Miller,county,1,0,Missouri
+28/04/2020 15:08:39,USA-29133,Mississippi,county,23,0,Missouri
+28/04/2020 15:08:39,USA-29137,Monroe,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29153,Ozark,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29171,Putnam,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29197,Schuyler,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29203,Shannon,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29185,St. Clair,county,2,0,Missouri
+28/04/2020 15:08:39,USA-29211,Sullivan,county,0,0,Missouri
+28/04/2020 15:08:39,USA-29217,Vernon,county,4,0,Missouri
+28/04/2020 15:08:39,USA-29223,Wayne,county,0,0,Missouri
+28/04/2020 15:08:39,USA-30003,Big Horn,county,3,0,Montana
+28/04/2020 15:08:39,USA-30005,Blaine,county,0,0,Montana
+28/04/2020 15:08:39,USA-30011,Carter,county,0,0,Montana
+28/04/2020 15:08:39,USA-30015,Chouteau,county,0,0,Montana
+28/04/2020 15:08:39,USA-30017,Custer,county,0,0,Montana
+28/04/2020 15:08:39,USA-30019,Daniels,county,0,0,Montana
+28/04/2020 15:08:39,USA-30021,Dawson,county,0,0,Montana
+28/04/2020 15:08:39,USA-30025,Fallon,county,0,0,Montana
+28/04/2020 15:08:39,USA-30027,Fergus,county,0,0,Montana
+28/04/2020 15:08:39,USA-30033,Garfield,county,0,0,Montana
+28/04/2020 15:08:39,USA-30037,Golden Valley,county,3,0,Montana
+28/04/2020 15:08:39,USA-30039,Granite,county,0,0,Montana
+28/04/2020 15:08:39,USA-30045,Judith Basin,county,0,0,Montana
+28/04/2020 15:08:39,USA-30055,McCone,county,0,0,Montana
+28/04/2020 15:08:39,USA-30061,Mineral,county,0,0,Montana
+28/04/2020 15:08:39,USA-30069,Petroleum,county,0,0,Montana
+28/04/2020 15:08:39,USA-30071,Phillips,county,0,0,Montana
+28/04/2020 15:08:39,USA-30073,Pondera,county,2,0,Montana
+28/04/2020 15:08:39,USA-30075,Powder River,county,0,0,Montana
+28/04/2020 15:08:39,USA-30077,Powell,county,0,0,Montana
+28/04/2020 15:08:39,USA-30079,Prairie,county,0,0,Montana
+28/04/2020 15:08:39,USA-30087,Rosebud,county,0,0,Montana
+28/04/2020 15:08:39,USA-30089,Sanders,county,0,0,Montana
+28/04/2020 15:08:39,USA-30091,Sheridan,county,0,0,Montana
+28/04/2020 15:08:39,USA-30095,Stillwater,county,1,0,Montana
+28/04/2020 15:08:39,USA-30097,Sweet Grass,county,0,0,Montana
+28/04/2020 15:08:39,USA-30099,Teton,county,0,0,Montana
+28/04/2020 15:08:39,USA-30103,Treasure,county,0,0,Montana
+28/04/2020 15:08:39,USA-30105,Valley,county,0,0,Montana
+28/04/2020 15:08:39,USA-30107,Wheatland,county,1,0,Montana
+28/04/2020 15:08:39,USA-30109,Wibaux,county,0,0,Montana
+28/04/2020 15:08:39,USA-31021,Burt,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31143,Polk,county,5,0,Nebraska
+28/04/2020 15:08:39,USA-32033,White Pine,county,3,0,Nevada
+28/04/2020 15:08:39,USA-35007,Colfax,county,5,0,New Mexico
+28/04/2020 15:08:39,USA-35011,De Baca,county,0,0,New Mexico
+28/04/2020 15:08:39,USA-35019,Guadalupe,county,12,0,New Mexico
+28/04/2020 15:08:39,USA-35021,Harding,county,1,0,New Mexico
+28/04/2020 15:08:39,USA-35023,Hidalgo,county,0,0,New Mexico
+28/04/2020 15:08:39,USA-35029,Luna,county,3,0,New Mexico
+28/04/2020 15:08:39,USA-35033,Mora,county,0,0,New Mexico
+28/04/2020 15:08:39,USA-35037,Quay,county,4,1,New Mexico
+28/04/2020 15:08:39,USA-35051,Sierra,county,0,0,New Mexico
+28/04/2020 15:08:39,USA-35059,Union,county,1,0,New Mexico
+28/04/2020 15:08:39,USA-37011,Avery,county,0,0,North Carolina
+28/04/2020 15:08:39,USA-37029,Camden,county,0,0,North Carolina
+28/04/2020 15:08:39,USA-37075,Graham,county,0,0,North Carolina
+28/04/2020 15:08:39,USA-37095,Hyde,county,1,0,North Carolina
+28/04/2020 15:08:39,USA-37103,Jones,county,11,2,North Carolina
+28/04/2020 15:08:39,USA-37115,Madison,county,1,0,North Carolina
+28/04/2020 15:08:39,USA-37173,Swain,county,0,0,North Carolina
+28/04/2020 15:08:39,USA-37177,Tyrrell,county,5,0,North Carolina
+28/04/2020 15:08:39,USA-37199,Yancey,county,0,0,North Carolina
+28/04/2020 15:08:39,USA-38077,Richland,county,7,0,North Dakota
+28/04/2020 15:08:39,USA-39121,Noble,county,4,0,Ohio
+28/04/2020 15:08:39,USA-40003,Alfalfa,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-40011,Blaine,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40025,Cimarron,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-40029,Coal,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40045,Ellis,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40057,Harmon,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40059,Harper,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-40061,Haskell,county,3,0,Oklahoma
+28/04/2020 15:08:39,USA-40063,Hughes,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40069,Johnston,county,4,0,Oklahoma
+28/04/2020 15:08:39,USA-40099,Murray,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-40107,Okfuskee,county,1,0,Oklahoma
+28/04/2020 15:08:39,USA-40127,Pushmataha,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40129,Roger Mills,county,0,0,Oklahoma
+28/04/2020 15:08:39,USA-40151,Woods,county,3,0,Oklahoma
+28/04/2020 15:08:39,USA-41001,Baker,county,0,0,Oregon
+28/04/2020 15:08:39,USA-41011,Coos,county,8,0,Oregon
+28/04/2020 15:08:39,USA-41021,Gilliam,county,0,0,Oregon
+28/04/2020 15:08:39,USA-41025,Harney,county,0,0,Oregon
+28/04/2020 15:08:39,USA-41031,Jefferson,county,5,0,Oregon
+28/04/2020 15:08:39,USA-41037,Lake,county,0,0,Oregon
+28/04/2020 15:08:39,USA-41069,Wheeler,county,0,0,Oregon
+28/04/2020 15:08:39,USA-46031,Corson,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46073,Jerauld,county,6,1,South Dakota
+28/04/2020 15:08:39,USA-47033,Crockett,county,7,0,Tennessee
+28/04/2020 15:08:39,USA-47067,Hancock,county,0,0,Tennessee
+28/04/2020 15:08:39,USA-47095,Lake,county,48,0,Tennessee
+28/04/2020 15:08:39,USA-47127,Moore,county,3,0,Tennessee
+28/04/2020 15:08:39,USA-47137,Pickett,county,0,0,Tennessee
+28/04/2020 15:08:39,USA-47175,Van Buren,county,2,0,Tennessee
+28/04/2020 15:08:39,USA-48019,Bandera,county,4,0,Texas
+28/04/2020 15:08:39,USA-48237,Jack,county,4,0,Texas
+28/04/2020 15:08:39,USA-48313,Madison,county,2,0,Texas
+28/04/2020 15:08:39,USA-48307,McCulloch,county,3,0,Texas
+28/04/2020 15:08:39,USA-48403,Sabine,county,1,0,Texas
+28/04/2020 15:08:39,USA-48415,Scurry,county,2,0,Texas
+28/04/2020 15:08:39,USA-51063,Floyd,county,1,0,Virginia
+28/04/2020 15:08:39,USA-51119,Middlesex,county,4,0,Virginia
+28/04/2020 15:08:39,USA-53023,Garfield,county,0,0,Washington
+28/04/2020 15:08:39,USA-53049,Pacific,county,4,0,Washington
+28/04/2020 15:08:39,USA-54099,Wayne,county,82,6,West Virginia
+28/04/2020 15:08:39,USA-55013,Burnett,county,0,0,Wisconsin
+28/04/2020 15:08:39,USA-55041,Forest,county,0,0,Wisconsin
+28/04/2020 15:08:39,USA-55047,Green Lake,county,1,0,Wisconsin
+28/04/2020 15:08:39,USA-55067,Langlade,county,0,0,Wisconsin
+28/04/2020 15:08:39,USA-55069,Lincoln,county,0,0,Wisconsin
+28/04/2020 15:08:39,USA-55091,Pepin,county,0,0,Wisconsin
+28/04/2020 15:08:39,USA-55095,Polk,county,4,0,Wisconsin
+28/04/2020 15:08:39,USA-55099,Price,county,1,0,Wisconsin
+28/04/2020 15:08:39,USA-55113,Sawyer,county,2,0,Wisconsin
+28/04/2020 15:08:39,USA-55119,Taylor,county,0,0,Wisconsin
+28/04/2020 15:08:39,USA-55123,Vernon,county,1,0,Wisconsin
+28/04/2020 15:08:39,USA-55129,Washburn,county,1,0,Wisconsin
+28/04/2020 15:08:39,USA-56003,Big Horn,county,1,0,Wyoming
+28/04/2020 15:08:39,USA-56027,Niobrara,county,1,0,Wyoming
+28/04/2020 15:08:39,USA-56031,Platte,county,0,0,Wyoming
+28/04/2020 15:08:39,USA-56045,Weston,county,0,0,Wyoming
+28/04/2020 15:08:39,USA-10999,Unknown,county,3,0,Delaware
+28/04/2020 15:08:39,USA-12077,Liberty,county,2,0,Florida
+28/04/2020 15:08:39,USA-21223,Trimble,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-26109,Menominee,county,3,0,Michigan
+28/04/2020 15:08:39,USA-31005,Arthur,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31007,Banner,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31009,Blaine,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31011,Boone,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31013,Box Butte,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31015,Boyd,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31017,Brown,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31023,Butler,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31027,Cedar,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31029,Chase,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31035,Clay,county,5,0,Nebraska
+28/04/2020 15:08:39,USA-31043,Dakota,county,462,1,Nebraska
+28/04/2020 15:08:39,USA-31045,Dawes,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-31049,Deuel,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31051,Dixon,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-31057,Dundy,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31059,Fillmore,county,1,1,Nebraska
+28/04/2020 15:08:39,USA-31061,Franklin,county,3,0,Nebraska
+28/04/2020 15:08:39,USA-31063,Frontier,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31065,Furnas,county,2,0,Nebraska
+28/04/2020 15:08:39,USA-31069,Garden,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31071,Garfield,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31075,Grant,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31077,Greeley,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31083,Harlan,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31085,Hayes,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31087,Hitchcock,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31089,Holt,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31091,Hooker,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31093,Howard,county,11,0,Nebraska
+28/04/2020 15:08:39,USA-31095,Jefferson,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31101,Keith,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31103,Keya Paha,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31115,Loup,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31117,McPherson,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31123,Morrill,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31125,Nance,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31129,Nuckolls,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31133,Pawnee,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31135,Perkins,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31139,Pierce,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31145,Red Willow,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31147,Richardson,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31149,Rock,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31151,Saline,county,38,0,Nebraska
+28/04/2020 15:08:39,USA-31161,Sheridan,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31163,Sherman,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31165,Sioux,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31169,Thayer,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31171,Thomas,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31173,Thurston,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31175,Valley,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-31179,Wayne,county,1,0,Nebraska
+28/04/2020 15:08:39,USA-31181,Webster,county,3,0,Nebraska
+28/04/2020 15:08:39,USA-31183,Wheeler,county,0,0,Nebraska
+28/04/2020 15:08:39,USA-38081,Sargent,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-46097,Miner,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-48009,Archer,county,0,0,Texas
+28/04/2020 15:08:39,USA-48011,Armstrong,county,2,0,Texas
+28/04/2020 15:08:39,USA-48017,Bailey,county,0,0,Texas
+28/04/2020 15:08:39,USA-48023,Baylor,county,0,0,Texas
+28/04/2020 15:08:39,USA-48033,Borden,county,0,0,Texas
+28/04/2020 15:08:39,USA-48035,Bosque,county,3,0,Texas
+28/04/2020 15:08:39,USA-48043,Brewster,county,0,0,Texas
+28/04/2020 15:08:39,USA-48045,Briscoe,county,0,0,Texas
+28/04/2020 15:08:39,USA-48047,Brooks,county,1,0,Texas
+28/04/2020 15:08:39,USA-48065,Carson,county,1,0,Texas
+28/04/2020 15:08:39,USA-48075,Childress,county,1,0,Texas
+28/04/2020 15:08:39,USA-48079,Cochran,county,1,0,Texas
+28/04/2020 15:08:39,USA-48081,Coke,county,0,0,Texas
+28/04/2020 15:08:39,USA-48083,Coleman,county,0,0,Texas
+28/04/2020 15:08:39,USA-48087,Collingsworth,county,0,0,Texas
+28/04/2020 15:08:39,USA-48095,Concho,county,1,0,Texas
+28/04/2020 15:08:39,USA-48101,Cottle,county,0,0,Texas
+28/04/2020 15:08:39,USA-48105,Crockett,county,0,0,Texas
+28/04/2020 15:08:39,USA-48109,Culberson,county,0,0,Texas
+28/04/2020 15:08:39,USA-48127,Dimmit,county,1,0,Texas
+28/04/2020 15:08:39,USA-48131,Duval,county,2,0,Texas
+28/04/2020 15:08:39,USA-48137,Edwards,county,0,0,Texas
+28/04/2020 15:08:39,USA-48151,Fisher,county,0,0,Texas
+28/04/2020 15:08:39,USA-48155,Foard,county,0,0,Texas
+28/04/2020 15:08:39,USA-48161,Freestone,county,3,0,Texas
+28/04/2020 15:08:39,USA-48169,Garza,county,0,0,Texas
+28/04/2020 15:08:39,USA-48173,Glasscock,county,0,0,Texas
+28/04/2020 15:08:39,USA-48197,Hardeman,county,0,0,Texas
+28/04/2020 15:08:39,USA-48205,Hartley,county,4,0,Texas
+28/04/2020 15:08:39,USA-48207,Haskell,county,0,0,Texas
+28/04/2020 15:08:39,USA-48225,Houston,county,4,0,Texas
+28/04/2020 15:08:39,USA-48227,Howard,county,4,1,Texas
+28/04/2020 15:08:39,USA-48229,Hudspeth,county,0,0,Texas
+28/04/2020 15:08:39,USA-48235,Irion,county,0,0,Texas
+28/04/2020 15:08:39,USA-48243,Jeff Davis,county,0,0,Texas
+28/04/2020 15:08:39,USA-48247,Jim Hogg,county,1,0,Texas
+28/04/2020 15:08:39,USA-48261,Kenedy,county,0,0,Texas
+28/04/2020 15:08:39,USA-48263,Kent,county,0,0,Texas
+28/04/2020 15:08:39,USA-48267,Kimble,county,0,0,Texas
+28/04/2020 15:08:39,USA-48269,King,county,0,0,Texas
+28/04/2020 15:08:39,USA-48271,Kinney,county,0,0,Texas
+28/04/2020 15:08:39,USA-48283,La Salle,county,1,0,Texas
+28/04/2020 15:08:39,USA-48295,Lipscomb,county,0,0,Texas
+28/04/2020 15:08:39,USA-48301,Loving,county,0,0,Texas
+28/04/2020 15:08:39,USA-48315,Marion,county,6,0,Texas
+28/04/2020 15:08:39,USA-48311,McMullen,county,0,0,Texas
+28/04/2020 15:08:39,USA-48327,Menard,county,0,0,Texas
+28/04/2020 15:08:39,USA-48333,Mills,county,0,0,Texas
+28/04/2020 15:08:39,USA-48345,Motley,county,1,0,Texas
+28/04/2020 15:08:39,USA-48353,Nolan,county,1,0,Texas
+28/04/2020 15:08:39,USA-48357,Ochiltree,county,5,1,Texas
+28/04/2020 15:08:39,USA-48369,Parmer,county,4,0,Texas
+28/04/2020 15:08:39,USA-48377,Presidio,county,0,0,Texas
+28/04/2020 15:08:39,USA-48379,Rains,county,2,0,Texas
+28/04/2020 15:08:39,USA-48383,Reagan,county,0,0,Texas
+28/04/2020 15:08:39,USA-48385,Real,county,0,0,Texas
+28/04/2020 15:08:39,USA-48387,Red River,county,1,0,Texas
+28/04/2020 15:08:39,USA-48389,Reeves,county,0,0,Texas
+28/04/2020 15:08:39,USA-48391,Refugio,county,0,0,Texas
+28/04/2020 15:08:39,USA-48393,Roberts,county,2,0,Texas
+28/04/2020 15:08:39,USA-48399,Runnels,county,0,0,Texas
+28/04/2020 15:08:39,USA-48411,San Saba,county,0,0,Texas
+28/04/2020 15:08:39,USA-48413,Schleicher,county,0,0,Texas
+28/04/2020 15:08:39,USA-48417,Shackelford,county,0,0,Texas
+28/04/2020 15:08:39,USA-48421,Sherman,county,11,0,Texas
+28/04/2020 15:08:39,USA-48425,Somervell,county,0,0,Texas
+28/04/2020 15:08:39,USA-48429,Stephens,county,1,0,Texas
+28/04/2020 15:08:39,USA-48431,Sterling,county,0,0,Texas
+28/04/2020 15:08:39,USA-48433,Stonewall,county,0,0,Texas
+28/04/2020 15:08:39,USA-48435,Sutton,county,0,0,Texas
+28/04/2020 15:08:39,USA-48443,Terrell,county,0,0,Texas
+28/04/2020 15:08:39,USA-48447,Throckmorton,county,0,0,Texas
+28/04/2020 15:08:39,USA-48461,Upton,county,0,0,Texas
+28/04/2020 15:08:39,USA-48475,Ward,county,0,0,Texas
+28/04/2020 15:08:39,USA-48483,Wheeler,county,3,0,Texas
+28/04/2020 15:08:39,USA-48487,Wilbarger,county,1,0,Texas
+28/04/2020 15:08:39,USA-48495,Winkler,county,3,0,Texas
+28/04/2020 15:08:39,USA-48507,Zavala,county,1,0,Texas
+28/04/2020 15:08:39,USA-51570,Colonial Heights,county,43,3,Virginia
+28/04/2020 15:08:39,USA-51169,Scott,county,5,1,Virginia
+28/04/2020 15:08:39,USA-02198,Prince of Wales-Hyder Census Area,county,2,0,Alaska
+28/04/2020 15:08:39,USA-13209,Montgomery,county,2,0,Georgia
+28/04/2020 15:08:39,USA-20003,Anderson,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20051,Ellis,county,8,0,Kansas
+28/04/2020 15:08:39,USA-20075,Hamilton,county,2,0,Kansas
+28/04/2020 15:08:39,USA-20147,Phillips,county,1,0,Kansas
+28/04/2020 15:08:39,USA-21069,Fleming,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-21077,Gallatin,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21119,Knott,county,4,0,Kentucky
+28/04/2020 15:08:39,USA-21205,Rowan,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-26007,Alpena,county,60,2,Michigan
+28/04/2020 15:08:39,USA-26085,Lake,county,2,0,Michigan
+28/04/2020 15:08:39,USA-38079,Rolette,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-39073,Hocking,county,11,1,Ohio
+28/04/2020 15:08:39,USA-46111,Sanborn,county,3,0,South Dakota
+28/04/2020 15:08:39,USA-54063,Monroe,county,5,0,West Virginia
+28/04/2020 15:08:39,USA-54089,Summers,county,1,0,West Virginia
+28/04/2020 15:08:39,USA-13109,Evans,county,4,0,Georgia
+28/04/2020 15:08:39,USA-20093,Kearny,county,10,0,Kansas
+28/04/2020 15:08:39,USA-20187,Stanton,county,4,0,Kansas
+28/04/2020 15:08:39,USA-21175,Morgan,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21189,Owsley,county,3,0,Kentucky
+28/04/2020 15:08:39,USA-21221,Trigg,county,5,0,Kentucky
+28/04/2020 15:08:39,USA-46015,Brule,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46119,Sully,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46129,Walworth,county,5,0,South Dakota
+28/04/2020 15:08:39,USA-54023,Grant,county,1,0,West Virginia
+28/04/2020 15:08:39,USA-54059,Mingo,county,2,1,West Virginia
+28/04/2020 15:08:39,USA-26119,Montmorency,county,5,0,Michigan
+28/04/2020 15:08:39,USA-32001,Churchill,county,3,1,Nevada
+28/04/2020 15:08:39,USA-46069,Hyde,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-51610,Falls Church,county,26,2,Virginia
+28/04/2020 15:08:39,USA-20041,Dickinson,county,1,0,Kansas
+28/04/2020 15:08:39,USA-21045,Casey,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21079,Garrard,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-21139,Livingston,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-54043,Lincoln,county,1,0,West Virginia
+28/04/2020 15:08:39,USA-54999,Unknown,county,0,0,West Virginia
+28/04/2020 15:08:39,USA-02180,Nome Census Area,county,1,0,Alaska
+28/04/2020 15:08:39,USA-20183,Smith,county,2,0,Kansas
+28/04/2020 15:08:39,USA-21013,Bell,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21039,Carlisle,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21051,Clay,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21063,Elliott,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21065,Estill,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21075,Fulton,county,1,0,Kentucky
+28/04/2020 15:08:39,USA-21095,Harlan,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21105,Hickman,county,2,0,Kentucky
+28/04/2020 15:08:39,USA-21129,Lee,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21153,Magoffin,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21169,Metcalfe,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21187,Owen,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21201,Robertson,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-21237,Wolfe,county,0,0,Kentucky
+28/04/2020 15:08:39,USA-24999,Unknown,county,0,101,Maryland
+28/04/2020 15:08:39,USA-26001,Alcona,county,4,0,Michigan
+28/04/2020 15:08:39,USA-39067,Harrison,county,2,0,Ohio
+28/04/2020 15:08:39,USA-49041,Sevier,county,5,0,Utah
+28/04/2020 15:08:39,USA-02150,Kodiak Island Borough,county,1,0,Alaska
+28/04/2020 15:08:39,USA-26013,Baraga,county,1,0,Michigan
+28/04/2020 15:08:39,USA-46101,Moody,county,2,0,South Dakota
+28/04/2020 15:08:39,USA-51057,Essex,county,4,0,Virginia
+28/04/2020 15:08:39,USA-20017,Chase,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20181,Sherman,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20205,Wilson,county,1,0,Kansas
+28/04/2020 15:08:39,USA-32021,Mineral,county,1,0,Nevada
+28/04/2020 15:08:39,USA-46007,Bennett,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46017,Buffalo,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46021,Campbell,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46033,Custer,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46037,Day,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46041,Dewey,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46043,Douglas,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46045,Edmunds,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46051,Grant,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46053,Gregory,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46055,Haakon,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46059,Hand,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46061,Hanson,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46063,Harding,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46071,Jackson,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46075,Jones,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46089,McPherson,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46095,Mellette,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46105,Perkins,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46107,Potter,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46117,Stanley,county,1,0,South Dakota
+28/04/2020 15:08:39,USA-46123,Tripp,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-46137,Ziebach,county,0,0,South Dakota
+28/04/2020 15:08:39,USA-49039,Sanpete,county,4,0,Utah
+28/04/2020 15:08:39,USA-20179,Sheridan,county,2,0,Kansas
+28/04/2020 15:08:39,USA-38063,Nelson,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-20081,Haskell,county,7,0,Kansas
+28/04/2020 15:08:39,USA-32015,Lander,county,1,0,Nevada
+28/04/2020 15:08:39,USA-51017,Bath,county,0,0,Virginia
+28/04/2020 15:08:39,USA-51021,Bland,county,0,0,Virginia
+28/04/2020 15:08:39,USA-51051,Dickenson,county,0,0,Virginia
+28/04/2020 15:08:39,USA-51077,Grayson,county,0,0,Virginia
+28/04/2020 15:08:39,USA-51091,Highland,county,1,0,Virginia
+28/04/2020 15:08:39,USA-51720,Norton,county,2,0,Virginia
+28/04/2020 15:08:39,USA-51141,Patrick,county,2,0,Virginia
+28/04/2020 15:08:39,USA-01999,Unknown,county,0,0,Alabama
+28/04/2020 15:08:39,USA-20047,Edwards,county,1,0,Kansas
+28/04/2020 15:08:39,USA-38103,Wells,county,2,0,North Dakota
+28/04/2020 15:08:39,USA-51690,Martinsville,county,0,0,Virginia
+28/04/2020 15:08:39,USA-20025,Clark,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20069,Gray,county,2,0,Kansas
+28/04/2020 15:08:39,USA-20097,Kiowa,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20159,Rice,county,3,0,Kansas
+28/04/2020 15:08:39,USA-20067,Grant,county,1,0,Kansas
+28/04/2020 15:08:39,USA-20119,Meade,county,1,0,Kansas
+28/04/2020 15:08:39,USA-38067,Pembina,county,1,0,North Dakota
+28/04/2020 15:08:39,USA-54021,Gilmer,county,1,0,West Virginia
