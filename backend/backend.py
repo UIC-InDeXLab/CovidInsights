@@ -1,13 +1,9 @@
 from flask import Flask, jsonify
-from . import loader
-from . import exceptions
+import loader
+import exceptions
 
 app = Flask(__name__)
 
-
-@app.route('/test')
-def mango_function():
-    return "Hellow, World!"
 
 
 @app.route('/countries', methods=['GET'])
