@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
-import loader
-import exceptions
+from . import loader
+from . import exceptions
 
 app = Flask(__name__)
 
