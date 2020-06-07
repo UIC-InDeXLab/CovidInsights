@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
+    <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="country stats API fully valid and functional now.&#10;Lat Long is averaged. Cases from different regions are added.">
+      <change beforePath="$PROJECT_DIR$/backend/error_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/error_handlers.py" afterDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -191,7 +189,7 @@
       <workItem from="1590267926867" duration="6973000" />
       <workItem from="1590421274587" duration="1435000" />
       <workItem from="1590778763081" duration="195000" />
-      <workItem from="1591522100295" duration="7528000" />
+      <workItem from="1591522100295" duration="7919000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591535360538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="country stats API fully valid and functional now.&#10;Lat Long is averaged. Cases from different regions are added.">
+      <created>1591538696051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591538696051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added readme for running the backend. and a small description of the API spec" />
     <MESSAGE value="- divided error handlers into another file&#10;- added a pandas file but it seems low-level numpy is more suitable" />
-    <option name="LAST_COMMIT_MESSAGE" value="- divided error handlers into another file&#10;- added a pandas file but it seems low-level numpy is more suitable" />
+    <MESSAGE value="country stats API fully valid and functional now.&#10;Lat Long is averaged. Cases from different regions are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="country stats API fully valid and functional now.&#10;Lat Long is averaged. Cases from different regions are added." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
