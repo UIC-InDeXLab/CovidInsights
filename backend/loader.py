@@ -38,10 +38,10 @@ with open(global_timeseries_path, 'rt') as file:
 
         region_name = line[0]
         country_name = line[1]
+        lat = line[2]
+        long = line[3]
         region_list.append(region_name)
         country_list.append(country_name)
-
-
 
         loc_row = [*map(float, line[2:4])]
         loc_arr.append(loc_row)
@@ -94,14 +94,14 @@ for i in range(len(data_arr)):
 
 def get_country_data(country):
     try:
-        row_index = country_list.index(given_country)
+        row_index = country_list.index(country)
     except ValueError:
         raise exceptions.InvalidCountryException
 
     start_date = time.strftime('%Y-%m-%d', dates_mr[0])
+    end_date = time.strftime('%Y-%m-%d', dates_mr[-1])
     data = data_arr[row_index, :]
     # todo: fix this hack job
     # need to convert to python ints (instead of np.int) for jsonify to work
     data = list(map(int, data))
-    return data, start_date
-
+    return data, start_date, end_date

@@ -6,11 +6,11 @@ So far the approach is pulling the repository everyday.
 
 There might be better ways to do this.
 
-> Setup
+## Setup
 
 ``> git clone https://github.com/CSSEGISandData/COVID-19.git``
 
-> Update
+## Update
 
 ```
 > cd COVID-19
