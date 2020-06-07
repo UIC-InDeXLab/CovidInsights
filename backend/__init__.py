@@ -6,5 +6,6 @@ app.debug = True
 
 import backend.backend
 import backend.error_handlers
+import backend.processor
 
 
