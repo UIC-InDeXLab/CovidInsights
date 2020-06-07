@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 import time
 import json
-from backend import app
-import error_handlers
-import exceptions
 from flask import jsonify, abort
 import flask
 
@@ -40,17 +37,21 @@ def get_country_wise_data():
 c_wise = get_country_wise_data()
 
 
-@app.route('/country_stats/<country_name>')
-def get_country_stats(country_name):
-    try:
-        country_stats = c_wise.loc[country_name]
-    except KeyError:
-        abort(404)
-    # todo: get rid of this hack job
-    dct = country_stats.to_json()
-    dct = json.loads(dct)
-    dct['start_date'] = start_date
-    dct['num_days'] = days
-    return dct
+if not __name__ == '__main__':
+    from backend import app
+    import error_handlers
+    import exceptions
 
 
+    @app.route('/country_stats/<country_name>')
+    def get_country_stats(country_name):
+        try:
+            country_stats = c_wise.loc[country_name]
+        except KeyError:
+            abort(404)
+        # todo: get rid of this hack job
+        dct = country_stats.to_json()
+        dct = json.loads(dct)
+        dct['start_date'] = start_date
+        dct['num_days'] = days
+        return dct

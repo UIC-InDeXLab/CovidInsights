@@ -20,5 +20,8 @@ There might be better ways to do this.
 ## API Spec
 - /countries
 gives a list of countries and their latitude and longitude
+- /country_stats/[country_name] gives the confirmed cases in a country, with it's latitude and longitude
+
+deprecated:
 - /countries/[country_name]
-gives the entire data of a given country with a start and end date
+gives the entire data of a given country with a start and end date. (OLD)
