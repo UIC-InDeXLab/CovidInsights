@@ -4,7 +4,6 @@
     <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +36,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,7 +190,7 @@
       <workItem from="1590267926867" duration="6973000" />
       <workItem from="1590421274587" duration="1435000" />
       <workItem from="1590778763081" duration="195000" />
-      <workItem from="1591522100295" duration="8871000" />
+      <workItem from="1591522100295" duration="19405000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -221,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591539083206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="readme update">
+      <created>1591540268926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591540268926</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py">
+      <created>1591614005097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591614005097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,12 +256,14 @@
     <MESSAGE value="- divided error handlers into another file&#10;- added a pandas file but it seems low-level numpy is more suitable" />
     <MESSAGE value="country stats API fully valid and functional now.&#10;Lat Long is averaged. Cases from different regions are added." />
     <MESSAGE value="added the dataset file so users can run out of the box" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the dataset file so users can run out of the box" />
+    <MESSAGE value="readme update" />
+    <MESSAGE value="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591522137130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/COVID_19$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1591539387760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/COVID_19$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1591613392301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
   <component name="masterDetails">
     <states>

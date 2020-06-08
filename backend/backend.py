@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, abort
 import loader
 import exceptions
 from backend import app
@@ -17,7 +17,7 @@ def get_country_data(country_name):
     try:
         country_data, start_date, end_date = loader.get_country_data(country_name)
     except exceptions.InvalidCountryException:
-        return not_found(404)
+        return abort(404)
 
     return jsonify({
         'country_name': country_name,
@@ -26,8 +26,3 @@ def get_country_data(country_name):
         'length': len(country_data),
         'confirmed_cases': country_data
     })
-
-
-@app.route('/get_similar_regions/')
-def get_top_k_similar():
-    return None
