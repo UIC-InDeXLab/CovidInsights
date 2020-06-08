@@ -1,390 +1,891 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>COVID-19</title>
-    <link rel="icon" href="images/fa-head-side-mask.png">
-    <link rel="stylesheet" href="styles/main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
 
-    <script src="scripts/main.js"></script>
+  <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" /> -->
+  <title>COVID-19</title>
+  <!--<link rel="icon" href="images/fa-head-side-mask.png">-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--<script src="leaflet-ajax/dist/leaflet.ajax.min.js"></script>-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Oswald" rel="stylesheet">
+  <link href="css/c3.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/simplebar.css" />
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link href="css/bootstrap4-toggle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="icon" href="img/fa-head-side-mask.png">
+  <script src="js/d3.js"></script>
+  <script src="js/c3.min.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script src="js/leaflet.markercluster.js"></script>
+  <script src="js/leaflet-polygon.fillPattern.js"></script>
+  <script src="js/topojson.v1.min.js"></script>
+  <script src="js/chroma.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.sparkline.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap4-toggle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/simplebar.min.js"></script>
+  <script src="https://kit.fontawesome.com/bb32733e6d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="awesomeMarkers/leaflet.awesome-markers.css">
 
-    <link rel="stylesheet" href="leaflet/leaflet.css" />
-    <script src="leaflet/leaflet.js"></script>
-
-    <script src="https://kit.fontawesome.com/bb32733e6d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
-
-    <link rel="stylesheet" href="awesomeMarkers/leaflet.awesome-markers.css">
-
-    <script src="awesomeMarkers/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
-    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
-
-    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css"
-
-
-    <!--from Jakob's Github-->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="js/c3.min.js"></script>
-    <!--<script src="js/leaflet.js"></script>-->
-    <script src="js/leaflet.markercluster.js"></script>
-    <script src="js/leaflet-polygon.fillPattern.js"></script>
-    <script src="js/topojson.v1.min.js"></script>
-    <script src="js/chroma.min.js"></script>
-    <!--<script src="js/jquery-3.3.1.min.js"></script>-->
-    <script type="text/javascript" src="js/jquery.sparkline.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap4-toggle.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/simplebar.min.js"></script>
-
-
+  <script src="awesomeMarkers/leaflet.awesome-markers.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 </head>
-<body>
-    <div class="wrapper">
-        <div id="mapid"></div>
-        <!--<div><i class="fas fa-cogs"></i></div>-->
-        <div id="setting">
-            <div id="tempral">
-                <b>Tempral Features:</b>
-                <ul class="setting-list">
-                    <li><input type="checkbox"> Total Number of Cases</li>
-                    <li><input type="checkbox"> Total Number of Death</li>
-                    <li><input type="checkbox"> Total Number of Recovery</li>
-                </ul>
-            </div>
-            <div id="non-tempral">
-                <b>Non-tempral Features:</b>
-                <ul class="setting-list">
-                    <li><input type="checkbox"> Population</li>
-                    <li><input type="checkbox"> Geographical Area Size</li>
-                    <li><input type="checkbox"> Population Density</li>
-                    <li><input type="checkbox"> Number of Hospital Beds</li>
-                    <li><input type="checkbox"> Average Income</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</body>
 
-<script>
+<body>
+  <main>
+    <div class="loader"></div>
+    <div id="mobiledeck">
+      <p>
+        <span class="mobile-title">Aggr. Confirmed</span>
+        <span class="confirmed-count"></span>
+        <span class="confirmed-new-count "></span>
+        <p>
+
+          <p>
+            <span class="mobile-title">Active Confirmed</span>
+            <span class="active-count"></span>
+            <span class="active-new-count"></span>
+            <p>
+
+              <p>
+                <span class="mobile-title">Recovered</span>
+                <span class="recovered-count"></span>
+                <span class="recovered-new-count"></span>
+                <p>
+
+                  <p>
+                    <span class="mobile-title">Death</span>
+                    <span class="death-count"></span>
+                    <span class="death-new-count"></span>
+                    <p>
+    </div>
+
+    <div id="info" data-simplebar data-simplebar-auto-hide="true" style="width:520px!important">
+      <i class="fa fa-times fa-2x" id="close-window" aria-hidden="true"></i>
+      <div id="title" style="font-size:19px"><img src="img/virus_logo.png" width="28px"> Novel Coronavirus (COVID-19)</div>
+
+      <p><span id="placename"></span> </p>
+      <div><span id="last-date">Last update: </span><span id="date"></span> <span id="hint"> Click a place to review local trend.</span></div>
+
+      <div id="deck-1" class="card-deck counts">
+        <div class="card">
+          <div class="card-body confirmed">
+            <h5 class="card-title">Aggregated Confirmed
+              <i class="nav fas fa-exclamation-circle tooltip">
+                <span class="tooltiptext">All the confirmed cases ever since the discovery of the COVID-19 in the statistical area.</span>
+              </i>
+            </h5>
+          </div>
+          <p class="card-text">
+            <span class="confirmed-count"></span><span class="confirmed-new-count">
+            </span>
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-body death">
+            <h5 class="card-title">Death</h5>
+            <p class="card-text"><span class="death-count"></span><span class="death-new-count"></span></p>
+          </div>
+        </div>
+      </div>
+      <div id="deck-2" class="card-deck counts">
+        <div class="card">
+          <div class="card-body active">
+            <h5 class="card-title">Active Confirmed
+              <i class="nav fas fa-exclamation-circle tooltip">
+                <span class="tooltiptext">The remaining confirmed cases. The active confirmed cases excludes the recovered and death cases.</span>
+              </i>
+            </h5>
+          </div>
+          <p class="card-text">
+            <span class="active-count"></span>
+            <span class="active-new-count"></span>
+            <i id="counticon" class="nav fas fa-exclamation-circle tooltip counticon active-new-count-tooltip">
+              <span class="tooltiptext">The newly increased/decreased confirmed cases: the # of today's active confirmed cases subtract the # of yesterday's.</span>
+            </i>
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-body recovered">
+            <h5 class="card-title">Recovered</h5>
+            <p class="card-text"><span class="recovered-count"></span><span class="recovered-new-count"></span></p>
+          </div>
+        </div>
+      </div>
+      <div id="similarities">
+        <ul id="similar-list"></ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm" id="find-similar" type="button"  aria-expanded="false">
+           Find Similar Places
+        </button>
+
+      </div>
+
+
+
+      <div id="timeline-chart"></div>
+      <div id="total-chart"></div>
+      <div id="rank-chart"></div>
+
+      <div id="footer">
+
+
+      </div>
+
+
+    </div>
+    <div id="table">
+      <div id="table-container" data-simplebar data-simplebar-auto-hide="true">
+        <table id="table-container-div" class="table table-bordered table-fixed table-hover">
+          <thead>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div id="map"></div>
+    <div id="setting">
+      <div id="tempral">
+        <b>Tempral Features:</b>
+        <ul class="setting-list">
+          <li><input type="checkbox"> Total Number of Cases</li>
+          <li><input type="checkbox"> Total Number of Death</li>
+          <li><input type="checkbox"> Total Number of Recovery</li>
+        </ul>
+      </div>
+      <div id="non-tempral">
+        <b>Non-tempral Features:</b>
+        <ul class="setting-list">
+          <li><input type="checkbox"> Population</li>
+          <li><input type="checkbox"> Geographical Area Size</li>
+          <li><input type="checkbox"> Population Density</li>
+          <li><input type="checkbox"> Number of Hospital Beds</li>
+          <li><input type="checkbox"> Average Income</li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+   <script src="js/main.js"></script>
+  <script>
+    ///////////////////////////////accessary//////////////////////////////////
+
+
+    var markers = new Array();
 
     $(window).ready(function() {
-        $('.loader').fadeOut("slow");
+      $('.loader').fadeOut("slow");
     });
 
 
     var d3locale = d3.formatDefaultLocale({
-        "thousands": ",",
-        "grouping": [3],
+      "thousands": ",",
+      "grouping": [3],
     });
 
     L.TopoJSON = L.GeoJSON.extend({
-        addData: function(jsonData) {
-            if (jsonData.type === 'Topology') {
-                for (key in jsonData.objects) {
-                    geojson = topojson.feature(jsonData, jsonData.objects[key]);
-                    L.GeoJSON.prototype.addData.call(this, geojson);
-                }
-            } else {
-                L.GeoJSON.prototype.addData.call(this, jsonData);
-            }
+      addData: function(jsonData) {
+        if (jsonData.type === 'Topology') {
+          for (key in jsonData.objects) {
+            geojson = topojson.feature(jsonData, jsonData.objects[key]);
+            L.GeoJSON.prototype.addData.call(this, geojson);
+          }
+        } else {
+          L.GeoJSON.prototype.addData.call(this, jsonData);
         }
+      }
     });
+    // Copyright (c) 2013 Ryan Clark
+
+    // var createLabelIcon = function(labelClass, labelText) {
+    //   return L.divIcon({
+    //     className: labelClass,
+    //     html: labelText
+    //   })
+    // }
+    //
+
 
     var worldBounds = L.latLngBounds(
-        L.latLng(-60, -100), //Southwest
-        L.latLng(80, 15) //Northeast
+      L.latLng(-60, -100), //Southwest
+      L.latLng(80, 15) //Northeast
     );
 
 
-    var mymap = L.map('mapid', {
-        center: [44.63, 28.77],
-        zoomControl: false,
-        zoom: 2,
-        maxZoom: 10,
-        minZoom: 2,
-        worldCopyJump: true
-    });//.fitBounds(worldBounds);
+
+    //return the totalConfirmed number of given country
+    function tc(country) {
+      if (country == undefined) {
+        country = 0
+      } else {
+        country = +country.split("-")[0];
+      }
+      return country;
+    }
+
+    //return the totalRecovered number of given country
+    function tr(country) {
+      if (country.split("-")[2] == undefined) {
+        country = 0
+      } else {
+        country = +country.split("-")[2];
+      }
+      return country;
+    }
+
+    //return the totalDeath number of given country
+    function td(country) {
+      if (country.split("-")[3] == undefined) {
+        country = 0
+      } else {
+        country = +country.split("-")[3];
+      }
+      return country;
+    }
+
+    //////////////////////////////////////////////////////////////////////////
+
+
+
+
+    //create the base map and set the initial view point
+    var mymap = L.map('map', {
+      center: [38, -120],
+      zoomControl: false,
+      zoom: 4,
+      maxZoom: 10,
+      minZoom: 2,
+      worldCopyJump: true
+    }).fitBounds(worldBounds);
     // .fitWorld()
-    // new L.Control.Zoom({
-    //     position: 'topright'
-    // }).addTo(mymap);
+    new L.Control.Zoom({
+      position: 'topright'
+    }).addTo(mymap);
+
+
 
     var gray = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png');
     // var dark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png').addTo(mymap);
     var voyager =
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png').addTo(mymap);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png').addTo(mymap);
     var satellite =
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
 
     var baseLayers = {
-        'CARTO Light': gray,
-        // 'Dark': dark,
-        'CARTO Voyager': voyager,
-        'ESRI Satellite': satellite
+      'CARTO Light': gray,
+      // 'Dark': dark,
+      'CARTO Voyager': voyager,
+      'ESRI Satellite': satellite
     }
 
-    mymap.on('load', function() {
-// Add a source for the state polygons.
-        mymap.addSource('states', {
-            'type': 'geojson',
-            'data':
-                'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp.geojson'
-        });
 
-// Add a layer showing the state polygons.
-        mymap.addLayer({
-            'id': 'states-layer',
-            'type': 'fill',
-            'source': 'states',
-            'paint': {
-                'fill-color': 'rgba(200, 100, 240, 0.4)',
-                'fill-outline-color': 'rgba(200, 100, 240, 1)'
-            }
-        });
-    });
 
-    mymap.on('click', function(e) {
+    var chart, rchart;
 
-        var coord = e.latlng;
-        var lat = coord.lat;
-        var lng = coord.lng;
-        console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
+    //create colot scale for both region and legend,and insert the "style" into the "head" tag
+    var colors = chroma.scale('YlOrRd').mode('lch').colors(6);
+    for (i = 0; i < 6; i++) {
+      $('head').append($("<style> .region-color-" + (i + 1).toString() + " { color: " + colors[i] + "; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
+      $('head').append($("<style> .legend-color-" + (i + 1).toString() + " { background: " + colors[i] + "; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
+    }
 
-        if (marker1 != undefined) {
-            mymap.removeLayer(marker1);
+    //create communities object that can add community icon to the map through leaflet
+    //chinese cases
+
+
+    //create cases object that can add community icon to the map through leaflet, the size of the icon is based on the number of cases in that area
+    // <20 cases return small size icon, >20 & <100 ruturn large size, >100 return 2x size
+    //for america and canada cases
+    var cases = new L.MarkerClusterGroup({
+      spiderfyOnMaxZoom: true,
+      singleMarkerMode: true,
+      polygonOptions: {
+        fillColor: "red",
+        color: 'red',
+        weight: 0.5,
+        opacity: 0.6,
+        fillOpacity: 0.2
+      },
+      showCoverageOnHover: true,
+      // zoomToBoundsOnClick: false,
+      iconCreateFunction: function(cluster) {
+        cnt = cluster.getChildCount()
+
+        if (cnt >= 100) {
+          return L.divIcon({
+            // html: '<i class="fas fa-users community community-marker"> <b>' + cluster.getChildCount() + '</b></i>'
+            // html: '<i class="fas fa-users community community-marker fa-2x "> <b>' + "" + '</b></i>'
+          });
+        } else if (cnt >= 20 && cnt < 100) {
+          return L.divIcon({
+            // html: '<i class="fas fa-users community community-marker"> <b>' + cluster.getChildCount() + '</b></i>'
+            // html: '<i class="fas fa-users community community-marker fa-lg "> <b>' + "" + '</b></i>'
+          });
+
+        } else {
+          return L.divIcon({
+            // html: '<i class="fas fa-users community community-marker"> <b>' + cluster.getChildCount() + '</b></i>'
+            // html: '<i class="fas fa-users community community-marker fa-sm "> <b>' + "" + '</b></i>'
+          });
         }
+      }
 
-        var greenMarker = L.AwesomeMarkers.icon({
-            icon: 'fa-cogs',
-            markerColor: 'green'
-        });
+    }).addTo(mymap);
 
-        marker1 = L.marker([lat, lng], {icon: greenMarker}).addTo(mymap);
-
-
-        // new mapboxgl.Popup()
-        //     .setLngLat(e.lngLat)
-        //     .setHTML(e.features[0].properties.name)
-        //     .addTo(mymap);
-    });
-    // L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    //     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    //     maxZoom: 18,
-    //     id: 'mapbox/streets-v11',
-    //     tileSize: 512,
-    //     zoomOffset: -1,
-    //     accessToken: 'pk.eyJ1IjoiaGFzdGktc2hyZiIsImEiOiJja2FoY2JrZzkwaWxtMzJwano0cmE4YTliIn0.BeZpF5IqCiCb8iPU2cIkVQ'
-    // }).addTo(mymap);
 
     var greenMarker = L.AwesomeMarkers.icon({
-        icon: 'fa-cogs',
-        markerColor: 'green'
+      icon: 'fa-cogs',
+      markerColor: 'green'
     });
 
     var marker1 = L.marker([51.5, -0.09], {icon: greenMarker}).addTo(mymap);
+    marker1.bindPopup("<div><b>blah blah</b>, 23 Aug</div><div class='details-button'><button id='loc-det'>Details</button></div>");
 
 
 
 
     var redMarker = L.AwesomeMarkers.icon({
-        icon: 'fa-cogs',
-        markerColor: 'red'
+      icon: 'fa-cogs',
+      markerColor: 'red'
     });
 
+    mymap.on('click', function(e) {
 
-    $(document).ready(function() {
-        $.ajax({
-            type: "GET",
-            url: "test.csv",
-            dataType: "text",
-            success: function(data) {processData(data);}
+      var coord = e.latlng;
+      var lat = coord.lat;
+      var lng = coord.lng;
+      console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
+
+      if (marker1 != undefined) {
+        mymap.removeLayer(marker1);
+      }
+
+      var greenMarker = L.AwesomeMarkers.icon({
+        icon: 'fa-cogs',
+        markerColor: 'green'
+      });
+
+      marker1 = L.marker([lat, lng], {icon: greenMarker}).addTo(mymap);
+
+
+      // new mapboxgl.Popup()
+      //     .setLngLat(e.lngLat)
+      //     .setHTML(e.features[0].properties.name)
+      //     .addTo(mymap);
+    });
+
+    //load all datasets through d3 and store them in an array
+    Promise.all([
+      d3.csv('assets/virus.csv'), //datasets[0]
+      d3.json("assets/all-topo-15.json"), //datasets[1]
+      //d3.csv('assets/communities.csv'), //chinese cases
+      d3.csv('assets/timestamp.txt'), //datasets[3]
+      d3.csv('assets/cases.csv'), //America cases
+      d3.csv('assets/united-states.txt'), //datasets[5]
+      d3.csv('assets/canada-city.txt'), //datasets[6]
+      d3.csv('assets/old-name.csv'), //datasets[7] chinese provinces
+      d3.csv('assets/cases-canada.csv') //datasets[8]
+    ]).then(function(datasets) {
+
+      //read the timestamp in timestamp.txt and add it to map
+      $("#date").text(datasets[2][0].timestamp.split(".")[0] + " PST");
+
+      //read data from communities.csv and add each case on to the map with given information
+      //cases in china
+      //datasets[2].forEach(function(d) {
+      //  L.marker([parseFloat(d.lat), parseFloat(d.lng)]).bindPopup(d.name + "&nbsp;&nbsp;(<a target='_blank' href='https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=en&text=" + d.name + "'>Translate to English</a>)").addTo(
+      //    communities);
+      //})
+
+      //read data from cases.csv and add each case on to the map with given information
+      //cases in America
+      datasets[3].forEach(function(d) {
+        //console.log(d.id)
+        L.marker([parseFloat(d.lat), parseFloat(d.lng)]).bindPopup("<b>" + d.no + "</b> <p>" + d.note + " identified on " + d.date + ", &nbsp;<a href='https://" + d.reference + "' target='_blank'>" + d.reference + "</a>.</p>").addTo(
+          cases);
+      })
+
+      //cases in Canada
+      datasets[7].forEach(function(d) {
+        //console.log(d.id)
+        L.marker([parseFloat(d.lat), parseFloat(d.lng)]).bindPopup("<b>" + d.no + "</b> <p>" + d.note + " identified on " + d.date + ", &nbsp;<a href='https://" + d.reference + "' target='_blank'>" + d.reference + "</a>.</p>").addTo(
+          cases);
+      })
+
+      var latest = datasets[0][datasets[0].length - 1];
+      //delete latest["datetime"];
+
+      //get latest data for every country/city
+      var top = {},
+        ustop = {},
+        cntop = {};
+      top["china"] = 0;
+      //this fucntion read the latest data from virus.csv and write the country name and it's latest active confirmed value into dictionary
+      Object.keys(latest).forEach(function(d) {
+        value = tc(datasets[0][datasets[0].length - 1][d]) - tr(datasets[0][datasets[0].length - 1][d]) - td(datasets[0][datasets[0].length - 1][d]);
+        // value = tc(datasets[0][datasets[0].length - 1][d]);
+        if (datasets[6]["columns"].includes(d)) { //china
+          // console.log(value);
+          // console.log(top["china"]);
+          top["china"] += +value;
+          cntop[d] = value;
+
+        } else if (datasets[5]["columns"].includes(d)) { //canada
+          ;
+        } else if (datasets[4]["columns"].includes(d)) { //us
+          ustop[d] = value;
+        } else if (d != "datetime") { //else
+          top[d] = value;
+        }
+
+      })
+
+      // this function take a dictionary [country:active confirmed case], return a dictionary that sorted by the number of active confired case
+      function sortJsObject(obj) {
+        items = Object.keys(obj).map(function(key) {
+          return [key, obj[key]];
+        });
+        items.sort(function(first, second) {
+          return second[1] - first[1];
+        });
+        sorted_obj = {}
+        $.each(items, function(k, v) {
+          use_key = v[0]
+          use_value = v[1]
+          sorted_obj[use_key] = use_value
+        })
+        return (sorted_obj)
+      }
+
+
+      stop = sortJsObject(top); //sort globally
+      sustop = sortJsObject(ustop); //sort US states
+
+
+      var places = {};
+
+      //this function take a string of country/place name and calculate the data for it
+      //return place[name] which is a dictonary that has everyday's dataset
+      function calPlace(name) {
+        var place = {}
+        place[name] = {
+          't': ['t'], //date
+          'c': ['Aggr. Confirmed'],
+          's': ['s'],
+          'r': ['Recovered'],
+          'd': ['Death'],
+          'a': ['Active Confirmed']
+        }
+        // cf = 0, sp = 0, rc = 0, dd = 0, active = 0;
+        datasets[0].forEach(function(d) {
+          var USTd = new Date(d["datetime"]);
+
+          place[name].t.push(USTd.setHours(USTd.getHours() + 8)); //convert to American time zone
+
+          cf = 0, sp = 0, rc = 0, dd = 0, active = 0;
+          current = d;
+          delete current["datetime"];
+
+          if (name == "Global Trend") {
+
+            Object.values(current).forEach(function(d) {
+              if (d == undefined) {
+                d = "0"
+              };
+              items = d.split("-");
+              switch (items.length) {
+                case 4:
+                  dd += +items[3];
+                case 3:
+                  rc += +items[2];
+                case 2:
+                  sp += +items[1];
+                case 1:
+                  cf += +items[0];
+                  break;
+              };
+              active = cf - dd - rc;
+            });
+
+            cf -= (tc(current["alabama"]) + tc(current["alaska"]) + tc(current["arizona"]) + tc(current["arkansas"]) + tc(current["california"]) + tc(current["colorado"]) + tc(current["connecticut"]) + tc(current["delaware"]) + tc(current[
+                "florida"]) + tc(current["georgia usa"]) + tc(current["hawaii"]) + tc(current["idaho"]) + tc(current["illinois"]) + tc(current["indiana"]) + tc(current["iowa"]) + tc(current["kansas"]) + tc(current["kentucky"]) + tc(current[
+                "louisiana"]) + tc(current["maine"]) + tc(current["maryland"]) + tc(current["massachusetts"]) + tc(current["michigan"]) + tc(current["minnesota"]) + tc(current["mississippi"]) + tc(current["missouri"]) + tc(current[
+                "montana"]) + tc(
+                current["nebraska"]) + tc(current["nevada"]) + tc(current["new hampshire"]) + tc(current["new jersey"]) + tc(current["new mexico"]) + tc(current["new york"]) + tc(current["north carolina"]) + tc(current["north dakota"]) +
+              tc(current[
+                "ohio"]) + tc(current["oklahoma"]) + tc(current["oregon"]) + tc(current["pennsylvania"]) + tc(current["rhode island"]) + tc(current["south carolina"]) + tc(current["south dakota"]) + tc(current["tennessee"]) + tc(current[
+                "texas"]) +
+              tc(current["utah"]) + tc(current["vermont"]) + tc(current["virginia"]) + tc(current["washington"]) + tc(current["west virginia"]) + tc(current["canada"]));
+
+            rc -= (tr(current["alabama"]) + tr(current["alaska"]) + tr(current["arizona"]) + tr(current["arkansas"]) + tr(current["california"]) + tr(current["colorado"]) + tr(current["connecticut"]) + tr(current["delaware"]) + tr(current[
+                "florida"]) + tr(current["georgia usa"]) + tr(current["hawaii"]) + tr(current["idaho"]) + tr(current["illinois"]) + tr(current["indiana"]) + tr(current["iowa"]) + tr(current["kansas"]) + tr(current["kentucky"]) + tr(current[
+                "louisiana"]) + tr(current["maine"]) + tr(current["maryland"]) + tr(current["massachusetts"]) + tr(current["michigan"]) + tr(current["minnesota"]) + tr(current["mississippi"]) + tr(current["missouri"]) + tr(current[
+                "montana"]) + tc(
+                current["nebraska"]) + tr(current["nevada"]) + tr(current["new hampshire"]) + tr(current["new jersey"]) + tr(current["new mexico"]) + tr(current["new york"]) + tr(current["north carolina"]) + tr(current["north dakota"]) +
+              tr(current[
+                "ohio"]) + tr(current["oklahoma"]) + tr(current["oregon"]) + tr(current["pennsylvania"]) + tr(current["rhode island"]) + tr(current["south carolina"]) + tr(current["south dakota"]) + tr(current["tennessee"]) + tr(current[
+                "texas"]) +
+              tr(current["utah"]) + tr(current["vermont"]) + tr(current["virginia"]) + tr(current["washington"]) + tr(current["west virginia"]) + tr(current["canada"]));
+
+            dd -= (td(current["alabama"]) + td(current["alaska"]) + td(current["arizona"]) + td(current["arkansas"]) + td(current["california"]) + td(current["colorado"]) + td(current["connecticut"]) + td(current["delaware"]) + td(current[
+                "florida"]) + td(current["georgia usa"]) + td(current["hawaii"]) + td(current["idaho"]) + td(current["illinois"]) + td(current["indiana"]) + td(current["iowa"]) + td(current["kansas"]) + td(current["kentucky"]) + td(current[
+                "louisiana"]) + td(current["maine"]) + td(current["maryland"]) + td(current["massachusetts"]) + td(current["michigan"]) + td(current["minnesota"]) + td(current["mississippi"]) + td(current["missouri"]) + td(current[
+                "montana"]) + tc(
+                current["nebraska"]) + td(current["nevada"]) + td(current["new hampshire"]) + td(current["new jersey"]) + td(current["new mexico"]) + td(current["new york"]) + td(current["north carolina"]) + td(current["north dakota"]) +
+              td(current[
+                "ohio"]) + td(current["oklahoma"]) + td(current["oregon"]) + td(current["pennsylvania"]) + td(current["rhode island"]) + td(current["south carolina"]) + td(current["south dakota"]) + td(current["tennessee"]) + td(current[
+                "texas"]) +
+              td(current["utah"]) + td(current["vermont"]) + td(current["virginia"]) + td(current["washington"]) + td(current["west virginia"]) + td(current["canada"]));
+
+          } else if (name == "china") {
+
+
+            for (const [key, value] of Object.entries(current)) {
+
+              if (datasets[6]["columns"].includes(key)) {
+
+                if (value == undefined) {
+                  value = "0"
+                };
+                items = value.split("-");
+                switch (items.length) {
+                  case 4:
+                    dd += +items[3];
+                  case 3:
+                    rc += +items[2];
+                  case 2:
+                    sp += +items[1];
+                  case 1:
+                    cf += +items[0];
+                    break;
+                };
+                active = cf - dd - rc;
+              }
+            }
+
+
+          } else {
+
+
+            d = current[name];
+            if (d == undefined) {
+              d = "0"
+            };
+            items = d.split("-");
+            switch (items.length) {
+              case 4:
+                dd += +items[3];
+              case 3:
+                rc += +items[2];
+              case 2:
+                sp += +items[1];
+              case 1:
+                cf += +items[0];
+                break;
+            };
+            active = cf - dd - rc;
+
+          }
+          active = cf - dd - rc;
+          place[name].c.push(cf);
+          //place[name].s.push(sp);
+          place[name].r.push(rc);
+          place[name].d.push(dd);
+          place[name].a.push(active);
+
         });
 
+        return place[name];
+      }
+
+      //this function take a place name and diaplay the data to the info panel
+      function showPlace(name) {
+
+        len = places[name].t.length;
+        $(".confirmed-count").text(places[name].c[len - 1].toLocaleString());
+        $(".recovered-count").text(places[name].r[len - 1].toLocaleString());
+        $(".death-count").text(places[name].d[len - 1].toLocaleString());
+        $(".active-count").text(places[name].a[len - 1].toLocaleString());
+
+        nc = places[name].c[len - 1] - places[name].c[len - 2]; //new aggregate confirmed cases of the day
+        nr = places[name].r[len - 1] - places[name].r[len - 2]; //new recovered confirmed cases of the day
+        nd = places[name].d[len - 1] - places[name].d[len - 2]; //new death of the day
+        na = places[name].a[len - 1] - places[name].a[len - 2]; //new active cases of the days
+
+        if (nc > 0) {
+          $(".confirmed-new-count").text("+" + nc.toLocaleString());
+        } else if (nc == 0) {
+          $(".confirmed-new-count").text("");
+        } else {
+          $(".confirmed-new-count").text(nc.toLocaleString());
+        }
+
+        if (nr > 0) {
+          $(".recovered-new-count").text("+" + nr.toLocaleString());
+        } else if (nr == 0) {
+          $(".recovered-new-count").text("")
+        } else {
+          $(".recovered-new-count").text(nr.toLocaleString());
+        }
+        if (nd > 0) {
+          $(".death-new-count").text("+" + nd.toLocaleString());
+        } else if (nd == 0) {
+          $(".death-new-count").text("")
+        } else {
+          $(".death-new-count").text(nd.toLocaleString());
+        }
+
+
+        if (na > 0) { //only display info icon when there's change
+          document.getElementById("counticon").style.display = "initial";
+          $(".active-new-count").text("+" + na.toLocaleString());
+        } else if (na < 0) {
+          document.getElementById("counticon").style.display = "initial";
+          $(".active-new-count").text("" + na.toLocaleString());
+        } else if (na == 0) {
+          document.getElementById("counticon").style.display = "none";
+          $(".active-new-count").text("")
+        } else {
+          document.getElementById("counticon").style.display = "none";
+          $(".active-new-count").text(na.toLocaleString());
+        }
+
+        //add ",CHINA" to every provinces in China
+        if (datasets[6]["columns"].includes(name)) { //add ",CHINA" to every provinces in China
+          $("#placename").text(name.toUpperCase() + ", CHINA");
+          if (name == "taiwan") {
+            $("#placename").text("Taiwan");
+          }
+          if (name == "hongkong") {
+            $("#placename").text("Hong Kong");
+          }
+          if (name == "macau") {
+            $("#placename").text("Macau");
+          }
+
+        } else {
+          $("#placename").text(name.toUpperCase());
+        }
+      }
+
+
+      //this funciton take a place name and check the status of that place, then fill the background based on its status
+      //grey slash for non-case country, zero aggregate confirmed case
+      //green slash for country that had cases before but now has zero active confirmed case
+      //other countries remain blank background
+      function setFill(enname) {
+
+        return 'url()';
+
+
+      }
+
+      //this function take a place name, return a color that fills the place area on the maps
+      function setColor(enname) {
+
+        return "#120456";
+
+      }
+
+      //this function takes a place's name, set the color background and opacitiy for the place area on the map
+      function style(feature) {
+        if (feature.properties.enname == "us" || feature.properties.enname == "canada") {
+          return {
+            fillOpacity: 0,
+            opacity: 0,
+          };
+        } else {
+          return {
+            fill: setFill(feature.properties.enname),
+            fillColor: setColor(feature.properties.enname),
+            fillOpacity: 0.4,
+            weight: 0.5,
+            opacity: 1,
+            color: '#b4b4b4',
+            dashArray: '2'
+          };
+        }
+      }
+
+
+      //this function works when there's a click on the map
+      //will highlight the layer that the mouse clicked
+      function highlightFeature(e) {
+        // e indicates the current event
+        var layer = e.target; //the target capture the object which the event associates with
+        layer.setStyle({
+          weight: 2,
+          opacity: 0.8,
+          color: '#e3e3e3',
+          fillColor: '#00ffd9',
+          fillOpacity: 0.1
+        });
+        // bring the layer to the front.
+        layer.bringToFront();
+        if (e.target.feature.properties.enname == "us" || e.target.feature.properties.enname == "canada") {
+          layer.bringToBack();
+        }
+      }
+
+      // 3.2.2 zoom to the highlighted feature when the mouse is clicking onto it.
+      function zoomToFeature(e) {
+        mymap.fitBounds(e.target.getBounds());
+        // L.DomEvent.stopPropagation(e);
+        // $("#hint").text("Click here to the global trend.");
+        // displayPlace(e.target.feature.properties.enname)
+        var coord = e.latlng;
+        var lat = coord.lat;
+        var lng = coord.lng;
+        console.log("You clicked the map at latitude: " + e.target.feature.properties.enname);
+
+
+        if (marker1 != undefined) {
+          mymap.removeLayer(marker1);
+        }
+
+        var greenMarker = L.AwesomeMarkers.icon({
+          icon: 'fa-cogs',
+          markerColor: 'green'
+        });
+
+        marker1 = L.marker([lat, lng], {icon: greenMarker}).addTo(mymap);
+        marker1.openPopup();
+
+        $('#placename').text(e.target.feature.properties.enname.toUpperCase());
+
+        $("#info").css("display", "block");
+
+        for(var i=0 ; i<markers.length ; i++) {
+          mymap.removeLayer(markers[i]);
+        }
+
+        $("#similar-list").empty();
+
+        $("#find-similar").show();
+
+
+      }
+
+      // 3.2.3 reset the highlighted feature when the mouse is out of its region.
+      function resetHighlight(e) {
+        areas.resetStyle(e.target);
+
+      }
+
+      // 3.3 add these event the layer object.
+      function onEachFeature(feature, layer) {
+        layer.on({
+          mouseover: highlightFeature,
+          click: zoomToFeature,
+          mouseout: resetHighlight
+        });
+      }
+
+      var areas = new L.TopoJSON(datasets[1], {
+        style: style,
+        onEachFeature: onEachFeature
+      }).addTo(mymap);
+
+
     });
 
-    var markers = [];
 
-    function processData(allText) {
+    $("#close-window").on("click",function() {
+      $("#info").css("display", "none");
+      for(var i=0 ; i<markers.length ; i++) {
+        mymap.removeLayer(markers[i]);
+      }
+    });
+
+
+
+    $("#find-similar").on("click",function() {
+
+        $.ajax({
+          type: "GET",
+          url: "test.csv",
+          dataType: "text",
+          success: function(data) {processData(data);}
+        });
+
+
+
+      function processData(allText) {
         var allTextLines = allText.split(/\r\n|\n/);
         var headers = allTextLines[0].split(',');
         var lines = [];
 
         for (var i=1; i<allTextLines.length; i++) {
-            var data = allTextLines[i].split(',');
-            if (data.length == headers.length) {
+          var data = allTextLines[i].split(',');
+          if (data.length == headers.length) {
 
 
-                var markerTemp = L.marker([data[0],data[1]], {icon: redMarker}).addTo(mymap);
-                // markers.push(markerTemp);
-                // console.log(markers);
+            let markerTemp = L.marker([data[0],data[1]], {icon: redMarker}).addTo(mymap);
+            markers.push(markerTemp);
+            // console.log(markers);
 
-            }
+          }
         }
-        // alert(lines);
-    }
-    // console.log("last" + markers);
-    //var testMarker = L.marker([51.941196,4.512291], {icon: redMarker}).addTo(mymap);
+        //console.log(markers);
+      }
 
-    // var marker2 = L.marker([41.9, -87.7], {icon: redMarker}).addTo(mymap);
-    // markers[1].bindPopup("<div><b>Chicago</b>, 23 Aug</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
-    //
-    // var marker3 = L.marker([59.5, 40], {icon: redMarker}).addTo(mymap);
-    // markers[2].bindPopup("<div><b>Saint Petersburg</b>, 13 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
-    //
-    // var marker4 = L.marker([33.5, -7], {icon: redMarker}).addTo(mymap);
-    // markers[3].bindPopup("<div><b>Casablanca</b>, 10 Jan</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
-    //
-    // var marker5 = L.marker([32.5, 62], {icon: redMarker}).addTo(mymap);
-    // markers[4].bindPopup("<div><b>Herat</b>, 03 Dec</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
+      $("#similar-list").html("<li>Chicago 23 May<button class='btn'>See Details</button></li><li>Saint Petersburg 13 Feb<button  class='btn'>See Details</button></li><li>Casablanca 10 Jan<button  class='btn'>See Details</button></li><li>Herat 03 Dec<button  class='btn'>See Details</button></li><li>London 23 Jun<button  class='btn'>See Details</button></li>");
 
-    // markers[0].bindPopup("<div><b>Birmingham</b>, 12 Feb</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
-
-    // marker1.bindPopup("<div><b>London</b>, 23 Jun</div><div class='details-button'><button id='loc-det'>Details</button></div>").openPopup();
-
-    L.easyButton('fa-cogs', function(btn, map){
-        if($("#setting").css("display") == "none")
-            $("#setting").css("display", "block");
-        else
-            $("#setting").css("display", "none");
-
-    }).addTo(mymap);
-
-    // var geojsonLayer = new L.GeoJSON.AJAX("cities.geojson");
-    // geojsonLayer.addTo(mymap);
-    //
-    // var district_boundary = new L.geoJson();
-    // district_boundary.addTo(mymap);
-    //
-    // $.ajax({
-    //     dataType: "json",
-    //     url: "cities.geojson",
-    //     AccessControlAllowOrigin: "*",
-    //     success: function(data) {
-    //         $(data.features).each(function(key, data) {
-    //             district_boundary.addData(data);
-    //         });
-    //     }
-    // });
-
-    var grayscale = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png').addTo(mymap);
-    var streets = L.tileLayer('http://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}@2x.png');
-    var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}@2x');
-
-    var baseLayers = {
-        // 'Dark': dark,
-        'Grayscale': grayscale,
-        'Streets': streets,
-        'Satellite': satellite
-    }
-
-    // mymap.on('click', function(e){
-        // var coord = e.latlng;
-        // var lat = coord.lat;
-        // var lng = coord.lng;
-        // console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
-        //
-        // if (marker1 != undefined) {
-        //     mymap.removeLayer(marker1);
-        // };
-        //
-        // var greenMarker = L.AwesomeMarkers.icon({
-        //     icon: 'fa-cogs',
-        //     markerColor: 'green'
-        // });
-        //
-        // marker1 = L.marker([lat, lng], {icon: greenMarker}).addTo(mymap);
-        //
-        // $.ajax({ url:'http://maps.googleapis.com/maps/api/geocode/json?latlng='+e.latlng.lat+','+e.latlng.lng+'&sensor=true',
-        //     success: function(data){
-        //         //var state = data.results[0].address_components[5].long_name;
-        //         //var country = data.results[0].address_components[6].long_name;
-        //         //$('.leaflet-popup-content').text(country);
-        //         console.log(data.results[0]);
-        //     }
-        // });
-        //popup.setLatLng(e.latlng).setContent('').openOn(mymap);
-
-    // });
-
-
-    var Group = L.layerGroup().addTo(mymap);
-
-
-    Promise.all([
-        d3.csv('assets/virus.csv'), //datasets[0]
-        d3.json("assets/all-topo-15.json"), //datasets[1]
-    ]).then(function(datasets) {
-
-        function style(feature) {
-
-            return {
-                //fill: setFill(feature.properties.enname),
-                fillColor: '#120456',
-                fillOpacity: 0.4,
-                weight: 0.5,
-                opacity: 1,
-                color: '#b4b4b4',
-                dashArray: '2'
-            };
-
-        }
-
-        var areas = new L.TopoJSON(datasets[1], {
-            style: style,
-            onEachFeature: onEachFeature
-        }).addTo(mymap);
-
-        // 3.2.3 reset the hightlighted feature when the mouse is out of its region.
-        function resetHighlight(e) {
-            areas.resetStyle(e.target);
-
-        }
-
-        // 3.3 add these event the layer obejct.
-        function onEachFeature(feature, layer) {
-            layer.on({
-                mouseover: highlightFeature,
-                click: openDetail,
-                mouseout: resetHighlight
-            });
-        }
-
-        function highlightFeature(e) {
-            // e indicates the current event
-            var layer = e.target; //the target capture the object which the event associates with
-            layer.setStyle({
-                weight: 2,
-                opacity: 0.8,
-                color: '#e3e3e3',
-                fillColor: '#00ffd9',
-                fillOpacity: 0.1
-            });
-            // bring the layer to the front.
-            layer.bringToFront();
-            // if (e.target.feature.properties.enname == "us" || e.target.feature.properties.enname == "canada") {
-            //     layer.bringToBack();
-            // }
-        }
-
-        function openDetail(e) {
-            console.log("name: " + e.target.feature.properties.name);
-        }
-
-
+      $("#find-similar").hide();
     });
 
+    L.easyButton('fa-cogs',  function(btn, map){
 
+      if($("#setting").css("display") == "none")
+        $("#setting").css("display", "block");
+      else
+        $("#setting").css("display", "none");
+      console.log("skdnvzk");}, {id: 'settingButton',},{position: 'topright'}).addTo(mymap);
 
-</script>
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+    window.ga = window.ga || function() {
+      (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-100818948-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!--<script async src='https://www.google-analytics.com/analytics.js'></script>-->
+
+  <script>
+    window.ga = window.ga || function() {
+      (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-159947082-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!--<script async src='https://www.google-analytics.com/analytics.js'></script>-->
+  <!-- Google Analytics End-->
+</body>
 
 </html>
-
