@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" beforeDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,6 +92,9 @@
       <module name="Summer Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -111,6 +114,9 @@
       <module name="Summer Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -190,7 +196,7 @@
       <workItem from="1590267926867" duration="6973000" />
       <workItem from="1590421274587" duration="1435000" />
       <workItem from="1590778763081" duration="195000" />
-      <workItem from="1591522100295" duration="19405000" />
+      <workItem from="1591522100295" duration="19994000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591614005097</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py">
+      <created>1591614152428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591614152428</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
