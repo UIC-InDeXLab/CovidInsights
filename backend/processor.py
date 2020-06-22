@@ -5,10 +5,10 @@ import time
 import json
 from datetime import datetime, timedelta
 
-global_timeseries_path = \
+global_active_csv = \
     './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
 
-df = pd.read_csv(global_timeseries_path)
+df = pd.read_csv(global_active_csv)
 date_list = list(df.columns[4:])
 date_list = [*map(lambda x: time.strptime(x, '%m/%d/%y'), date_list)]
 
