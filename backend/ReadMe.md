@@ -29,7 +29,7 @@ to the given country by taking a sample of size = window ending in date specifif
     - `window=<window_size:int>` 
     - `type=[cases|recovered|deaths]` choose which type of data to compare
 
-Example: `/compare_countries/Pakistan&date=2020-04-22&window=7&type=deaths`
+Example: `/compare_countries/Pakistan?date=2020-04-22&window=7&type=deaths`
     
 ### Deprecated:
 - `/countries/[country_name]`
