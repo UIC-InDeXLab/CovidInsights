@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from backend import app
 from flask import jsonify
 

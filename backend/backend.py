@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# [!] todo: DEPRECATE
+#
+
 from flask import Flask, jsonify, request, abort
 from . import loader
 from . import exceptions

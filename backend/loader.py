@@ -1,3 +1,7 @@
+# [!] FUTURE DEPRECATE.
+# Marked for deprecation. This file doesn't use pandas. to be removed later on.
+#
+
 import time
 import numpy as np
 import csv

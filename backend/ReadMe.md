@@ -24,9 +24,12 @@ There might be better ways to do this.
 - `/compare_countries/<coutry_name>` gives other countries that are similar
 to the given country by taking a sample of size = window ending in date specifified in the date parameter.
  Need to pass the following GET parameters:
-    - `date=<date:string>` format: `YYYY-MM-DD`. optional. If not given, takes the 
+    - `date=YYYY-MM-DD` optional. If not given, takes the 
     latest available date in data
     - `window=<window_size:int>` 
+    - `type=[cases|recovered|deaths]` choose which type of data to compare
+
+Example: `/compare_countries/Pakistan&date=2020-04-22&window=7&type=deaths`
     
 ### Deprecated:
 - `/countries/[country_name]`

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from scipy.spatial import distance
 import pandas as pd
 import numpy as np
@@ -7,21 +9,28 @@ from datetime import datetime, timedelta
 
 global_active_csv = \
     './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
-
-df = pd.read_csv(global_active_csv)
-date_list = list(df.columns[4:])
-date_list = [*map(lambda x: time.strptime(x, '%m/%d/%y'), date_list)]
-
-# start_date = df.columns[4]
-start_date = date_list[0]
-# start_date_t = time.strptime(start_date, '%m/%d/%y')
-start_date = time.strftime('%Y-%m-%d', start_date)
+global_death_csv = \
+    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
+global_recover_csv = \
+    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
 
 
-days = len(df.columns) - 4
+def load_data(csv_time_series_file_path):
+    df = pd.read_csv(csv_time_series_file_path)
+
+    date_list = list(df.columns[4:])
+    date_list = [*map(lambda x: time.strptime(x, '%m/%d/%y'), date_list)]
+
+    # start_date = df.columns[4]
+    start_date = date_list[0]
+    # start_date_t = time.strptime(start_date, '%m/%d/%y')
+    start_date = time.strftime('%Y-%m-%d', start_date)
+
+    days = len(df.columns) - 4
+    return df, date_list, start_date, days
 
 
-def get_country_wise_data():
+def get_country_wise_data(df):
     state = df.columns[0]
     country = df.columns[1]
     lat = df.columns[2]
@@ -41,17 +50,30 @@ def get_country_wise_data():
     return country_agg
 
 
-c_wise = get_country_wise_data()
+df_cases, date_list, start_date, days = load_data(global_active_csv)
+df_recov, date_list_recov, start_date_recov, days_recov = load_data(global_recover_csv)
+df_death, date_list_death, start_date_death, days_death = load_data(global_death_csv)
+
+c_wise = get_country_wise_data(df_cases)
 c_wise_arr = np.vstack(c_wise['cases'].values)
 c_names = list(c_wise.index)
 c_num_countries = c_wise_arr.shape[0]
 c_num_days = c_wise_arr.shape[1]
+
+# ASSUMPTION - holds so far - all different files have same number of countries
+c_wise_recov = get_country_wise_data(df_recov)
+c_wise_recov_arr = np.vstack(c_wise_recov['cases'].values)
+
+c_wise_death = get_country_wise_data(df_death)
+c_wise_death_arr = np.vstack(c_wise_death['cases'].values)
+
 
 if not __name__ == '__main__':
     from backend import app
     from . import error_handlers
     from . import exceptions
     from flask import jsonify, abort, request
+
 
     @app.route('/country_stats/list_all_countries')
     def list_all_countries():
@@ -70,13 +92,23 @@ if not __name__ == '__main__':
         # c_wise is global
         try:
             country_stats = c_wise.loc[country_name]
+            country_stats_recov = c_wise_recov.loc[country_name]
+            country_stats_death = c_wise_death.loc[country_name]
         except KeyError:
             abort(404)
         # todo: get rid of this hack job
         dct = country_stats.to_json()
+        dct_recov = country_stats_recov.to_json()
+        dct_death = country_stats_death.to_json()
+
         dct = json.loads(dct)
+        dct_recov = json.loads(dct_recov)
+        dct_death = json.loads(dct_death)
+
         dct['start_date'] = start_date
         dct['num_days'] = days
+        dct['deaths'] = dct_death['cases']
+        dct['recovered'] = dct_recov['cases']
         return dct
 
     @app.route('/compare_countries/<coutry_name>')
@@ -88,14 +120,27 @@ if not __name__ == '__main__':
         if window is None or window < 1 or window > days:
             abort(400)
 
-        try:
-            country_history = c_wise['cases'][coutry_name]
-        except KeyError:
+        data_type = request.args.get('type', default='cases')
+
+        if data_type == 'cases':
+            df = c_wise
+            cases_arr = c_wise_arr
+            dates = date_list
+        elif data_type == 'deaths':
+            df = c_wise_death
+            cases_arr = c_wise_death_arr
+            dates = date_list_death
+        elif data_type == 'recovered':
+            df = c_wise_recov
+            cases_arr = c_wise_recov_arr
+            dates = date_list_recov
+        else:
+            # type not understaood
             abort(400)
 
         date = request.args.get('date')
         if date is None:
-            date = date_list[-1]
+            date = dates[-1]
             col_index = c_num_days - 1
         else:
             try:
@@ -104,10 +149,16 @@ if not __name__ == '__main__':
                 # date format is invalid
                 abort(400)
             try:
-                col_index = date_list.index(date)
+                col_index = dates.index(date)
             except ValueError:
                 # date is out of range
                 abort(404)
+
+        try:
+            country_history = df['cases'][coutry_name]
+        except KeyError:
+            # country_name invalid
+            abort(400)
 
         slice_right = col_index + 1
         slice_left = col_index - window + 1
@@ -117,12 +168,12 @@ if not __name__ == '__main__':
         test_sample = country_history[slice_left:slice_right]
 
         # todo: memoize for different windows? Don't recalculate
-        dist_arr = np.zeros(c_wise_arr.shape, dtype=np.float)
+        dist_arr = np.zeros(cases_arr.shape, dtype=np.float)
         dist_arr[:, 0:window - 1] = np.inf
 
-        for i in range(c_wise_arr.shape[0]):
-            for j in range(window - 1, c_wise_arr.shape[1]):
-                dist = distance.euclidean(c_wise_arr[i, j - window + 1:j + 1], test_sample)
+        for i in range(cases_arr.shape[0]):
+            for j in range(window - 1, cases_arr.shape[1]):
+                dist = distance.euclidean(cases_arr[i, j - window + 1:j + 1], test_sample)
                 dist_arr[i, j] = dist
 
         arg_mins = np.argmin(dist_arr, axis=1)
@@ -139,7 +190,7 @@ if not __name__ == '__main__':
                 {
                     "rank": i,
                     "country": c_names[c_inds[ind]],
-                    "date": time.strftime('%Y-%m-%d', date_list[arg_mins[ind]]),
+                    "date": time.strftime('%Y-%m-%d', dates[arg_mins[ind]]),
                     "distance": mins[ind]
                 }
             )
