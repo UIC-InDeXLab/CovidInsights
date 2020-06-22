@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="improved imports to prevent path errors">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Summer Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Summer Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/similarity.py" afterDir="false" />
-    </list>
+    <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="" />
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,7 +218,7 @@
       <workItem from="1591522100295" duration="19994000" />
       <workItem from="1592247860377" duration="330000" />
       <workItem from="1592293030308" duration="882000" />
-      <workItem from="1592793411007" duration="2509000" />
+      <workItem from="1592793411007" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -288,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592795534396</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="improved imports to prevent path errors">
+      <created>1592825010491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592825010491</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
