@@ -9,3 +9,4 @@ import backend.error_handlers
 import backend.processor
 
 
+app.run()
