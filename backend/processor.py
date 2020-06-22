@@ -49,8 +49,8 @@ c_num_days = c_wise_arr.shape[1]
 
 if not __name__ == '__main__':
     from backend import app
-    import error_handlers
-    import exceptions
+    from . import error_handlers
+    from . import exceptions
     from flask import jsonify, abort, request
 
     @app.route('/country_stats/list_all_countries')

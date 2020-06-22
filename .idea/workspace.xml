@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,7 +201,7 @@
       <workItem from="1591522100295" duration="19994000" />
       <workItem from="1592247860377" duration="330000" />
       <workItem from="1592293030308" duration="882000" />
-      <workItem from="1592793411007" duration="42000" />
+      <workItem from="1592793411007" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591614152428</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="explicit app.run">
+      <created>1592793487538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592793487538</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +285,8 @@
     <MESSAGE value="added the dataset file so users can run out of the box" />
     <MESSAGE value="readme update" />
     <MESSAGE value="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py" />
+    <MESSAGE value="explicit app.run" />
+    <option name="LAST_COMMIT_MESSAGE" value="explicit app.run" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />

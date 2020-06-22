@@ -5,7 +5,7 @@ from scipy import signal
 from scipy import stats
 from scipy.spatial import distance
 from matplotlib import pyplot as plt
-import exceptions
+from . import exceptions
 
 global_timeseries_path = './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
 

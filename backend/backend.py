@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, abort
-import loader
-import exceptions
+from . import loader
+from . import exceptions
 from backend import app
 
 # app = Flask(__name__)
