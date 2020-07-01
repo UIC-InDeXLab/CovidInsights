@@ -13,6 +13,12 @@ global_death_csv = \
     './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
 global_recover_csv = \
     './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
+us_active_csv = \
+    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv'
+us_death_csv = \
+    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv'
+us_recover_csv = \
+    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
 
 
 def load_data(csv_time_series_file_path):
@@ -27,6 +33,19 @@ def load_data(csv_time_series_file_path):
     start_date = time.strftime('%Y-%m-%d', start_date)
 
     days = len(df.columns) - 4
+    return df, date_list, start_date, days
+
+
+def load_us_data(csv_time_series_file_path):
+    df = pd.read_csv(csv_time_series_file_path)
+
+    date_list = list(df.columns[11:])
+    date_list = [*map(lambda x: time.strptime(x, '%m/%d/%y'), date_list)]
+
+    start_date = date_list[0]
+    start_date = time.strftime('%Y-%m-%d', start_date)
+
+    days = len(date_list)
     return df, date_list, start_date, days
 
 
@@ -45,26 +64,32 @@ def get_country_wise_data(df):
     country_case_sum = df.groupby(country)[cases].apply(np.sum)
     country_lat_mean = df.groupby(country)[lat].apply(np.mean)
     country_long_mean = df.groupby(country)[long].apply(np.mean)
+    # has_regions = df[state].notnull()
+    country_has_regions = df.groupby(country)[state].apply(np.any)
+    country_has_regions.rename('has_regions', inplace=True)
 
-    country_agg = pd.concat([country_lat_mean, country_long_mean, country_case_sum], axis=1)
-    return country_agg
+    country_agg = pd.concat([country_lat_mean, country_long_mean, country_case_sum, country_has_regions], axis=1)
+
+    region_df = df[df[state].notnull()]
+    return country_agg, region_df
 
 
 df_cases, date_list, start_date, days = load_data(global_active_csv)
 df_recov, date_list_recov, start_date_recov, days_recov = load_data(global_recover_csv)
 df_death, date_list_death, start_date_death, days_death = load_data(global_death_csv)
 
-c_wise = get_country_wise_data(df_cases)
+
+c_wise, regions = get_country_wise_data(df_cases)
 c_wise_arr = np.vstack(c_wise['cases'].values)
 c_names = list(c_wise.index)
 c_num_countries = c_wise_arr.shape[0]
 c_num_days = c_wise_arr.shape[1]
 
 # ASSUMPTION - holds so far - all different files have same number of countries
-c_wise_recov = get_country_wise_data(df_recov)
+c_wise_recov, _ = get_country_wise_data(df_recov)
 c_wise_recov_arr = np.vstack(c_wise_recov['cases'].values)
 
-c_wise_death = get_country_wise_data(df_death)
+c_wise_death, _ = get_country_wise_data(df_death)
 c_wise_death_arr = np.vstack(c_wise_death['cases'].values)
 
 
