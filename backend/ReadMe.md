@@ -18,7 +18,22 @@ There might be better ways to do this.
 ```
 
 ## API Spec
-- `/country_stats/[country_name]` gives the confirmed cases in a country, with it's latitude and longitude
+- `/country_stats/[country_name]`
+    gives the confirmed cases in a country, with it's latitude and longitude
+    
+    detailed example response:
+```
+    {
+    "Lat": 23.56,
+    "Long": -45.23,
+    "cases": [0, 0, 2, 4, ..., 100, 105, 109],   # an array of confirmed cases
+    "deaths": [0, 0, 0, 0, ..., 10, 10, 11],     # array recording the number of deaths
+    "recovered": [0, 0, 0, 0, ..., 36, 37, 39],  # array recording recoveries
+    "num_days": 123,                             # the number of days in data = size of arrays
+    "start_date": 2020-01-23,                    # the date the data starts from
+    "has_regions": True                          # True/False. True if you can further query a country's regions 
+    }
+```
 - `/country_stats/list_all_countries` lists all countries
 - `/locate/<country_name>` gives lat and long of the given country
 - `/compare_countries/<coutry_name>` gives other countries that are similar
