@@ -30,7 +30,7 @@ There might be better ways to do this.
     "deaths": [0, 0, 0, 0, ..., 10, 10, 11],     # array recording the number of deaths
     "recovered": [0, 0, 0, 0, ..., 36, 37, 39],  # array recording recoveries
     "num_days": 123,                             # the number of days in data = size of arrays
-    "start_date": 2020-01-23,                    # the date the data starts from
+    "start_date": "2020-01-23",                    # the date the data starts from
     "has_regions": True                          # True/False. True if you can further query a country's regions 
     }
 ```

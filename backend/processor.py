@@ -65,12 +65,16 @@ def get_country_wise_data(df):
     country_lat_mean = df.groupby(country)[lat].apply(np.mean)
     country_long_mean = df.groupby(country)[long].apply(np.mean)
     # has_regions = df[state].notnull()
-    country_has_regions = df.groupby(country)[state].apply(np.any)
+    country_has_regions = df.groupby(country)[state].any()
     country_has_regions.rename('has_regions', inplace=True)
 
-    country_agg = pd.concat([country_lat_mean, country_long_mean, country_case_sum, country_has_regions], axis=1)
+    country_regions = df.groupby(country)[state].apply(list)
+    country_regions.rename('regions', inplace=True)
+
+    country_agg = pd.concat([country_lat_mean, country_long_mean, country_case_sum, country_has_regions, country_regions], axis=1)
 
     region_df = df[df[state].notnull()]
+
     return country_agg, region_df
 
 
@@ -79,17 +83,21 @@ df_recov, date_list_recov, start_date_recov, days_recov = load_data(global_recov
 df_death, date_list_death, start_date_death, days_death = load_data(global_death_csv)
 
 
-c_wise, regions = get_country_wise_data(df_cases)
+c_wise, r_wise = get_country_wise_data(df_cases)
 c_wise_arr = np.vstack(c_wise['cases'].values)
 c_names = list(c_wise.index)
+
+r_names = c_wise['regions'].values
+r_dict = dict(zip(c_names, r_names))
+
 c_num_countries = c_wise_arr.shape[0]
 c_num_days = c_wise_arr.shape[1]
 
 # ASSUMPTION - holds so far - all different files have same number of countries
-c_wise_recov, _ = get_country_wise_data(df_recov)
+c_wise_recov, r_wise_recov = get_country_wise_data(df_recov)
 c_wise_recov_arr = np.vstack(c_wise_recov['cases'].values)
 
-c_wise_death, _ = get_country_wise_data(df_death)
+c_wise_death, r_wise_death = get_country_wise_data(df_death)
 c_wise_death_arr = np.vstack(c_wise_death['cases'].values)
 
 
@@ -104,7 +112,11 @@ if not __name__ == '__main__':
     def list_all_countries():
         return jsonify(c_names)
 
-    @app.route('/locate/<country_name>')
+    @app.route('/list/regions')
+    def list_all_regions():
+        return r_dict
+
+    @app.route('/locate/<country_name>/')
     def locate_country(country_name):
         try:
             loc = c_wise.loc[country_name, ['Lat', 'Long']]
@@ -112,7 +124,28 @@ if not __name__ == '__main__':
             abort(404)
         return loc.to_dict()
 
-    @app.route('/country_stats/<country_name>')
+    @app.route('/locate/<country_name>/<region_name>/')
+    def locate_region(country_name, region_name):
+        # todo: repeated fragment here and in stats
+        region = r_wise.columns[0]
+        country = r_wise.columns[1]
+        # r_wise and c_wise are global.
+        country_mask = r_wise[country] == country_name
+        # todo: improve approach. pd.DataFrame/Series.any also works
+        if not np.any(country_mask):
+            # country name invalid or country doesn't have regions
+            abort(404)
+        region_mask = r_wise[region] == region_name
+        combined_mask = region_mask & country_mask
+        if not np.any(combined_mask):
+            # region incorrect
+            abort(404)
+
+        loc = r_wise[combined_mask].iloc[0][['Lat', 'Long']].to_dict()
+        return loc
+
+    @app.route('/stats/<country_name>/')
+    @app.route('/country_stats/<country_name>/')
     def get_country_stats(country_name):
         # c_wise is global
         try:
@@ -135,6 +168,49 @@ if not __name__ == '__main__':
         dct['deaths'] = dct_death['cases']
         dct['recovered'] = dct_recov['cases']
         return dct
+
+    @app.route('/stats/<country_name>/<region_name>/')
+    @app.route('/country_stats/<country_name>/<region_name>/')
+    def get_region_stats(country_name, region_name):
+        region = r_wise.columns[0]
+        country = r_wise.columns[1]
+        # r_wise and c_wise are global.
+        country_mask = r_wise[country] == country_name
+        # todo: improve approach. pd.DataFrame/Series.any also works
+        if not np.any(country_mask):
+            # country name invalid or country doesn't have regions
+            abort(404)
+        region_mask = r_wise[region] == region_name
+        combined_mask = region_mask & country_mask
+        if not np.any(combined_mask):
+            # region incorrect
+            abort(404)
+
+        dct = r_wise[combined_mask].iloc[0]        # mask gives a container of rows, we need the first row
+        dct_death = r_wise[combined_mask].iloc[0]
+        dct_recov = r_wise[combined_mask].iloc[0]
+
+        # to json and back hack job
+        # todo: define json-izing of np arrays
+        dct = dct.to_json()
+        dct_death = dct_death.to_json()
+        dct_recov = dct_recov.to_json()
+
+        dct = json.loads(dct)
+        dct_death = json.loads(dct_death)
+        dct_recov = json.loads(dct_recov)
+        # end hack job
+
+        dct['start_date'] = start_date
+        dct['num_days'] = days
+        dct['deaths'] = dct_death['cases']
+        dct['recovered'] = dct_recov['cases']
+        del dct[country]
+        del dct[region]
+
+        # todo: don't delete. give country name and region name
+        return dct
+
 
     @app.route('/compare_countries/<coutry_name>')
     def get_similar_from_countries(coutry_name):
