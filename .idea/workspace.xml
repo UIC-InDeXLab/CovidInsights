@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,6 +141,9 @@
       <module name="Summer Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -226,7 +227,7 @@
       <workItem from="1592247860377" duration="330000" />
       <workItem from="1592293030308" duration="882000" />
       <workItem from="1592793411007" duration="16347000" />
-      <workItem from="1593444986362" duration="15529000" />
+      <workItem from="1593444986362" duration="16773000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -340,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593562848028</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="country gives a list of regions now&#10;- besides 'has_region', there's a column called 'region' which lists regions&#10;- new API call /list/regions to list all countries and their regions&#10;- new API call /locate/[country_name]/[region_name] to get coordinates of a region&#10;- country_stats calls now also available at /stats/[country_name]&#10;- similarly region_stats now also available at /stats/[country_name]/[region_name]&#10;&#10;Bugs:&#10;- list regions call doesn't return a valid JSON. Will be fixed in the future.">
+      <created>1593661003044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593661003044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +382,9 @@
     <MESSAGE value="Added deaths and recovered cases.&#10;- stats give three arrays now: cases/deaths/recovered&#10;- compare_countries now takes an argument called 'type' which can be &#10;  either 'cases', 'deaths' or 'recovered'. Similarity comparisons will &#10;  be made on the respective data type specified." />
     <MESSAGE value="dataset update" />
     <MESSAGE value="country stats query now tells us if we can query states/provinces/regions within a country.&#10;the response now contains a boolean &quot;has_regions&quot;, which is True if query is possible.&#10;The actual mechanism for querying regions is not done yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="country stats query now tells us if we can query states/provinces/regions within a country.&#10;the response now contains a boolean &quot;has_regions&quot;, which is True if query is possible.&#10;The actual mechanism for querying regions is not done yet." />
+    <MESSAGE value="country gives a list of regions now&#10;- besides 'has_region', there's a column called 'region' which lists regions&#10;- new API call /list/regions to list all countries and their regions&#10;- new API call /locate/[country_name]/[region_name] to get coordinates of a region&#10;- country_stats calls now also available at /stats/[country_name]&#10;- similarly region_stats now also available at /stats/[country_name]/[region_name]" />
+    <MESSAGE value="country gives a list of regions now&#10;- besides 'has_region', there's a column called 'region' which lists regions&#10;- new API call /list/regions to list all countries and their regions&#10;- new API call /locate/[country_name]/[region_name] to get coordinates of a region&#10;- country_stats calls now also available at /stats/[country_name]&#10;- similarly region_stats now also available at /stats/[country_name]/[region_name]&#10;&#10;Bugs:&#10;- list regions call doesn't return a valid JSON. Will be fixed in the future." />
+    <option name="LAST_COMMIT_MESSAGE" value="country gives a list of regions now&#10;- besides 'has_region', there's a column called 'region' which lists regions&#10;- new API call /list/regions to list all countries and their regions&#10;- new API call /locate/[country_name]/[region_name] to get coordinates of a region&#10;- country_stats calls now also available at /stats/[country_name]&#10;- similarly region_stats now also available at /stats/[country_name]/[region_name]&#10;&#10;Bugs:&#10;- list regions call doesn't return a valid JSON. Will be fixed in the future." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
