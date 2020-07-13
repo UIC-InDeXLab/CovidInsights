@@ -8,7 +8,7 @@ updates_made = False
 dirpath = os.path.dirname(__file__)
 dirpath = os.path.join(dirpath, 'dataset')
 script = os.path.basename(__file__)
-script_sleep_time = 3600
+script_sleep_time = 4*3600    # 4 hours
 
 # what a hack job! update signal. :P
 update_signal_file = os.path.join(dirpath, 'update.txt')
@@ -106,6 +106,7 @@ while True:
         with open(update_signal_file, 'wt') as f:
             print('Signalling Update')
             print(time.time(), file=f)
+        updates_made = False
 
-    break
+    time.sleep(script_sleep_time)
 
