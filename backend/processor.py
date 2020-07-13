@@ -5,20 +5,24 @@ import pandas as pd
 import numpy as np
 import time
 import json
+import os
 from datetime import datetime, timedelta
 
+dirpath = os.path.dirname(__file__)
+os.chdir(dirpath)
+
 global_active_csv = \
-    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
+    './dataset/time_series_covid19_confirmed_global.csv'
 global_death_csv = \
-    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
+    './dataset/time_series_covid19_deaths_global.csv'
 global_recover_csv = \
-    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
+    './dataset/time_series_covid19_recovered_global.csv'
 us_active_csv = \
-    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv'
+    './dataset/time_series_covid19_confirmed_US.csv'
 us_death_csv = \
-    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv'
+    './dataset/time_series_covid19_deaths_US.csv'
 us_recover_csv = \
-    './COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
+    './dataset/time_series_covid19_recovered_global.csv'
 
 
 def load_data(csv_time_series_file_path):
