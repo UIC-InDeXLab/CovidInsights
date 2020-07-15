@@ -131,7 +131,6 @@ us_death, us_date_list_death, us_start_date_death, us_days_death = load_data(us_
 
 c_wise, r_wise = get_country_wise_data(df_cases)
 us_state_wise, us_county_wise = preprocess_us(us_cases, date_column_index=11)
-
 c_wise, r_wise = combine_global_and_us(c_wise, r_wise, us_state_wise)
 
 c_wise_arr = np.vstack(c_wise['cases'].values)
@@ -161,6 +160,7 @@ if not __name__ == '__main__':
     from flask import jsonify, abort, request
 
 
+    @app.route('/list/countries')
     @app.route('/country_stats/list_all_countries')
     def list_all_countries():
         return jsonify(c_names)
@@ -176,7 +176,7 @@ if not __name__ == '__main__':
         try:
             loc = c_wise.loc[country_name, ['Lat', 'Long']]
         except KeyError:
-            abort(404)
+            abort(404, error_handlers.invalid_country_msg)
         return loc.to_dict()
 
 
@@ -190,12 +190,12 @@ if not __name__ == '__main__':
         # todo: improve approach. pd.DataFrame/Series.any also works
         if not np.any(country_mask):
             # country name invalid or country doesn't have regions
-            abort(404)
+            abort(404, error_handlers.invalid_country_or_no_regions_msg)
         region_mask = r_wise[region] == region_name
         combined_mask = region_mask & country_mask
         if not np.any(combined_mask):
             # region incorrect
-            abort(404)
+            abort(404, error_handlers.invalid_region_msg)
 
         loc = r_wise[combined_mask].iloc[0][['Lat', 'Long']].to_dict()
         return loc
@@ -210,7 +210,7 @@ if not __name__ == '__main__':
             country_stats_recov = c_wise_recov.loc[country_name]
             country_stats_death = c_wise_death.loc[country_name]
         except KeyError:
-            abort(404)
+            abort(404, error_handlers.invalid_country_msg)
         # todo: get rid of this hack job
         dct = country_stats.to_json()
         dct_recov = country_stats_recov.to_json()
@@ -237,22 +237,20 @@ if not __name__ == '__main__':
         # todo: improve approach. pd.DataFrame/Series.any also works
         if not np.any(country_mask):
             # country name invalid or country doesn't have regions
-            abort(404)
+            abort(404, error_handlers.invalid_country_or_no_regions_msg)
         region_mask = r_wise[region] == region_name
         combined_mask = region_mask & country_mask
         if not np.any(combined_mask):
             # region incorrect
-            abort(404)
+            abort(404, error_handlers.invalid_region_msg)
 
         dct = r_wise[combined_mask].iloc[0]  # mask gives a container of rows, we need the first row
         dct_death = r_wise_death[combined_mask].iloc[0]
-
 
         # to json and back hack job
         # todo: define json-izing of np arrays
         dct = dct.to_json()
         dct_death = dct_death.to_json()
-
 
         dct = json.loads(dct)
         dct_death = json.loads(dct_death)
@@ -278,14 +276,15 @@ if not __name__ == '__main__':
         return dct
 
 
-    @app.route('/compare_countries/<coutry_name>')
-    def get_similar_from_countries(coutry_name):
+    @app.route('/compare/<country_name>')
+    @app.route('/compare_countries/<country_name>')
+    def get_similar_from_countries(country_name):
         try:
             window = request.args.get('window', type=int)
         except ValueError:
-            abort(400)
+            abort(400, error_handlers.invalid_window_msg)
         if window is None or window < 1 or window > days:
-            abort(400)
+            abort(400, error_handlers.invalid_window_msg)
 
         data_type = request.args.get('type', default='cases')
 
@@ -303,7 +302,7 @@ if not __name__ == '__main__':
             dates = date_list_recov
         else:
             # type not understaood
-            abort(400)
+            abort(400, error_handlers.invalid_type_msg)
 
         date = request.args.get('date')
         if date is None:
@@ -314,18 +313,18 @@ if not __name__ == '__main__':
                 date = time.strptime(date, '%Y-%m-%d')
             except ValueError:
                 # date format is invalid
-                abort(400)
+                abort(400, error_handlers.invalid_date_fmt)
             try:
                 col_index = dates.index(date)
             except ValueError:
                 # date is out of range
-                abort(404)
+                abort(404, error_handlers.date_out_of_range)
 
         try:
-            country_history = df['cases'][coutry_name]
+            country_history = df['cases'][country_name]
         except KeyError:
             # country_name invalid
-            abort(400)
+            abort(400, error_handlers.invalid_country_msg)
 
         slice_right = col_index + 1
         slice_left = col_index - window + 1

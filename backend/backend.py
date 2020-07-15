@@ -1,4 +1,4 @@
-# [!] todo: DEPRECATE
+# deprecated.
 #
 
 from flask import Flask, jsonify, request, abort
