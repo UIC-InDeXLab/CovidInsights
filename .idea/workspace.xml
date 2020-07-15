@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/downloader_daemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/downloader_daemon.py" afterDir="false" />
-    </list>
+    <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="" />
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,9 +165,6 @@
       <module name="Summer Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -202,24 +196,7 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (backend.py)" type="Python.FlaskServer" singleton="false" nameIsGenerated="true">
-      <option name="flaskDebug" value="true" />
-      <module name="Summer Project" />
-      <option name="target" value="$PROJECT_DIR$/backend/backend.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/local/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Flask server.Flask (backend.py)" />
       <item itemvalue="Flask server.Flask (__init__.py)" />
       <item itemvalue="Python.loader" />
       <item itemvalue="Python.processor" />
@@ -257,7 +234,9 @@
       <workItem from="1592793411007" duration="16347000" />
       <workItem from="1593444986362" duration="16773000" />
       <workItem from="1594018093594" duration="1355000" />
-      <workItem from="1594430601855" duration="21330000" />
+      <workItem from="1594430601855" duration="23192000" />
+      <workItem from="1594787302929" duration="46000" />
+      <workItem from="1594787369037" duration="8737000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -399,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594612321891</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="daemon update">
+      <created>1594612443264</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594612443264</updated>
+    </task>
+    <task id="LOCAL-00022" summary="US states now available&#10;- backend.py deprecated&#10;- daemon help text&#10;- US counties show up in queries&#10;&#10;US regional recovery data unavailable.">
+      <created>1594797041255</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594797041255</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,12 +431,13 @@
     <MESSAGE value="dataset update 6-Jul-2020 01:48" />
     <MESSAGE value="downloader_daemon written&#10;old backend deprecated&#10;processor now uses files from the daemon&#10;daemon auto start not implemented yet" />
     <MESSAGE value="daemon update" />
-    <option name="LAST_COMMIT_MESSAGE" value="daemon update" />
+    <MESSAGE value="US states now available&#10;- backend.py deprecated&#10;- daemon help text&#10;- US counties show up in queries&#10;&#10;US regional recovery data unavailable." />
+    <option name="LAST_COMMIT_MESSAGE" value="US states now available&#10;- backend.py deprecated&#10;- daemon help text&#10;- US counties show up in queries&#10;&#10;US regional recovery data unavailable." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/COVID_19$processor.coverage" NAME="processor Coverage Results" MODIFIED="1592839271989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591522137130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/COVID_19$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1594598780022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/COVID_19$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1594797194617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>

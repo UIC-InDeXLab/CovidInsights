@@ -1,3 +1,8 @@
+# run it in background, for example, by using:
+# > nohup python downloader_daemon.py &
+
+# todo: make it check with github only once
+
 import os
 import requests
 import time
