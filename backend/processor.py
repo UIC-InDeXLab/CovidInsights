@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from scipy.spatial import distance
 import pandas as pd
 import numpy as np
@@ -22,7 +20,6 @@ us_active_csv = os.path.join(dirpath,
 us_death_csv = os.path.join(dirpath,
                             'time_series_covid19_deaths_US.csv')
 
-
 # us_recover_csv = \
 #     './dataset/time_series_covid19_recovered_global.csv'
 
@@ -40,7 +37,14 @@ def load_data(csv_time_series_file_path, date_column_index=4):
     return df, date_list, start_date, days
 
 
-def get_country_wise_data(df):
+def list_if_not_empty(series):
+    if series.any():
+        return list(series)
+    else:
+        return None
+
+
+def preprocess_global(df):
     state = df.columns[0]
     country = df.columns[1]
     lat = df.columns[2]
@@ -59,7 +63,7 @@ def get_country_wise_data(df):
     country_has_regions = df.groupby(country)[state].any()
     country_has_regions.rename('has_regions', inplace=True)
 
-    country_regions = df.groupby(country)[state].apply(list)
+    country_regions = df.groupby(country)[state].apply(list_if_not_empty)
     country_regions.rename('regions', inplace=True)
 
     country_agg = pd.concat(
@@ -96,7 +100,7 @@ def preprocess_us(df, date_column_index):
     state_has_regions = df.groupby(state)[county].any()
     state_has_regions.rename('has_subregions', inplace=True)
 
-    state_regions = df.groupby(state)[county].apply(list)
+    state_regions = df.groupby(state)[county].apply(list_if_not_empty)
     state_regions.rename('subregions', inplace=True)
 
     state_agg = pd.concat(
@@ -121,6 +125,7 @@ def combine_global_and_us(country_agg, region_agg, us_state_agg):
     return country_agg, region_agg
 
 
+# read files into dataframes
 df_cases, date_list, start_date, days = load_data(global_active_csv)
 df_recov, date_list_recov, start_date_recov, days_recov = load_data(global_recover_csv)
 df_death, date_list_death, start_date_death, days_death = load_data(global_death_csv)
@@ -128,30 +133,38 @@ df_death, date_list_death, start_date_death, days_death = load_data(global_death
 us_cases, us_date_list, us_start_date, us_days = load_data(us_active_csv, date_column_index=11)
 us_death, us_date_list_death, us_start_date_death, us_days_death = load_data(us_death_csv, date_column_index=12)
 
-
-c_wise, r_wise = get_country_wise_data(df_cases)
+# preprocess frames and combine global and US-only data
+# preprocess number of cases
+c_wise, r_wise = preprocess_global(df_cases)
 us_state_wise, us_county_wise = preprocess_us(us_cases, date_column_index=11)
 c_wise, r_wise = combine_global_and_us(c_wise, r_wise, us_state_wise)
 
-c_wise_arr = np.vstack(c_wise['cases'].values)
-c_names = list(c_wise.index)
+# preprocess recoveries: ASSUMPTION - holds so far - all different files have same number of countries
+c_wise_recov, r_wise_recov = preprocess_global(df_recov)
 
+# preprocess deaths
+c_wise_death, r_wise_death = preprocess_global(df_death)
+us_state_wise_death, us_county_wise_death = preprocess_us(us_death, date_column_index=12)
+c_wise_death, r_wise_death = combine_global_and_us(c_wise_death, r_wise_death, us_state_wise_death)
+
+
+# get arrays for computing similarity
+c_wise_arr = np.vstack(c_wise['cases'].values)
+c_wise_recov_arr = np.vstack(c_wise_recov['cases'].values)
+c_wise_death_arr = np.vstack(c_wise_death['cases'].values)
+
+
+c_names = list(c_wise.index)
 r_names = c_wise['regions'].values
 r_dict = dict(zip(c_names, r_names))
 
 c_num_countries = c_wise_arr.shape[0]
 c_num_days = c_wise_arr.shape[1]
 
+r_cases_arr = np.vstack(r_wise['cases'].values)
+r_death_arr = np.vstack(r_wise['cases'].values)
+r_recov_arr = np.vstack(r_wise['cases'].values)
 
-# ASSUMPTION - holds so far - all different files have same number of countries
-c_wise_recov, r_wise_recov = get_country_wise_data(df_recov)
-c_wise_recov_arr = np.vstack(c_wise_recov['cases'].values)
-
-c_wise_death, r_wise_death = get_country_wise_data(df_death)
-us_state_wise_death, us_county_wise_death = preprocess_us(us_death, date_column_index=12)
-c_wise_death, r_wise_death = combine_global_and_us(c_wise_death, r_wise_death, us_state_wise_death)
-
-c_wise_death_arr = np.vstack(c_wise_death['cases'].values)
 
 if not __name__ == '__main__':
     from backend import app
