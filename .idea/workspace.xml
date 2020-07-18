@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (__init__.py)">
+  <component name="RunManager" selected="Python.downloader">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -134,6 +134,9 @@
       <module name="Summer Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -175,6 +178,9 @@
       <module name="Summer Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -207,10 +213,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Flask server.Flask (__init__.py)" />
+      <item itemvalue="Python.downloader" />
       <item itemvalue="Python.loader" />
       <item itemvalue="Python.processor" />
-      <item itemvalue="Python.downloader" />
+      <item itemvalue="Flask server.Flask (__init__.py)" />
     </list>
   </component>
   <component name="ServiceViewManager">
