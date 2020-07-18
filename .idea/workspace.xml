@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_confirmed_US.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/time_series_covid19_confirmed_US.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_confirmed_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/time_series_covid19_confirmed_global.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_deaths_US.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/time_series_covid19_deaths_US.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_deaths_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/time_series_covid19_deaths_global.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_recovered_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/time_series_covid19_recovered_global.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/timestamp.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/timestamp.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataset/update.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/update.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_confirmed_US.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_confirmed_global.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_deaths_US.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_deaths_global.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/time_series_covid19_recovered_global.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/timestamp.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/update.txt" beforeDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +16,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FavoritesManager">
+    <favorites_list name="COVID-19" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,7 +51,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -213,10 +215,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.downloader" />
+      <item itemvalue="Flask server.Flask (__init__.py)" />
       <item itemvalue="Python.loader" />
       <item itemvalue="Python.processor" />
-      <item itemvalue="Flask server.Flask (__init__.py)" />
+      <item itemvalue="Python.downloader" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -230,7 +232,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$PROJECT_DIR$/../.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -443,11 +445,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595067167982</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="query time reduced to ~100ms :D">
+      <created>1595069041482</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1595069041482</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -463,6 +482,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/backend/COVID-19" />
     </ignored-roots>
@@ -487,7 +507,8 @@
     <MESSAGE value="improved replies for countries with no regions" />
     <MESSAGE value="comparison results now compare with regions as well." />
     <MESSAGE value="query time reduced from 2.3s to 1.4s." />
-    <option name="LAST_COMMIT_MESSAGE" value="query time reduced from 2.3s to 1.4s." />
+    <MESSAGE value="query time reduced to ~100ms :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="query time reduced to ~100ms :D" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
