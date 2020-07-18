@@ -165,8 +165,9 @@ r_death_arr = np.vstack(r_wise['cases'].values)
 r_recov_arr = np.vstack(r_wise['cases'].values)
 
 
-def euclidean(arr1, arr2):
-    return np.sqrt(np.sum((arr1 - arr2)**2))
+def euclidean(arr1, arr2, sum_axis=None):
+    return np.sqrt(np.sum((arr1 - arr2)**2, axis=sum_axis, keepdims=False))
+
 
 def calculate_distances(cases_arr, test_sample):
     window = len(test_sample)
@@ -174,10 +175,9 @@ def calculate_distances(cases_arr, test_sample):
     dist_arr[:, 0:window - 1] = np.inf
 
     # todo: get rid of outer 'for' loop for faster performance.
-    for i in range(cases_arr.shape[0]):
-        for j in range(window - 1, cases_arr.shape[1]):
-            dist = euclidean(cases_arr[i, j - window + 1:j + 1], test_sample)
-            dist_arr[i, j] = dist / window
+    for j in range(window - 1, cases_arr.shape[1]):
+        dist = euclidean(cases_arr[:, j - window + 1:j + 1], test_sample, sum_axis=1)
+        dist_arr[:, j] = dist / window
     # converted to normalized euclidean
     return dist_arr
 
