@@ -1,4 +1,3 @@
-from scipy.spatial import distance
 import pandas as pd
 import numpy as np
 import time
@@ -166,6 +165,9 @@ r_death_arr = np.vstack(r_wise['cases'].values)
 r_recov_arr = np.vstack(r_wise['cases'].values)
 
 
+def euclidean(arr1, arr2):
+    return np.sqrt(np.sum((arr1 - arr2)**2))
+
 def calculate_distances(cases_arr, test_sample):
     window = len(test_sample)
     dist_arr = np.zeros(cases_arr.shape, dtype=np.float)
@@ -174,10 +176,10 @@ def calculate_distances(cases_arr, test_sample):
     # todo: get rid of outer 'for' loop for faster performance.
     for i in range(cases_arr.shape[0]):
         for j in range(window - 1, cases_arr.shape[1]):
-            dist = distance.euclidean(cases_arr[i, j - window + 1:j + 1], test_sample)
-            dist_arr[i, j] = dist
+            dist = euclidean(cases_arr[i, j - window + 1:j + 1], test_sample)
+            dist_arr[i, j] = dist / window
     # converted to normalized euclidean
-    return dist_arr / window
+    return dist_arr
 
 
 if not __name__ == '__main__':
@@ -306,6 +308,7 @@ if not __name__ == '__main__':
     @app.route('/compare/<country_name>')
     @app.route('/compare_countries/<country_name>')
     def get_similar_from_countries(country_name):
+        t0 = time.time()
         try:
             window = request.args.get('window', type=int)
         except ValueError:
@@ -387,8 +390,6 @@ if not __name__ == '__main__':
         # todo: this logic doesn't work at times. There are other zero-distance points other the query
         # point itself.
         for i in range(1, len(arg_sort)):
-            if i > 15:
-                break
             ind = arg_sort[i]
             dist_ind = min_inds[ind]
             if dist_ind <= c_last_ind:
@@ -418,4 +419,6 @@ if not __name__ == '__main__':
                         "distance": mins[ind],
                     }
                 )
+        t1 = time.time()
+        print(f'query time: {t1 - t0}')
         return jsonify(result)
