@@ -1,25 +1,51 @@
 # COVID Analysis Backend
 
-This folder must have a copy of the JHU dataset.
-
-So far the approach is pulling the repository everyday.
-
-There might be better ways to do this.
 
 ## Setup
+###Python Libraries
+Backend needs the following python packages:
+- numpy
+- pandas
+- flask
 
-``> git clone https://github.com/CSSEGISandData/COVID-19.git``
+A flask can be run on any WSGI server that supports flask.
+This document uses gunicorn. 
+`pip install gunicorn`
 
-## Update
+Pull this repo: `git clone https://github.com/asudeh/covid19`
 
+### Run
+
+First run downloader_daemon.py so that it can download the dataset.
+Use Ctrl-C to kill the process after it says 'Signalling Update'.
+If you need to run in on auto-update then use something like:
+`nohup python downloader_daemon.py &`.
+This will cause the daemon to run in background and check for updates every 4 hours.
+To kill, however you'll need to do `kill [PID]`.
+
+Run the server using flask:
 ```
-> cd COVID-19
-> git pull
+$ cd covid19
+$ export FLASK_APP=[/path/to/covid19]/backend/__init__.py
+$ export FLASK_DEBUG=TRUE
+$ flask run
 ```
+
+Run using gunicorn on top of flask on a public IP:
+```
+$ gunicorn --bind [IP_address]:[port_number] --reload --reload-extra-file [/path/to/]covid19/backend/dataset/update.txt backend:app
+```
+
+Run using gunicorn as a daemon:
+```
+$ gunicorn --bind [IP_address]:[port_number] --daemon --reload --reload-extra-file [/path/to/]covid19/backend/dataset/update.txt backend:app
+```
+
+The path in --reload-extra needs to be absolute.
 
 ## API Spec
-- `/country_stats/[country_name]`
-    gives the confirmed cases in a country, with it's latitude and longitude
+- `/country_stats/[country_name]` or `/stats/[country_name]`
+    gives the cases in a country, with it's latitude and longitude
     
     detailed example response:
 ```
@@ -30,24 +56,23 @@ There might be better ways to do this.
     "deaths": [0, 0, 0, 0, ..., 10, 10, 11],     # array recording the number of deaths
     "recovered": [0, 0, 0, 0, ..., 36, 37, 39],  # array recording recoveries
     "num_days": 123,                             # the number of days in data = size of arrays
-    "start_date": "2020-01-23",                    # the date the data starts from
-    "has_regions": True                          # True/False. True if you can further query a country's regions 
-    }
+    "start_date": "2020-01-23",                  # the date the data starts from
+    "has_regions": True,                         # True/False. True if you can further query a country's regions 
+    "regions": ["Alabama", ..., "Wyoming"]       # names of regions in a country    
+}
 ```
-- `/country_stats/list_all_countries` lists all countries
+- `/stats/<country_name>/<region_name>` similar to above, but queries a region
+- `/list/countries` lists all countries
+- `/list/regions` list all regions
 - `/locate/<country_name>` gives lat and long of the given country
-- `/compare_countries/<coutry_name>` gives other countries that are similar
+- `/locate/<country_name>/<region_name>`
+- `/compare_countries/<coutry_name>` or `/compare/<country_name>` gives other areas (countries or regions) that are similar
 to the given country by taking a sample of size = window ending in date specifified in the date parameter.
  Need to pass the following GET parameters:
     - `date=YYYY-MM-DD` optional. If not given, takes the 
     latest available date in data
     - `window=<window_size:int>` 
-    - `type=[cases|recovered|deaths]` choose which type of data to compare
+    - `type=[cases|recovered|deaths]` optional choose which type of data to compare
 
-Example: `/compare_countries/Pakistan?date=2020-04-22&window=7&type=deaths`
-    
-### Deprecated:
-- `/countries/[country_name]`
-gives the entire data of a given country with a start and end date. (OLD)
-- `/countries`
-gives a list of countries and their latitude and longitude
+Example: `/compare/Pakistan?date=2020-04-22&window=7&type=deaths`
+- `/compare/[country_name]/[region_name]` same as above, except the query point is from a region

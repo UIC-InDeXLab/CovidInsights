@@ -174,7 +174,6 @@ def calculate_distances(cases_arr, test_sample):
     dist_arr = np.zeros(cases_arr.shape, dtype=np.float)
     dist_arr[:, 0:window - 1] = np.inf
 
-    # todo: get rid of outer 'for' loop for faster performance.
     for j in range(window - 1, cases_arr.shape[1]):
         dist = euclidean(cases_arr[:, j - window + 1:j + 1], test_sample, sum_axis=1)
         dist_arr[:, j] = dist / window
@@ -304,10 +303,10 @@ if not __name__ == '__main__':
         # todo: don't delete. give country name and region name
         return dct
 
-
     @app.route('/compare/<country_name>')
+    @app.route('/compare/<country_name>/<region_name>')
     @app.route('/compare_countries/<country_name>')
-    def get_similar_from_countries(country_name):
+    def get_similar_from_countries(country_name, region_name=None):
         t0 = time.time()
         try:
             window = request.args.get('window', type=int)
@@ -356,18 +355,30 @@ if not __name__ == '__main__':
                 # date is out of range
                 abort(404, error_handlers.date_out_of_range)
 
-        try:
-            country_history = df['cases'][country_name]
-        except KeyError:
-            # country_name invalid
-            abort(400, error_handlers.invalid_country_msg)
+        if region_name is None:
+            try:
+                history = df['cases'][country_name]
+            except KeyError:
+                # country_name invalid
+                abort(400, error_handlers.invalid_country_msg)
+        else:
+            country_mask = r_df['Country/Region'] == country_name
+            if not np.any(country_mask):
+                # country name invalid or country doesn't have regions
+                abort(404, error_handlers.invalid_country_or_no_regions_msg)
+            region_mask = r_df['Province/State'] == region_name
+            combined_mask = region_mask & country_mask
+            if not np.any(combined_mask):
+                # region incorrect
+                abort(404, error_handlers.invalid_region_msg)
+            history = r_df[combined_mask].iloc[0]['cases']
 
         slice_right = col_index + 1
         slice_left = col_index - window + 1
         # todo: add padding? currently the window is reduced.
         slice_left = 0 if slice_left < 0 else slice_left
 
-        test_sample = country_history[slice_left:slice_right]
+        test_sample = history[slice_left:slice_right]
 
         dist_arr = calculate_distances(cases_arr, test_sample)
         r_dist_arr = calculate_distances(r_arr, test_sample)
@@ -406,7 +417,7 @@ if not __name__ == '__main__':
                 )
             else:
                 r_ind = dist_ind - c_last_ind - 1
-                region_row = r_wise.iloc[r_ind]
+                region_row = r_df.iloc[r_ind]
                 country = region_row['Country/Region']
                 region = region_row['Province/State']
                 result.append(
