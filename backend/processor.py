@@ -166,6 +166,20 @@ r_death_arr = np.vstack(r_wise['cases'].values)
 r_recov_arr = np.vstack(r_wise['cases'].values)
 
 
+def calculate_distances(cases_arr, test_sample):
+    window = len(test_sample)
+    dist_arr = np.zeros(cases_arr.shape, dtype=np.float)
+    dist_arr[:, 0:window - 1] = np.inf
+
+    # todo: get rid of outer 'for' loop for faster performance.
+    for i in range(cases_arr.shape[0]):
+        for j in range(window - 1, cases_arr.shape[1]):
+            dist = distance.euclidean(cases_arr[i, j - window + 1:j + 1], test_sample)
+            dist_arr[i, j] = dist
+    # converted to normalized euclidean
+    return dist_arr / window
+
+
 if not __name__ == '__main__':
     from backend import app
     from . import error_handlers
@@ -305,14 +319,20 @@ if not __name__ == '__main__':
             df = c_wise
             cases_arr = c_wise_arr
             dates = date_list
+            r_df = r_wise
+            r_arr = r_cases_arr
         elif data_type == 'deaths':
             df = c_wise_death
             cases_arr = c_wise_death_arr
             dates = date_list_death
+            r_df = r_wise_death
+            r_arr = r_death_arr
         elif data_type == 'recovered':
             df = c_wise_recov
             cases_arr = c_wise_recov_arr
             dates = date_list_recov
+            r_df = r_wise_recov
+            r_arr = r_recov_arr
         else:
             # type not understaood
             abort(400, error_handlers.invalid_type_msg)
@@ -346,31 +366,56 @@ if not __name__ == '__main__':
 
         test_sample = country_history[slice_left:slice_right]
 
-        # todo: memoize for different windows? Don't recalculate
-        dist_arr = np.zeros(cases_arr.shape, dtype=np.float)
-        dist_arr[:, 0:window - 1] = np.inf
+        dist_arr = calculate_distances(cases_arr, test_sample)
+        r_dist_arr = calculate_distances(r_arr, test_sample)
 
-        for i in range(cases_arr.shape[0]):
-            for j in range(window - 1, cases_arr.shape[1]):
-                dist = distance.euclidean(cases_arr[i, j - window + 1:j + 1], test_sample)
-                dist_arr[i, j] = dist
+        c_last_ind = dist_arr.shape[0] - 1
+
+        # concatenate region and country distance arrays
+        # then give result according to the index
+        # todo: concatenate at the beginning?
+        dist_arr = np.concatenate((dist_arr, r_dist_arr), axis=0)
 
         arg_mins = np.argmin(dist_arr, axis=1)
         mins = np.min(dist_arr, axis=1)
-        c_inds = np.arange(len(mins))
+        min_inds = np.arange(len(mins))
 
         arg_sort = np.argsort(mins)
 
         result = []
         # skip the first, that is query point itself
+        # todo: this logic doesn't work at times. There are other zero-distance points other the query
+        # point itself.
         for i in range(1, len(arg_sort)):
+            if i > 15:
+                break
             ind = arg_sort[i]
-            result.append(
-                {
-                    "rank": i,
-                    "country": c_names[c_inds[ind]],
-                    "date": time.strftime('%Y-%m-%d', dates[arg_mins[ind]]),
-                    "distance": mins[ind]
-                }
-            )
+            dist_ind = min_inds[ind]
+            if dist_ind <= c_last_ind:
+                c_ind = dist_ind
+                result.append(
+                    {
+                        "rank": i,
+                        "result_type": 'country',
+                        "country": c_names[c_ind],
+                        "region": None,
+                        "date": time.strftime('%Y-%m-%d', dates[arg_mins[ind]]),
+                        "distance": mins[ind],
+                    }
+                )
+            else:
+                r_ind = dist_ind - c_last_ind - 1
+                region_row = r_wise.iloc[r_ind]
+                country = region_row['Country/Region']
+                region = region_row['Province/State']
+                result.append(
+                    {
+                        "rank": i,
+                        "result_type": 'region',
+                        "region": region,
+                        "country": country,
+                        "date": time.strftime('%Y-%m-%d', dates[arg_mins[ind]]),
+                        "distance": mins[ind],
+                    }
+                )
         return jsonify(result)
