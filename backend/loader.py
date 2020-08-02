@@ -19,7 +19,7 @@ global_timeseries_path = './COVID-19/csse_covid_19_data/csse_covid_19_time_serie
 # 1: country
 # 2: lat
 # 3: long
-# 4:end dates
+# 4:end : dates
 
 data = []
 data_arr = []

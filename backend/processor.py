@@ -68,17 +68,22 @@ def preprocess_global(df):
     country_agg = pd.concat(
         [country_lat_mean, country_long_mean, country_case_sum, country_has_regions, country_regions], axis=1)
 
+    country_agg['population'] = None
+
     region_df = df[df[state].notnull()]
+    region_df['population'] = None
 
     return country_agg, region_df
 
 
-def preprocess_us(df, date_column_index):
+def preprocess_us(df, date_column_index, pop_column_index=None):
     state = df.columns[6]
     county = df.columns[5]
     lat = df.columns[8]
     long = df.columns[9]
     cases = 'cases'
+    if pop_column_index is not None:
+        population = df.columns[pop_column_index]
 
     dates = df.columns[date_column_index:]
 
@@ -105,8 +110,14 @@ def preprocess_us(df, date_column_index):
     state_agg = pd.concat(
         [state_lat_mean, state_long_mean, state_case_sum, state_has_regions, state_regions], axis=1)
     state_agg.insert(loc=0, column='Country/Region', value='US')
-    state_agg.reset_index(inplace=True)
 
+    if pop_column_index:
+        state_pop = df.groupby(state)[population].apply(np.sum)
+        state_agg['population'] = state_pop
+    else:
+        state_agg['population'] = None
+
+    state_agg.reset_index(inplace=True)
     return state_agg, df
 
 
@@ -138,12 +149,13 @@ c_wise, r_wise = preprocess_global(df_cases)
 us_state_wise, us_county_wise = preprocess_us(us_cases, date_column_index=11)
 c_wise, r_wise = combine_global_and_us(c_wise, r_wise, us_state_wise)
 
-# preprocess recoveries: ASSUMPTION - holds so far - all different files have same number of countries
+# preprocess recoveries: ASSUMPTION - holds so far - all different files have same usnumber of countries
 c_wise_recov, r_wise_recov = preprocess_global(df_recov)
 
 # preprocess deaths
 c_wise_death, r_wise_death = preprocess_global(df_death)
-us_state_wise_death, us_county_wise_death = preprocess_us(us_death, date_column_index=12)
+us_state_wise_death, us_county_wise_death = preprocess_us(us_death, date_column_index=12, pop_column_index=11)
+
 c_wise_death, r_wise_death = combine_global_and_us(c_wise_death, r_wise_death, us_state_wise_death)
 
 
@@ -229,6 +241,7 @@ if not __name__ == '__main__':
         return loc
 
 
+    @app.route('/stats_countries/<country_name>/')
     @app.route('/stats/<country_name>/')
     @app.route('/country_stats/<country_name>/')
     def get_country_stats(country_name):
@@ -288,7 +301,7 @@ if not __name__ == '__main__':
         dct['start_date'] = start_date
         dct['num_days'] = days
         dct['deaths'] = dct_death['cases']
-
+        dct['population'] = dct_death['population']
         # todo: regional recovery data unavailable for US
         if country_name != 'US':
             dct_recov = r_wise[combined_mask].iloc[0]
