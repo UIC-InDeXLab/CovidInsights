@@ -137,16 +137,18 @@ def combine_global_and_us(country_agg, region_agg, us_state_agg):
 
 def combine_country_wise(cases_df, recov_df, death_df):
     cases_df['deaths'] = death_df['cases']
-    cases_df['recoveries'] = recov_df['cases']
+    cases_df['recovered'] = recov_df['cases']
     return cases_df
 
 
 def combine_region_wise(cases_df, recov_df, death_df):
     cases_df['population'] = death_df['population']
     cases_df['deaths'] = death_df['cases']
-    cases_df['recoveries'] = None
 
-    # cases_df[cases_df['Country/Region' != 'US']]['recoveries'] =
+    cases_df = pd.merge(cases_df, recov_df[['Province/State', 'Country/Region', 'cases']],
+                        on=['Province/State', 'Country/Region'], how='outer')
+    cases_df.rename(columns={'cases_x': 'cases', 'cases_y': 'recovered'}, inplace=True)
+    cases_df['recovered'].replace({np.nan: None}, inplace=True)
     return cases_df
 
 
@@ -164,13 +166,12 @@ c_wise, r_wise = preprocess_global(df_cases)
 us_state_wise, us_county_wise = preprocess_us(us_cases, date_column_index=11)
 c_wise, r_wise = combine_global_and_us(c_wise, r_wise, us_state_wise)
 
-# preprocess recoveries: ASSUMPTION - holds so far - all different files have same usnumber of countries
+# preprocess recovered: ASSUMPTION - holds so far - all different files have same usnumber of countries
 c_wise_recov, r_wise_recov = preprocess_global(df_recov)
 
 # preprocess deaths
 c_wise_death, r_wise_death = preprocess_global(df_death)
 us_state_wise_death, us_county_wise_death = preprocess_us(us_death, date_column_index=12, pop_column_index=11)
-
 c_wise_death, r_wise_death = combine_global_and_us(c_wise_death, r_wise_death, us_state_wise_death)
 
 
@@ -192,7 +193,10 @@ r_death_arr = np.vstack(r_wise_death['cases'].values)
 r_recov_arr = np.vstack(r_wise_recov['cases'].values)
 
 c_wise = combine_country_wise(c_wise, c_wise_recov, c_wise_death)
-# r_wise = combine_region_wise(r_wise, r_wise_recov, r_wise_death)
+del c_wise_death, c_wise_recov
+
+r_wise = combine_region_wise(r_wise, r_wise_recov, r_wise_death)
+del r_wise_recov, r_wise_death, us_state_wise_death, us_state_wise
 
 
 def euclidean(arr1, arr2, sum_axis=None):
@@ -214,7 +218,6 @@ def calculate_distances(cases_arr, test_sample):
 if not __name__ == '__main__':
     from backend import app
     from . import error_handlers
-    from . import exceptions
     from flask import jsonify, abort, request
 
 
@@ -272,17 +275,11 @@ if not __name__ == '__main__':
             abort(404, error_handlers.invalid_country_msg)
         # todo: get rid of this hack job
         dct = country_stats.to_json()
-        # dct_recov = country_stats_recov.to_json()
-        # dct_death = country_stats_death.to_json()
-
         dct = json.loads(dct)
-        # dct_recov = json.loads(dct_recov)
-        # dct_death = json.loads(dct_death)
 
         dct['start_date'] = start_date
         dct['num_days'] = days
-        # dct['deaths'] = dct_death['cases']
-        # dct['recovered'] = dct_recov['cases']
+        dct['country'] = country_name
         return dct
 
 
@@ -305,34 +302,24 @@ if not __name__ == '__main__':
             abort(404, error_handlers.invalid_region_msg)
 
         dct = r_wise[combined_mask].iloc[0]  # mask gives a container of rows, we need the first row
-        dct_death = r_wise_death[combined_mask].iloc[0]
+        # dct_death = r_wise_death[combined_mask].iloc[0]
 
         # to json and back hack job
         # todo: define json-izing of np arrays
         dct = dct.to_json()
-        dct_death = dct_death.to_json()
+        # dct_death = dct_death.to_json()
 
         dct = json.loads(dct)
-        dct_death = json.loads(dct_death)
+        # dct_death = json.loads(dct_death)
 
         # end hack job
 
         dct['start_date'] = start_date
         dct['num_days'] = days
-        dct['deaths'] = dct_death['cases']
-        dct['population'] = dct_death['population']
-        # todo: regional recovery data unavailable for US
-        if country_name != 'US':
-            dct_recov = r_wise[combined_mask].iloc[0]
-            dct_recov = dct_recov.to_json()
-            dct_recov = json.loads(dct_recov)
-            dct['recovered'] = dct_recov['cases']
-        else:
-            dct['recovered'] = None
+        dct['country'] = dct[country]
+        dct['region'] = dct[region]
         del dct[country]
         del dct[region]
-
-        # todo: don't delete. give country name and region name
         return dct
 
     @app.route('/compare/<country_name>')
@@ -349,26 +336,21 @@ if not __name__ == '__main__':
 
         data_type = request.args.get('type', default='cases')
         df = c_wise
+        r_df = r_wise
         if data_type == 'cases':
-            # df = c_wise
             cases_column = 'cases'
             cases_arr = c_wise_arr
             dates = date_list
-            r_df = r_wise
             r_arr = r_cases_arr
         elif data_type == 'deaths':
             cases_column = 'deaths'
-            # df = c_wise_death
             cases_arr = c_wise_death_arr
             dates = date_list_death
-            r_df = r_wise_death
             r_arr = r_death_arr
         elif data_type == 'recovered':
-            # df = c_wise_recov
-            cases_column = 'recoveries'
+            cases_column = 'recovered'
             cases_arr = c_wise_recov_arr
             dates = date_list_recov
-            r_df = r_wise_recov
             r_arr = r_recov_arr
         else:
             # type not understood
@@ -406,7 +388,9 @@ if not __name__ == '__main__':
             if not np.any(combined_mask):
                 # region incorrect
                 abort(404, error_handlers.invalid_region_msg)
-            history = r_df[combined_mask].iloc[0]['cases']
+            history = r_df[combined_mask].iloc[0][cases_column]
+            if history is None:
+                abort(404, error_handlers.data_type_invalid_for_region)
 
         slice_right = col_index + 1
         slice_left = col_index - window + 1

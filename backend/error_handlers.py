@@ -10,6 +10,7 @@ invalid_window_msg = "A GET parameter 'window' must be provided such that: "\
 invalid_type_msg = "GET parameter 'type' should be one of: 'deaths', 'recovered', 'cases'. Default is 'cases'."
 invalid_date_fmt = "GET parameter 'date' either invalid or not in format YYYY-MM-DD."
 date_out_of_range = "Provided date is out of range of data available."
+data_type_invalid_for_region = "The requested data type is not available for the given location."
 
 
 @app.errorhandler(400)
