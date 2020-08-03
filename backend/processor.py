@@ -135,6 +135,21 @@ def combine_global_and_us(country_agg, region_agg, us_state_agg):
     return country_agg, region_agg
 
 
+def combine_country_wise(cases_df, recov_df, death_df):
+    cases_df['deaths'] = death_df['cases']
+    cases_df['recoveries'] = recov_df['cases']
+    return cases_df
+
+
+def combine_region_wise(cases_df, recov_df, death_df):
+    cases_df['population'] = death_df['population']
+    cases_df['deaths'] = death_df['cases']
+    cases_df['recoveries'] = None
+
+    # cases_df[cases_df['Country/Region' != 'US']]['recoveries'] =
+    return cases_df
+
+
 # read files into dataframes
 df_cases, date_list, start_date, days = load_data(global_active_csv)
 df_recov, date_list_recov, start_date_recov, days_recov = load_data(global_recover_csv)
@@ -173,8 +188,11 @@ c_num_countries = c_wise_arr.shape[0]
 c_num_days = c_wise_arr.shape[1]
 
 r_cases_arr = np.vstack(r_wise['cases'].values)
-r_death_arr = np.vstack(r_wise['cases'].values)
-r_recov_arr = np.vstack(r_wise['cases'].values)
+r_death_arr = np.vstack(r_wise_death['cases'].values)
+r_recov_arr = np.vstack(r_wise_recov['cases'].values)
+
+c_wise = combine_country_wise(c_wise, c_wise_recov, c_wise_death)
+# r_wise = combine_region_wise(r_wise, r_wise_recov, r_wise_death)
 
 
 def euclidean(arr1, arr2, sum_axis=None):
@@ -248,26 +266,27 @@ if not __name__ == '__main__':
         # c_wise is global
         try:
             country_stats = c_wise.loc[country_name]
-            country_stats_recov = c_wise_recov.loc[country_name]
-            country_stats_death = c_wise_death.loc[country_name]
+            # country_stats_recov = c_wise_recov.loc[country_name]
+            # country_stats_death = c_wise_death.loc[country_name]
         except KeyError:
             abort(404, error_handlers.invalid_country_msg)
         # todo: get rid of this hack job
         dct = country_stats.to_json()
-        dct_recov = country_stats_recov.to_json()
-        dct_death = country_stats_death.to_json()
+        # dct_recov = country_stats_recov.to_json()
+        # dct_death = country_stats_death.to_json()
 
         dct = json.loads(dct)
-        dct_recov = json.loads(dct_recov)
-        dct_death = json.loads(dct_death)
+        # dct_recov = json.loads(dct_recov)
+        # dct_death = json.loads(dct_death)
 
         dct['start_date'] = start_date
         dct['num_days'] = days
-        dct['deaths'] = dct_death['cases']
-        dct['recovered'] = dct_recov['cases']
+        # dct['deaths'] = dct_death['cases']
+        # dct['recovered'] = dct_recov['cases']
         return dct
 
 
+    @app.route('/stats_countries/<country_name>/<region_name>/')
     @app.route('/stats/<country_name>/<region_name>/')
     @app.route('/country_stats/<country_name>/<region_name>/')
     def get_region_stats(country_name, region_name):
@@ -329,27 +348,30 @@ if not __name__ == '__main__':
             abort(400, error_handlers.invalid_window_msg)
 
         data_type = request.args.get('type', default='cases')
-
+        df = c_wise
         if data_type == 'cases':
-            df = c_wise
+            # df = c_wise
+            cases_column = 'cases'
             cases_arr = c_wise_arr
             dates = date_list
             r_df = r_wise
             r_arr = r_cases_arr
         elif data_type == 'deaths':
-            df = c_wise_death
+            cases_column = 'deaths'
+            # df = c_wise_death
             cases_arr = c_wise_death_arr
             dates = date_list_death
             r_df = r_wise_death
             r_arr = r_death_arr
         elif data_type == 'recovered':
-            df = c_wise_recov
+            # df = c_wise_recov
+            cases_column = 'recoveries'
             cases_arr = c_wise_recov_arr
             dates = date_list_recov
             r_df = r_wise_recov
             r_arr = r_recov_arr
         else:
-            # type not understaood
+            # type not understood
             abort(400, error_handlers.invalid_type_msg)
 
         date = request.args.get('date')
@@ -370,7 +392,7 @@ if not __name__ == '__main__':
 
         if region_name is None:
             try:
-                history = df['cases'][country_name]
+                history = df[cases_column][country_name]
             except KeyError:
                 # country_name invalid
                 abort(400, error_handlers.invalid_country_msg)
