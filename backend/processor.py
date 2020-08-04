@@ -436,7 +436,8 @@ if not __name__ == '__main__':
                 )
             else:
                 r_ind = dist_ind - c_last_ind - 1
-                region_row = r_df.iloc[r_ind]
+                region_row = r_df[~pd.isnull(r_wise[cases_column])].iloc[r_ind]
+                # region_row = r_df.iloc[r_ind]
                 country = region_row['Country/Region']
                 region = region_row['Province/State']
                 result.append(
