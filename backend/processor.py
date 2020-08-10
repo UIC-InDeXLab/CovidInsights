@@ -153,6 +153,18 @@ def combine_region_wise(cases_df, recov_df, death_df):
     return cases_df
 
 
+def add_non_temporal_data(df, file, pop_multiplier=None):
+    nt_df = pd.read_csv(file)
+    # use pop_multiplier=1000 if population stored in file in thousands
+    if pop_multiplier:
+        nt_df['population'] = (nt_df['population'] * pop_multiplier).astype(int)
+    df = pd.merge(df, nt_df, how='left', on='Country/Region')
+    df.drop(columns='population_x', inplace=True)
+    df.rename(columns={'population_y': 'population'}, inplace=True)
+    df.set_index(keys='Country/Region', inplace=True)
+    return df
+
+
 # read files into dataframes
 df_cases, date_list, start_date, days = load_data(global_active_csv)
 df_recov, date_list_recov, start_date_recov, days_recov = load_data(global_recover_csv)
@@ -199,6 +211,18 @@ del c_wise_death, c_wise_recov
 r_wise = combine_region_wise(r_wise, r_wise_recov, r_wise_death)
 del r_wise_recov, r_wise_death, us_state_wise_death, us_state_wise
 del df_cases, df_death, df_recov, us_cases, us_death
+
+c_wise = add_non_temporal_data(c_wise, global_non_temporal_csv, pop_multiplier=1000)
+
+c_cases_norm = np.vstack(c_wise['cases'] / (c_wise['population']))
+c_death_norm = np.vstack(c_wise['deaths'] / (c_wise['population']))
+c_recov_norm = np.vstack(c_wise['recovered'] / (c_wise['population']))
+
+r_mask = ~pd.isna(r_wise['population'])
+r_mask = r_mask & (r_wise['population'] > 0)
+
+r_cases_norm = np.vstack(r_wise[r_mask]['cases'] / (r_wise[r_mask]['population']))
+r_death_norm = np.vstack(r_wise[r_mask]['deaths'] / (r_wise[r_mask]['population']))
 
 
 def euclidean(arr1, arr2, sum_axis=None):
@@ -304,15 +328,11 @@ if not __name__ == '__main__':
             abort(404, error_handlers.invalid_region_msg)
 
         dct = r_wise[combined_mask].iloc[0]  # mask gives a container of rows, we need the first row
-        # dct_death = r_wise_death[combined_mask].iloc[0]
 
         # to json and back hack job
         # todo: define json-izing of np arrays
         dct = dct.to_json()
-        # dct_death = dct_death.to_json()
-
         dct = json.loads(dct)
-        # dct_death = json.loads(dct_death)
 
         # end hack job
 
@@ -324,10 +344,11 @@ if not __name__ == '__main__':
         del dct[region]
         return dct
 
+    # GET params: window, date, type, method
     @app.route('/compare/<country_name>')
     @app.route('/compare/<country_name>/<region_name>')
     @app.route('/compare_countries/<country_name>')
-    def get_similar_from_countries(country_name, region_name=None):
+    def get_similar_regions(country_name, region_name=None):
         t0 = time.time()
         try:
             window = request.args.get('window', type=int)
@@ -336,24 +357,37 @@ if not __name__ == '__main__':
         if window is None or window < 1 or window > days:
             abort(400, error_handlers.invalid_window_msg)
 
+        similarity_method = request.args.get('method', default='euclidean').lower()
+        if similarity_method not in ['euclidean', 'normalized']:
+            abort(400, error_handlers.invalid_similarity_measure)
+
         data_type = request.args.get('type', default='cases')
         df = c_wise
         r_df = r_wise
         if data_type == 'cases':
-            cases_column = 'cases'
-            cases_arr = c_wise_arr
+            if similarity_method == 'normalized':
+                cases_arr = c_cases_norm
+                r_arr = r_cases_norm
+            else:
+                cases_arr = c_wise_arr
+                r_arr = r_cases_arr
             dates = date_list
-            r_arr = r_cases_arr
         elif data_type == 'deaths':
-            cases_column = 'deaths'
-            cases_arr = c_wise_death_arr
+            if similarity_method == 'normalized':
+                cases_arr = c_death_norm
+                r_arr = r_death_norm
+            else:
+                cases_arr = c_wise_death_arr
+                r_arr = r_death_arr
             dates = date_list_death
-            r_arr = r_death_arr
         elif data_type == 'recovered':
-            cases_column = 'recovered'
-            cases_arr = c_wise_recov_arr
+            if similarity_method == 'normalized':
+                cases_arr = c_recov_norm
+                r_arr = None
+            else:
+                cases_arr = c_wise_recov_arr
+                r_arr = r_recov_arr
             dates = date_list_recov
-            r_arr = r_recov_arr
         else:
             # type not understood
             abort(400, error_handlers.invalid_type_msg)
@@ -376,10 +410,13 @@ if not __name__ == '__main__':
 
         if region_name is None:
             try:
-                history = df[cases_column][country_name]
+                history = df[data_type][country_name]
+                if similarity_method == 'normalized':
+                    history = history / df.at[country_name, 'population']
             except KeyError:
                 # country_name invalid
                 abort(400, error_handlers.invalid_country_msg)
+
         else:
             country_mask = r_df['Country/Region'] == country_name
             if not np.any(country_mask):
@@ -390,9 +427,15 @@ if not __name__ == '__main__':
             if not np.any(combined_mask):
                 # region incorrect
                 abort(404, error_handlers.invalid_region_msg)
-            history = r_df[combined_mask].iloc[0][cases_column]
+            history = r_df[combined_mask].iloc[0][data_type]
             if history is None:
                 abort(404, error_handlers.data_type_invalid_for_region)
+            if similarity_method == 'normalized':
+                pop = r_df[combined_mask].iloc[0]['population']
+                if pop is None:
+                    abort(404, error_handlers.similarity_measure_not_available)
+                else:
+                    history = history / pop
 
         slice_right = col_index + 1
         slice_left = col_index - window + 1
@@ -402,14 +445,13 @@ if not __name__ == '__main__':
         test_sample = history[slice_left:slice_right]
 
         dist_arr = calculate_distances(cases_arr, test_sample)
-        r_dist_arr = calculate_distances(r_arr, test_sample)
-
         c_last_ind = dist_arr.shape[0] - 1
 
-        # concatenate region and country distance arrays
-        # then give result according to the index
-        # todo: concatenate at the beginning?
-        dist_arr = np.concatenate((dist_arr, r_dist_arr), axis=0)
+        if r_arr is not None:
+            r_dist_arr = calculate_distances(r_arr, test_sample)
+            # concatenate region and country distance arrays
+            # then give result according to the index
+            dist_arr = np.concatenate((dist_arr, r_dist_arr), axis=0)
 
         arg_mins = np.argmin(dist_arr, axis=1)
         mins = np.min(dist_arr, axis=1)
@@ -418,6 +460,12 @@ if not __name__ == '__main__':
         arg_sort = np.argsort(mins)
 
         result = []
+
+        if similarity_method == 'normalized':
+            region_slice = r_df[r_mask][~pd.isnull(r_df[data_type])]
+        else:
+            region_slice = r_df[~pd.isnull(r_df[data_type])]
+
         # skip the first, that is query point itself
         # todo: this logic doesn't work at times. There are other zero-distance points other the query
         # point itself.
@@ -438,8 +486,7 @@ if not __name__ == '__main__':
                 )
             else:
                 r_ind = dist_ind - c_last_ind - 1
-                region_row = r_df[~pd.isnull(r_wise[cases_column])].iloc[r_ind]
-                # region_row = r_df.iloc[r_ind]
+                region_row = region_slice.iloc[r_ind]
                 country = region_row['Country/Region']
                 region = region_row['Province/State']
                 result.append(

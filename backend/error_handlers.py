@@ -11,8 +11,9 @@ invalid_type_msg = "GET parameter 'type' should be one of: 'deaths', 'recovered'
 invalid_date_fmt = "GET parameter 'date' either invalid or not in format YYYY-MM-DD."
 date_out_of_range = "Provided date is out of range of data available."
 data_type_invalid_for_region = "The requested data type is not available for the given location."
-
-
+invalid_similarity_measure = "Similarity measure not understood. Choose from: euclidean, normalized."
+similarity_measure_not_available = "Similarity measure not available for this location because population data " \
+                                   "unavailable."
 @app.errorhandler(400)
 def bad_request(error):
     return {'error': {
