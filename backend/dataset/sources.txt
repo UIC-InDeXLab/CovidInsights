@@ -1,0 +1,6 @@
+= non_temporal_country_wise.csv
+Countries from: https://population.un.org/wpp/Download/Standard/Population/
+MS Zaandam: https://www.cbc.ca/news/business/cruise-ship-holland-america-covid-19-canadians-1.5506674
+Diamond Princess: https://www.cnbc.com/2020/03/23/cdc-coronavirus-survived-in-princess-cruise-cabins-up-to-17-days-after-passengers-left.html
+Kosovo: https://countrymeters.info/en/Kosovo
+

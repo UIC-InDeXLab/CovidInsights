@@ -19,8 +19,9 @@ us_active_csv = os.path.join(dirpath,
 us_death_csv = os.path.join(dirpath,
                             'time_series_covid19_deaths_US.csv')
 
-# us_recover_csv = \
-#     './dataset/time_series_covid19_recovered_global.csv'
+# non temporal data
+global_non_temporal_csv = os.path.join(dirpath,
+                                       'non_temporal_country_wise.csv')
 
 
 def load_data(csv_time_series_file_path, date_column_index=4):
@@ -197,6 +198,7 @@ del c_wise_death, c_wise_recov
 
 r_wise = combine_region_wise(r_wise, r_wise_recov, r_wise_death)
 del r_wise_recov, r_wise_death, us_state_wise_death, us_state_wise
+del df_cases, df_death, df_recov, us_cases, us_death
 
 
 def euclidean(arr1, arr2, sum_axis=None):

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a96b4554-6e2a-43a5-b151-319142a6cd38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/dataset/non_temporal_country_wise.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataset/sources.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataset/sources.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/processor.py" afterDir="false" />
     </list>
     <list id="ca411bdf-fa0a-47a3-a06b-aaa4ed347014" name="Local Only" comment="" />
@@ -68,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (__init__.py)">
+  <component name="RunManager" selected="Python.processor">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -250,7 +252,10 @@
       <workItem from="1594787369037" duration="28782000" />
       <workItem from="1595269670893" duration="783000" />
       <workItem from="1595874080318" duration="610000" />
-      <workItem from="1596349231680" duration="16728000" />
+      <workItem from="1596349231680" duration="17464000" />
+      <workItem from="1596573529284" duration="228000" />
+      <workItem from="1596721336948" duration="321000" />
+      <workItem from="1597004597113" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="added readme for running the backend. and a small description of the API spec">
       <created>1591518612798</created>
@@ -483,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596451201906</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="bug fix for recovered query&#10;- regional results were incorrect">
+      <created>1596521971644</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1596521971644</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +529,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/backend/COVID-19" />
     </ignored-roots>
-    <MESSAGE value="country stats API fully valid and functional now.&#10;Lat Long is averaged. Cases from different regions are added." />
     <MESSAGE value="added the dataset file so users can run out of the box" />
     <MESSAGE value="readme update" />
     <MESSAGE value="Similarity API v1 done.&#10;- /locate/&lt;country_name&gt; to get lat and long&#10;- /compare_countries/&lt;country_name&gt;?window=&lt;window&gt;&amp;date=&lt;YYYY-MM-DD&gt; to get ranked similar areas&#10;- currently uses Euclidean distance without regard for pop. density&#10;- now uses a mixture of pandas and numpy instead of numpy alone&#10;&#10;The following files are deprecated, but there for testing out code:&#10;- backend.py&#10;- loader.py" />
@@ -542,12 +553,13 @@
     <MESSAGE value="population for US states&#10;delete unneeded old dataset files" />
     <MESSAGE value="Bug fix for comparison of recovered and deaths.&#10;Country wise data now in single dataframe." />
     <MESSAGE value="regional data in a single dataframe&#10;queries now return info of location queried" />
-    <option name="LAST_COMMIT_MESSAGE" value="regional data in a single dataframe&#10;queries now return info of location queried" />
+    <MESSAGE value="bug fix for recovered query&#10;- regional results were incorrect" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix for recovered query&#10;- regional results were incorrect" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591521655555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/COVID_19$processor.coverage" NAME="processor Coverage Results" MODIFIED="1596369853753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/COVID_19$Flask__backend_py_.coverage" NAME="Flask (backend.py) Coverage Results" MODIFIED="1591522137130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/COVID_19$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1596521356193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/COVID_19$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1597004656109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>
